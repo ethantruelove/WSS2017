@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     40070,        899]
-NotebookOptionsPosition[     39084,        868]
-NotebookOutlinePosition[     39439,        884]
-CellTagsIndexPosition[     39396,        881]
+NotebookDataLength[     39726,        931]
+NotebookOptionsPosition[     35969,        832]
+NotebookOutlinePosition[     36324,        848]
+CellTagsIndexPosition[     36281,        845]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -81,790 +81,754 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Cases", "[", 
-  RowBox[{"testSet", ",", 
-   RowBox[{
-    RowBox[{"XMLElement", "[", 
-     RowBox[{"_", ",", 
-      RowBox[{"{", 
-       RowBox[{"_", ",", 
-        RowBox[{"\"\<href\>\"", "\[Rule]", "url_"}], ",", 
-        RowBox[{"\"\<title\>\"", "\[Rule]", 
-         RowBox[{"str_String", "/;", 
-          RowBox[{"StringContainsQ", "[", 
-           RowBox[{"str", ",", 
-            RowBox[{"(", 
-             RowBox[{"\"\<Computational\>\"", "|", "\"\<computational\>\""}], 
-             ")"}]}], "]"}]}]}], ",", "_"}], "}"}], ",", "_"}], "]"}], 
-    "\[Rule]", 
-    RowBox[{"{", 
-     RowBox[{"url", ",", "str"}], "}"}]}], ",", "Infinity"}], "]"}]], "Input",\
-
+ RowBox[{"articles", "=", 
+  RowBox[{"Union", "[", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{"Cases", "[", 
+     RowBox[{"testSet", ",", 
+      RowBox[{
+       RowBox[{"XMLElement", "[", 
+        RowBox[{"_", ",", 
+         RowBox[{"{", 
+          RowBox[{"_", ",", "_", ",", 
+           RowBox[{"\"\<title\>\"", "\[Rule]", 
+            RowBox[{"str_String", "/;", 
+             RowBox[{"StringMatchQ", "[", 
+              RowBox[{"str", ",", 
+               RowBox[{
+               "StartOfString", "~~", "\"\<Computational\>\"", "~~", "__"}]}],
+               "]"}]}]}], ",", "_"}], "}"}], ",", "_"}], "]"}], "\[Rule]", 
+       RowBox[{"{", "str", "}"}]}], ",", "Infinity"}], "]"}], "]"}], 
+   "]"}]}]], "Input",
  CellChangeTimes->{{3.707150920445079*^9, 3.707150930718731*^9}, {
-  3.707151016269273*^9, 3.7071510516035767`*^9}, {3.707151346219919*^9, 
-  3.707151563961075*^9}, {3.707151663367255*^9, 3.707151775595351*^9}, {
-  3.707152098699038*^9, 
-  3.707152123558898*^9}},ExpressionUUID->"860c47fa-060e-4d66-aa05-\
+   3.707151016269273*^9, 3.7071510516035767`*^9}, {3.707151346219919*^9, 
+   3.707151563961075*^9}, {3.707151663367255*^9, 3.707151775595351*^9}, {
+   3.707152098699038*^9, 3.707152123558898*^9}, {3.7072122780726137`*^9, 
+   3.707212282707974*^9}, 3.707215536405156*^9, {3.707217179137632*^9, 
+   3.707217207935699*^9}, {3.707218545709106*^9, 
+   3.707218549458754*^9}},ExpressionUUID->"860c47fa-060e-4d66-aa05-\
 f0deb2dbd7bd"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_biology\"\>", 
-     ",", "\<\"Computational biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_geometry\"\>", 
-     ",", "\<\"Computational geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_physics\"\>", 
-     ",", "\<\"Computational physics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_science\"\>", 
-     ",", "\<\"Computational science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_linguistics\"\>", 
-     ",", "\<\"Computational linguistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_mathematics\"\>", 
-     ",", "\<\"Computational mathematics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_engineering\"\>", 
-     ",", "\<\"Computational engineering\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_neuroscience\"\>", 
-     ",", "\<\"Computational neuroscience\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_complexity_theory\"\>", 
-     ",", "\<\"Computational complexity theory\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_complexity\"\>", 
-     ",", "\<\"Computational complexity\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_chemistry\"\>", 
-     ",", "\<\"Computational chemistry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_photography\"\>", 
-     ",", "\<\"Computational photography\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_economics\"\>", 
-     ",", "\<\"Computational economics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_resource\"\>", 
-     ",", "\<\"Computational resource\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_problem\"\>", 
-     ",", "\<\"Computational problem\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_finance\"\>", 
-     ",", "\<\"Computational finance\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Association_for_Computational_Linguistics\"\>", 
-     ",", "\<\"Association for Computational Linguistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_theology\"\>", 
-     ",", "\<\"Computational theology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_semiotics\"\>", 
-     ",", "\<\"Computational semiotics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_semantics\"\>", 
-     ",", "\<\"Computational semantics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_sociology\"\>", 
-     ",", "\<\"Computational sociology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_social_science\"\>", 
-     ",", "\<\"Computational social science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_intelligence\"\>", 
-     ",", "\<\"Computational intelligence\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_journalism\"\>", 
-     ",", "\<\"Computational journalism\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_anatomy\"\>", 
-     ",", "\<\"Computational anatomy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Agent-based_computational_economics\"\>", 
-     ",", "\<\"Agent-based computational economics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_model\"\>", 
-     ",", "\<\"Computational model\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_humor\"\>", 
-     ",", "\<\"Computational humor\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_books_in_computational_geometry\"\>", 
-     ",", "\<\"List of books in computational geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_steering\"\>", 
-     ",", "\<\"Computational steering\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_sustainability\"\>", 
-     ",", "\<\"Computational sustainability\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_aeroacoustics\"\>", 
-     ",", "\<\"Computational aeroacoustics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Research_in_Computational_Molecular_Biology\"\>", 
-     ",", "\<\"Research in Computational Molecular Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_electromagnetics\"\>", 
-     ",", "\<\"Computational electromagnetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_criminology\"\>", 
-     ",", "\<\"Computational criminology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Biology_Department\"\>", 
-     ",", "\<\"Computational Biology Department\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_fluid_dynamics\"\>", 
-     ",", "\<\"Computational fluid dynamics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_hardness_assumption\"\>", 
-     ",", "\<\"Computational hardness assumption\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_theory_of_mind\"\>", 
-     ",", "\<\"Computational theory of mind\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_astrophysics\"\>", 
-     ",", "\<\"Computational astrophysics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_number_theory\"\>", 
-     ",", "\<\"Computational number theory\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/PLOS_Computational_Biology\"\>", 
-     ",", "\<\"PLOS Computational Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Center_for_Computational_Chemistry\"\>", 
-     ",", "\<\"Center for Computational Chemistry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Statistics_(journal)\"\>", 
-     ",", "\<\"Computational Statistics (journal)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_cybernetics\"\>", 
-     ",", "\<\"Computational cybernetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_immunology\"\>", 
-     ",", "\<\"Computational immunology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/IEEE_Computational_Intelligence_Society\"\>", 
-     ",", "\<\"IEEE Computational Intelligence Society\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_cognition\"\>", 
-     ",", "\<\"Computational cognition\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_thinking\"\>", 
-     ",", "\<\"Computational thinking\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Materials_Science\"\>", 
-     ",", "\<\"Computational Materials Science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_archaeology\"\>", 
-     ",", "\<\"Computational archaeology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_transportation_science\"\>", 
-     ",", "\<\"Computational transportation science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Institute_for_Computational_Sustainability\"\>", 
-     ",", "\<\"Institute for Computational Sustainability\"\>"}], "}"}], ",", 
-   
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_irreducibility\"\>", 
-     ",", "\<\"Computational irreducibility\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_lithography\"\>", 
-     ",", "\<\"Computational lithography\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_logic\"\>", 
-     ",", "\<\"Computational logic\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_statistics\"\>", 
-     ",", "\<\"Computational statistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Society_for_Computational_Biology\"\>", 
-     ",", "\<\"International Society for Computational Biology\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Statistics_%26_Data_Analysis\"\>", 
-     ",", "\<\"Computational Statistics & Data Analysis\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Discrete_and_Computational_Geometry\"\>", 
-     ",", "\<\"Discrete and Computational Geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_algebra\"\>", 
-     ",", "\<\"Computational algebra\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Privacy-preserving_computational_geometry\"\>", 
-     ",", "\<\"Privacy-preserving computational geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_particle_physics\"\>", 
-     ",", "\<\"Computational particle physics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_and_Graphical_Statistics\"\>",
-      ",", "\<\"Journal of Computational and Graphical Statistics\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_history\"\>", 
-     ",", "\<\"Computational history\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_gene\"\>", 
-     ",", "\<\"Computational gene\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_numerical_computational_geometry_topics\"\>", 
-     ",", "\<\"List of numerical computational geometry topics\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Centre_for_Computational_Geography\"\>", 
-     ",", "\<\"Centre for Computational Geography\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_neurogenetic_modeling\"\>", 
-     ",", "\<\"Computational neurogenetic modeling\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/North_American_Chapter_of_the_Association_for_\
-Computational_Linguistics\"\>", 
-     ",", "\<\"North American Chapter of the Association for Computational \
-Linguistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_genomics\"\>", 
-     ",", "\<\"Computational genomics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Center_for_Computational_Innovations\"\>", 
-     ",", "\<\"Center for Computational Innovations\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Mechanics_(journal)\"\>", 
-     ",", "\<\"Computational Mechanics (journal)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/MSU_Faculty_of_Computational_Mathematics_and_\
-Cybernetics\"\>", 
-     ",", "\<\"MSU Faculty of Computational Mathematics and \
-Cybernetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Science_Graduate_Fellowship\"\>", 
-     ",", "\<\"Computational Science Graduate Fellowship\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_Chemistry\"\>", 
-     ",", "\<\"Journal of Computational Chemistry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/DeLano_Award_for_Computational_Biosciences\"\>", 
-     ",", "\<\"DeLano Award for Computational Biosciences\"\>"}], "}"}], ",", 
-   
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Complexity_Conference\"\>", 
-     ",", "\<\"Computational Complexity Conference\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_magnetohydrodynamics\"\>", 
-     ",", "\<\"Computational magnetohydrodynamics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Center_for_Computational_Relativity_and_Gravitation\"\>\
-", ",", "\<\"Center for Computational Relativity and Gravitation\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Bayesian_model_of_computational_anatomy\"\>", 
-     ",", "\<\"Bayesian model of computational anatomy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/World_Association_of_Theoretical_and_Computational_\
-Chemists\"\>", 
-     ",", "\<\"World Association of Theoretical and Computational \
-Chemists\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Journal_of_Computational_Geometry_and_\
-Applications\"\>", 
-     ",", "\<\"International Journal of Computational Geometry and \
-Applications\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_topology\"\>", 
-     ",", "\<\"Computational topology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_mechanics\"\>", 
-     ",", "\<\"Computational mechanics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/The_Ten_Computational_Canons\"\>", 
-     ",", "\<\"The Ten Computational Canons\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_and_Systems_Neuroscience\"\>", 
-     ",", "\<\"Computational and Systems Neuroscience\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_lexicology\"\>", 
-     ",", "\<\"Computational lexicology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/African_Society_for_Bioinformatics_and_Computational_\
-Biology\"\>", 
-     ",", "\<\"African Society for Bioinformatics and Computational Biology\"\
-\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Extensible_Computational_Chemistry_Environment\"\>", 
-     ",", "\<\"Extensible Computational Chemistry Environment\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_learning_theory\"\>", 
-     ",", "\<\"Computational learning theory\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Conference_on_Computational_Linguistics_\
-and_Intelligent_Text_Processing\"\>", 
-     ",", "\<\"International Conference on Computational Linguistics and \
-Intelligent Text Processing\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Linguistics_(journal)\"\>", 
-     ",", "\<\"Computational Linguistics (journal)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Centre_for_Theoretical_and_Computational_Chemistry\"\>\
-", ",", "\<\"Centre for Theoretical and Computational Chemistry\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Basel_Computational_Biology_Conference\"\>", 
-     ",", "\<\"Basel Computational Biology Conference\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_human_phantom\"\>", 
-     ",", "\<\"Computational human phantom\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Geometry_(journal)\"\>", 
-     ",", "\<\"Computational Geometry (journal)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Wiley_Interdisciplinary_Reviews:_Computational_\
-Statistics\"\>", 
-     ",", "\<\"Wiley Interdisciplinary Reviews: Computational \
-Statistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Centre_for_Excellence_in_Computational_Engineering\"\>\
-", ",", "\<\"Centre for Excellence in Computational Engineering\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/National_Institute_for_Computational_Sciences\"\>", 
-     ",", "\<\"National Institute for Computational Sciences\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Aneesur_Rahman_Prize_for_Computational_Physics\"\>", 
-     ",", "\<\"Aneesur Rahman Prize for Computational Physics\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_Geometry\"\>", 
-     ",", "\<\"Journal of Computational Geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_indistinguishability\"\>", 
-     ",", "\<\"Computational indistinguishability\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Diffie%E2%80%93Hellman_assumption\"\>", 
-     ",", "\<\"Computational Diffie\[Dash]Hellman assumption\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_chemical_methods_in_solid-state_physics\"\
-\>", ",", "\<\"Computational chemical methods in solid-state physics\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Riemannian_metric_and_Lie_bracket_in_computational_\
-anatomy\"\>", 
-     ",", "\<\"Riemannian metric and Lie bracket in computational \
-anatomy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational-representational_understanding_of_mind\"\
-\>", ",", "\<\"Computational-representational understanding of mind\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Symposium_on_Computational_Geometry\"\>", 
-     ",", "\<\"Symposium on Computational Geometry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Supercomputing_Facility_for_Bioinformatics_and_\
-Computational_Biology\"\>", 
-     ",", "\<\"Supercomputing Facility for Bioinformatics and Computational \
-Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Fair_computational_tree_logic\"\>", 
-     ",", "\<\"Fair computational tree logic\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_epigenetics\"\>", 
-     ",", "\<\"Computational epigenetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/European_Conference_on_Computational_Biology\"\>", 
-     ",", "\<\"European Conference on Computational Biology\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Institute_for_Computational_and_Experimental_Research_\
-in_Mathematics\"\>", 
-     ",", "\<\"Institute for Computational and Experimental Research in \
-Mathematics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_epidemiology\"\>", 
-     ",", "\<\"Computational epidemiology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Asymptotic_computational_complexity\"\>", 
-     ",", "\<\"Asymptotic computational complexity\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_Physics\"\>", 
-     ",", "\<\"Journal of Computational Physics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Molecular_computational_identification\"\>", 
-     ",", "\<\"Molecular computational identification\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_X\"\>", ",", "\<\"Computational X\"\>"}],
-     "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_awards_in_bioinformatics_and_computational_\
-biology\"\>", 
-     ",", "\<\"List of awards in bioinformatics and computational \
-biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_auditory_scene_analysis\"\>", 
-     ",", "\<\"Computational auditory scene analysis\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_photography_(artistic)\"\>", 
-     ",", "\<\"Computational photography (artistic)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_Biology\"\>", 
-     ",", "\<\"Journal of Computational Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_geophysics\"\>", 
-     ",", "\<\"Computational geophysics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/School_of_Computational_Sciences,_Swami_Ramanand_\
-Teerth_Marathwada_University\"\>", 
-     ",", "\<\"School of Computational Sciences, Swami Ramanand Teerth \
-Marathwada University\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_creativity\"\>", 
-     ",", "\<\"Computational creativity\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_and_Structural_Biotechnology_Journal\"\>\
-", ",", "\<\"Computational and Structural Biotechnology Journal\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_musicology\"\>", 
-     ",", "\<\"Computational musicology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Semantic_analysis_(computational)\"\>", 
-     ",", "\<\"Semantic analysis (computational)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Foundations_of_Computational_Mathematics\"\>", 
-     ",", "\<\"Foundations of Computational Mathematics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_visualistics\"\>", 
-     ",", "\<\"Computational visualistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Group_actions_in_computational_anatomy\"\>", 
-     ",", "\<\"Group actions in computational anatomy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_law\"\>", 
-     ",", "\<\"Computational law\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_group_theory\"\>", 
-     ",", "\<\"Computational group theory\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_RAM\"\>", 
-     ",", "\<\"Computational RAM\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/%CE%95-net_(computational_geometry)\"\>", 
-     ",", "\<\"\[CapitalEpsilon]-net (computational geometry)\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Chemistry_List\"\>", 
-     ",", "\<\"Computational Chemistry List\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_scientist\"\>", 
-     ",", "\<\"Computational scientist\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_thermodynamics\"\>", 
-     ",", "\<\"Computational thermodynamics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_informatics\"\>", 
-     ",", "\<\"Computational informatics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_and_Mathematical_Organization_Theory\"\>\
-", ",", "\<\"Computational and Mathematical Organization Theory\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/ACM_Transactions_on_Computational_Logic\"\>", 
-     ",", "\<\"ACM Transactions on Computational Logic\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Institute_of_Applied_Physics_and_Computational_\
-Mathematics\"\>", 
-     ",", "\<\"Institute of Applied Physics and Computational \
-Mathematics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Infrastructure_for_Geodynamics\"\>", 
-     ",", "\<\"Computational Infrastructure for Geodynamics\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Science_%26_Discovery\"\>", 
-     ",", "\<\"Computational Science & Discovery\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Chemistry_Grid\"\>", 
-     ",", "\<\"Computational Chemistry Grid\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Computational_Acoustics\"\>", 
-     ",", "\<\"Journal of Computational Acoustics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Archives_of_Computational_Methods_in_Engineering\"\>", 
-     ",", "\<\"Archives of Computational Methods in Engineering\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_epistemology\"\>", 
-     ",", "\<\"Computational epistemology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Institute_for_Computational_Engineering_and_Sciences\"\
-\>", ",", "\<\"Institute for Computational Engineering and Sciences\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Research_Network_of_Computational_and_Structural_\
-Biotechnology\"\>", 
-     ",", "\<\"Research Network of Computational and Structural Biotechnology\
-\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Theoretical_and_Computational_Chemistry\"\>\
-", ",", "\<\"Journal of Theoretical and Computational Chemistry\"\>"}], "}"}],
-    ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Context_of_computational_complexity\"\>", 
-     ",", "\<\"Context of computational complexity\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Resource_for_Drug_Discovery\"\>", 
-     ",", "\<\"Computational Resource for Drug Discovery\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_knowledge_economy\"\>", 
-     ",", "\<\"Computational knowledge economy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Statistics_Online_Computational_Resource\"\>", 
-     ",", "\<\"Statistics Online Computational Resource\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Bayesian_estimation_of_templates_in_computational_\
-anatomy\"\>", 
-     ",", "\<\"Bayesian estimation of templates in computational \
-anatomy\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Journal_of_Computational_Methods\"\>", 
-     ",", "\<\"International Journal of Computational Methods\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/PSI_(computational_chemistry)\"\>", 
-     ",", "\<\"PSI (computational chemistry)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/IEEE/ACM_Transactions_on_Computational_Biology_and_\
-Bioinformatics\"\>", 
-     ",", "\<\"IEEE/ACM Transactions on Computational Biology and \
-Bioinformatics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_combinatorial_computational_geometry_topics\"\>\
-", ",", "\<\"List of combinatorial computational geometry topics\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_complexity_of_mathematical_operations\"\>\
-", ",", "\<\"Computational complexity of mathematical operations\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Journal_of_Computational_Intelligence_\
-and_Applications\"\>", 
-     ",", "\<\"International Journal of Computational Intelligence and \
-Applications\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Heuristic_Intelligence\"\>", 
-     ",", "\<\"Computational Heuristic Intelligence\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Electronic_Colloquium_on_Computational_Complexity\"\>",
-      ",", "\<\"Electronic Colloquium on Computational Complexity\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Collaborative_Computational_Project_Q\"\>", 
-     ",", "\<\"Collaborative Computational Project Q\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Timeline_of_computational_physics\"\>", 
-     ",", "\<\"Timeline of computational physics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Biology_and_Chemistry\"\>", 
-     ",", "\<\"Computational Biology and Chemistry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Integrated_computational_materials_engineering\"\>", 
-     ",", "\<\"Integrated computational materials engineering\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Georgia_Institute_of_Technology_School_of_\
-Computational_Science_%26_Engineering\"\>", 
-     ",", "\<\"Georgia Institute of Technology School of Computational \
-Science & Engineering\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_and_Statistical_Genetics\"\>", 
-     ",", "\<\"Computational and Statistical Genetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Galaxy_(computational_biology)\"\>", 
-     ",", "\<\"Galaxy (computational biology)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Implicit_computational_complexity\"\>", 
-     ",", "\<\"Implicit computational complexity\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_and_Theoretical_Chemistry\"\>", 
-     ",", "\<\"Computational and Theoretical Chemistry\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_trust\"\>", 
-     ",", "\<\"Computational trust\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_Intelligence_(journal)\"\>", 
-     ",", "\<\"Computational Intelligence (journal)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Laboratory_for_Computational_Cultural_Dynamics\"\>", 
-     ",", "\<\"Laboratory for Computational Cultural Dynamics\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Meeting_on_Computational_Intelligence_\
-Methods_for_Bioinformatics_and_Biostatistics\"\>", 
-     ",", "\<\"International Meeting on Computational Intelligence Methods \
-for Bioinformatics and Biostatistics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Joint_CMU-Pitt_Ph.D._Program_in_Computational_Biology\"\
-\>", ",", "\<\"Joint CMU-Pitt Ph.D. Program in Computational Biology\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/National_Conference_on_Mathematical_and_Computational_\
-Models\"\>", 
-     ",", "\<\"National Conference on Mathematical and Computational Models\"\
-\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Society_for_Computational_Biology_\
-Student_Council\"\>", 
-     ",", "\<\"International Society for Computational Biology Student \
-Council\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/The_Journal_of_Computational_Finance\"\>", 
-     ",", "\<\"The Journal of Computational Finance\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Robert_F._Murphy_(computational_biologist)\"\>", 
-     ",", "\<\"Robert F. Murphy (computational biologist)\"\>"}], "}"}], ",", 
-   
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/McMaster_School_of_Computational_Engineering_and_\
-Science\"\>", 
-     ",", "\<\"McMaster School of Computational Engineering and \
-Science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/European_Master_Program_in_Computational_Logic\"\>", 
-     ",", "\<\"European Master Program in Computational Logic\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Journal_of_Bioinformatics_and_Computational_Biology\"\>\
-", ",", "\<\"Journal of Bioinformatics and Computational Biology\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_social_choice\"\>", 
-     ",", "\<\"Computational social choice\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_computational_chemists\"\>", 
-     ",", "\<\"List of computational chemists\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/The_Computational_Brain\"\>", 
-     ",", "\<\"The Computational Brain\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Partner_Institute_for_Computational_Biology\"\>", 
-     ",", "\<\"Partner Institute for Computational Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Timeline_of_computational_mathematics\"\>", 
-     ",", "\<\"Timeline of computational mathematics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Committee_on_Computational_Linguistics\"\
-\>", ",", "\<\"International Committee on Computational Linguistics\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Australian_Computational_and_Linguistics_Olympiad\"\>",
-      ",", "\<\"Australian Computational and Linguistics Olympiad\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/EEVIAC_Operational_Index_and_Reference_Guide,_\
-Including_Other_Modern_Computational_Devices\"\>", 
-     ",", "\<\"EEVIAC Operational Index and Reference Guide, Including Other \
-Modern Computational Devices\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computationally_enhanced_craft_item\"\>", 
-     ",", "\<\"Computationally enhanced craft item\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_phylogenetics\"\>", 
-     ",", "\<\"Computational phylogenetics\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Interdisciplinary_Centre_for_Mathematical_and_\
-Computational_Modelling\"\>", 
-     ",", "\<\"Interdisciplinary Centre for Mathematical and Computational \
-Modelling\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/List_of_Fellows_of_the_International_Society_for_\
-Computational_Biology\"\>", 
-     ",", "\<\"List of Fellows of the International Society for Computational \
-Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/European_PhD_Program_in_Computational_Logic\"\>", 
-     ",", "\<\"European PhD Program in Computational Logic\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Center_for_Computational_Mass_Spectrometry\"\>", 
-     ",", "\<\"Center for Computational Mass Spectrometry\"\>"}], "}"}], ",", 
-   
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/National_Laboratory_for_Computational_Fluid_Dynamics\"\
-\>", ",", "\<\"National Laboratory for Computational Fluid Dynamics\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Michael_Collins_(computational_linguist)\"\>", 
-     ",", "\<\"Michael Collins (computational linguist)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Computational_methods_for_free_surface_flow\"\>", 
-     ",", "\<\"Computational methods for free surface flow\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Radiation_Safety_Information_Computational_Center\"\>",
-      ",", "\<\"Radiation Safety Information Computational Center\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/National_Computational_Infrastructure_National_\
-Facility_(Australia)\"\>", 
-     ",", "\<\"National Computational Infrastructure National Facility \
-(Australia)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Mathieu_Blanchette_(computational_biologist)\"\>", 
-     ",", "\<\"Mathieu Blanchette (computational biologist)\"\>"}], "}"}], 
-   ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/National_Center_for_Computational_Sciences\"\>", 
-     ",", "\<\"National Center for Computational Sciences\"\>"}], "}"}], ",", 
-   
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Tri-Institutional_Training_Program_in_Computational_\
-Biology_and_Medicine\"\>", 
-     ",", "\<\"Tri-Institutional Training Program in Computational Biology \
-and Medicine\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Wiley_Interdisciplinary_Reviews:_Computational_\
-Molecular_Science\"\>", 
-     ",", "\<\"Wiley Interdisciplinary Reviews: Computational Molecular \
-Science\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Transcomputational_problem\"\>", 
-     ",", "\<\"Transcomputational problem\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/International_Journal_for_Multiscale_Computational_\
-Engineering\"\>", 
-     ",", "\<\"International Journal for Multiscale Computational Engineering\
-\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/North_American_Computational_Linguistics_Olympiad\"\>",
-      ",", "\<\"North American Computational Linguistics Olympiad\"\>"}], 
-    "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Asian_Young_Researchers_Conference_on_Computational_\
-and_Omics_Biology\"\>", 
-     ",", "\<\"Asian Young Researchers Conference on Computational and Omics \
-Biology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/Institute_for_Computational_Cosmology\"\>", 
-     ",", "\<\"Institute for Computational Cosmology\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/George_Michael_(computational_physicist)\"\>", 
-     ",", "\<\"George Michael (computational physicist)\"\>"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"/wiki/ACES_(computational_chemistry)\"\>", 
-     ",", "\<\"ACES (computational chemistry)\"\>"}], "}"}]}], 
-  "}"}]], "Output",
+  RowBox[{"\<\"Computational aeroacoustics\"\>", 
+   ",", "\<\"Computational algebra\"\>", ",", "\<\"Computational anatomy\"\>",
+    ",", "\<\"Computational and Mathematical Organization Theory\"\>", 
+   ",", "\<\"Computational and Statistical Genetics\"\>", 
+   ",", "\<\"Computational and Structural Biotechnology Journal\"\>", 
+   ",", "\<\"Computational and Systems Neuroscience\"\>", 
+   ",", "\<\"Computational and Theoretical Chemistry\"\>", 
+   ",", "\<\"Computational archaeology\"\>", 
+   ",", "\<\"Computational astrophysics\"\>", 
+   ",", "\<\"Computational auditory scene analysis\"\>", 
+   ",", "\<\"Computational biology\"\>", 
+   ",", "\<\"Computational Biology and Chemistry\"\>", 
+   ",", "\<\"Computational Biology Department\"\>", 
+   ",", "\<\"Computational chemical methods in solid-state physics\"\>", 
+   ",", "\<\"Computational chemistry\"\>", 
+   ",", "\<\"Computational Chemistry Grid\"\>", 
+   ",", "\<\"Computational Chemistry List\"\>", 
+   ",", "\<\"Computational cognition\"\>", 
+   ",", "\<\"Computational complexity\"\>", 
+   ",", "\<\"Computational Complexity Conference\"\>", 
+   ",", "\<\"Computational complexity of mathematical operations\"\>", 
+   ",", "\<\"Computational complexity theory\"\>", 
+   ",", "\<\"Computational creativity\"\>", 
+   ",", "\<\"Computational criminology\"\>", 
+   ",", "\<\"Computational cybernetics\"\>", 
+   ",", "\<\"Computational Diffie\[Dash]Hellman assumption\"\>", 
+   ",", "\<\"Computational economics\"\>", 
+   ",", "\<\"Computational electromagnetics\"\>", 
+   ",", "\<\"Computational engineering\"\>", 
+   ",", "\<\"Computational epidemiology\"\>", 
+   ",", "\<\"Computational epigenetics\"\>", 
+   ",", "\<\"Computational epistemology\"\>", 
+   ",", "\<\"Computational finance\"\>", 
+   ",", "\<\"Computational fluid dynamics\"\>", 
+   ",", "\<\"Computational gene\"\>", ",", "\<\"Computational genomics\"\>", 
+   ",", "\<\"Computational geometry\"\>", 
+   ",", "\<\"Computational Geometry (journal)\"\>", 
+   ",", "\<\"Computational geophysics\"\>", 
+   ",", "\<\"Computational group theory\"\>", 
+   ",", "\<\"Computational hardness assumption\"\>", 
+   ",", "\<\"Computational Heuristic Intelligence\"\>", 
+   ",", "\<\"Computational history\"\>", 
+   ",", "\<\"Computational human phantom\"\>", 
+   ",", "\<\"Computational humor\"\>", 
+   ",", "\<\"Computational immunology\"\>", 
+   ",", "\<\"Computational indistinguishability\"\>", 
+   ",", "\<\"Computational informatics\"\>", 
+   ",", "\<\"Computational Infrastructure for Geodynamics\"\>", 
+   ",", "\<\"Computational intelligence\"\>", 
+   ",", "\<\"Computational Intelligence (journal)\"\>", 
+   ",", "\<\"Computational irreducibility\"\>", 
+   ",", "\<\"Computational journalism\"\>", 
+   ",", "\<\"Computational knowledge economy\"\>", 
+   ",", "\<\"Computational law\"\>", 
+   ",", "\<\"Computational learning theory\"\>", 
+   ",", "\<\"Computational lexicology\"\>", 
+   ",", "\<\"Computational linguistics\"\>", 
+   ",", "\<\"Computational Linguistics (journal)\"\>", 
+   ",", "\<\"Computational lithography\"\>", 
+   ",", "\<\"Computational logic\"\>", 
+   ",", "\<\"Computationally enhanced craft item\"\>", 
+   ",", "\<\"Computational magnetohydrodynamics\"\>", 
+   ",", "\<\"Computational Materials Science\"\>", 
+   ",", "\<\"Computational mathematics\"\>", 
+   ",", "\<\"Computational mechanics\"\>", 
+   ",", "\<\"Computational Mechanics (journal)\"\>", 
+   ",", "\<\"Computational methods for free surface flow\"\>", 
+   ",", "\<\"Computational model\"\>", 
+   ",", "\<\"Computational musicology\"\>", 
+   ",", "\<\"Computational neurogenetic modeling\"\>", 
+   ",", "\<\"Computational neuroscience\"\>", 
+   ",", "\<\"Computational number theory\"\>", 
+   ",", "\<\"Computational particle physics\"\>", 
+   ",", "\<\"Computational photography\"\>", 
+   ",", "\<\"Computational photography (artistic)\"\>", 
+   ",", "\<\"Computational phylogenetics\"\>", 
+   ",", "\<\"Computational physics\"\>", ",", "\<\"Computational problem\"\>",
+    ",", "\<\"Computational RAM\"\>", 
+   ",", "\<\"Computational-representational understanding of mind\"\>", 
+   ",", "\<\"Computational resource\"\>", 
+   ",", "\<\"Computational Resource for Drug Discovery\"\>", 
+   ",", "\<\"Computational science\"\>", 
+   ",", "\<\"Computational Science & Discovery\"\>", 
+   ",", "\<\"Computational Science Graduate Fellowship\"\>", 
+   ",", "\<\"Computational scientist\"\>", 
+   ",", "\<\"Computational semantics\"\>", 
+   ",", "\<\"Computational semiotics\"\>", 
+   ",", "\<\"Computational social choice\"\>", 
+   ",", "\<\"Computational social science\"\>", 
+   ",", "\<\"Computational sociology\"\>", 
+   ",", "\<\"Computational statistics\"\>", 
+   ",", "\<\"Computational Statistics & Data Analysis\"\>", 
+   ",", "\<\"Computational Statistics (journal)\"\>", 
+   ",", "\<\"Computational steering\"\>", 
+   ",", "\<\"Computational sustainability\"\>", 
+   ",", "\<\"Computational theology\"\>", 
+   ",", "\<\"Computational theory of mind\"\>", 
+   ",", "\<\"Computational thermodynamics\"\>", 
+   ",", "\<\"Computational thinking\"\>", 
+   ",", "\<\"Computational topology\"\>", 
+   ",", "\<\"Computational transportation science\"\>", 
+   ",", "\<\"Computational trust\"\>", 
+   ",", "\<\"Computational visualistics\"\>", 
+   ",", "\<\"Computational X\"\>"}], "}"}]], "Output",
  CellChangeTimes->{
-  3.707152124536312*^9},ExpressionUUID->"7d05054d-a959-4735-811f-\
-e1ba66eb11d3"]
+  3.707152124536312*^9, 3.707212284712511*^9, 3.707215539862424*^9, {
+   3.707217188931513*^9, 3.707217209316071*^9}, 
+   3.707218550761071*^9},ExpressionUUID->"d081ab0d-21bb-4520-955f-\
+594fcdacaa31"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.707150511607276*^9, 
   3.707150513509962*^9}},ExpressionUUID->"ff10c5fd-8aae-4ee4-903f-\
-4e4eb1201f2a"]
+4e4eb1201f2a"],
+
+Cell[BoxData[
+ RowBox[{"WordList", ",", " ", "EditDistance"}]], "Input",
+ CellChangeTimes->{{3.707221263212819*^9, 3.7072212743505707`*^9}, {
+  3.7072215916125298`*^9, 
+  3.707221591884747*^9}},ExpressionUUID->"88aeea7f-4eb0-4ee8-828c-\
+3084a4c36cc3"],
+
+Cell[BoxData["RelationGraph"], "Input",ExpressionUUID->"15e0a131-ae4e-40c3-b051-cd04d3e544d7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dataAssociation", "=", 
+  RowBox[{"<|", 
+   RowBox[{
+    RowBox[{"\"\<Computational ...\>\"", " ", "\[Rule]", " ", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<url\>\"", "\[Rule]", " ", "url1"}], ",", " ", 
+       RowBox[{"\"\<title\>\"", "\[Rule]", " ", "\"\<title1\>\""}]}], " ", 
+      "|>"}]}], ",", 
+    RowBox[{"\"\<Computational bla\>\"", " ", "\[Rule]", " ", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<url\>\"", "\[Rule]", " ", "url2"}], ",", " ", 
+       RowBox[{"\"\<title\>\"", "\[Rule]", " ", "\"\<title2\>\""}]}], " ", 
+      "|>"}]}]}], "|>"}]}]], "Input",
+ CellChangeTimes->{{3.707221654129634*^9, 3.707221755577279*^9}, {
+  3.707221907610034*^9, 
+  3.7072219270800858`*^9}},ExpressionUUID->"8c3caf1d-b95e-4daa-b0fe-\
+af58cbcf1c78"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Computational ...\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"url\"\>", "\[Rule]", "url1"}], ",", 
+      RowBox[{"\<\"title\"\>", "\[Rule]", "\<\"title1\"\>"}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"Computational bla\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"url\"\>", "\[Rule]", "url2"}], ",", 
+      RowBox[{"\<\"title\"\>", "\[Rule]", "\<\"title2\"\>"}]}], 
+     "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.707221740173379*^9, 3.707221756149415*^9}, 
+   3.7072219276015387`*^9},ExpressionUUID->"27cc3343-0332-4f4f-b85e-\
+98ec32942155"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dataAssociation", "[", "\"\<Computational ...\>\"", "]"}], "[", 
+  "\"\<url\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.707221764074419*^9, 
+  3.7072217952634163`*^9}},ExpressionUUID->"55e3c4c2-ede0-4dbc-9e87-\
+8af0f3381f03"],
+
+Cell[BoxData["url1"], "Output",
+ CellChangeTimes->{{3.707221777430415*^9, 
+  3.707221795616829*^9}},ExpressionUUID->"84b43811-37db-4b07-8ffb-\
+973a53e943eb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dataAssociation", "[", "\"\<Computational ...\>\"", "]"}], "[", 
+  "\"\<stuff\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.707221869793642*^9, 
+  3.7072218709220057`*^9}},ExpressionUUID->"b46e7ada-5df4-4176-9fe2-\
+f49265c1f3db"],
+
+Cell[BoxData[
+ RowBox[{"Missing", "[", 
+  RowBox[{"\<\"KeyAbsent\"\>", ",", "\<\"stuff\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.7072218714095163`*^9},ExpressionUUID->"c2cb7ac7-b21a-4b19-b13f-\
+701b1605f70b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dataAssociation", "[", 
+  RowBox[{"[", 
+   RowBox[{"\"\<Computational ...\>\"", ",", "\"\<url\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7072218082633963`*^9, 
+  3.707221813183457*^9}},ExpressionUUID->"0f716694-e3c7-4a1f-9ffa-\
+a954338aba25"],
+
+Cell[BoxData["url1"], "Output",
+ CellChangeTimes->{
+  3.7072218526922903`*^9},ExpressionUUID->"a5aef72b-055b-4ee2-a876-\
+be9797bcc689"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dataAssociation", "[", 
+  RowBox[{"[", 
+   RowBox[{
+   "\"\<Computational ...\>\"", ",", "\"\<url\>\"", ",", " ", 
+    "\"\<stuff\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707221878617543*^9, 
+  3.707221881481989*^9}},ExpressionUUID->"02ab67f1-fefa-4263-b1f1-\
+417e0b7a6216"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","pspec1",
+   "\"Part specification \\!\\(\\*RowBox[{\\\"\\\\\\\"stuff\\\\\\\"\\\"}]\\) \
+is not applicable.\"",2,395,96,27245911490666127679,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.707221881746293*^9},ExpressionUUID->"87aa0d5f-a559-4e61-ab1c-\
+2c396e9a551f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[LeftAssociation]", 
+   RowBox[{"\<\"Computational ...\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"url\"\>", "\[Rule]", "url1"}], ",", 
+      RowBox[{"\<\"title\"\>", "\[Rule]", "\<\"title1\"\>"}]}], 
+     "\[RightAssociation]"}]}], "\[RightAssociation]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{"\<\"Computational ...\"\>", ",", "\<\"url\"\>", 
+   ",", "\<\"stuff\"\>"}], "\[RightDoubleBracket]"}]], "Output",
+ CellChangeTimes->{
+  3.7072218817554083`*^9},ExpressionUUID->"aaac487c-4574-4683-b4a8-\
+da29e52853b4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Lookup", "[", 
+  RowBox[{"dataAssociation", ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<Computational ...\>\"", ",", " ", "\"\<Computational bla\>\"", ",", 
+     " ", "\"\<a stuff\>\""}], "}"}], ",", " ", 
+   RowBox[{"exp", "[", "p", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.707221974731093*^9, 
+  3.707222039555798*^9}},ExpressionUUID->"4d28caf4-eb18-4889-beca-\
+f2d15aed9577"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"url\"\>", "\[Rule]", "url1"}], ",", 
+     RowBox[{"\<\"title\"\>", "\[Rule]", "\<\"title1\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"url\"\>", "\[Rule]", "url2"}], ",", 
+     RowBox[{"\<\"title\"\>", "\[Rule]", "\<\"title2\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"exp", "[", "p", "]"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.707221993419003*^9, 
+  3.70722203989721*^9}},ExpressionUUID->"de9b6bd2-1916-4bf1-8e43-\
+5d103d3013fb"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Export", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.707222272115871*^9, 
+  3.707222273792507*^9}},ExpressionUUID->"a725ae65-63d3-4f1e-9b8c-\
+62fa41d920f8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dataAssociation", "[", 
+  RowBox[{"[", 
+   RowBox[{"All", ",", "\"\<url\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707221743395452*^9, 3.7072217441207943`*^9}, {
+  3.707222061649354*^9, 
+  3.707222071351296*^9}},ExpressionUUID->"bf4b982b-fb5d-4592-bea2-\
+e81c32016c9e"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Computational ...\"\>", "\[Rule]", "url1"}], ",", 
+   RowBox[{"\<\"Computational bla\"\>", "\[Rule]", "url2"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.7072220756598063`*^9},ExpressionUUID->"ab4c376c-4ffc-44a6-a610-\
+43c55f2d0dc1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Range", "[", 
+  RowBox[{"1", ",", "10", ",", "0.5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707222092862073*^9, 
+  3.707222129256014*^9}},ExpressionUUID->"1517e7a4-5f06-4117-8a3a-\
+518163457e80"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.`", ",", "1.5`", ",", "2.`", ",", "2.5`", ",", "3.`", ",", "3.5`", ",", 
+   "4.`", ",", "4.5`", ",", "5.`", ",", "5.5`", ",", "6.`", ",", "6.5`", ",", 
+   "7.`", ",", "7.5`", ",", "8.`", ",", "8.5`", ",", "9.`", ",", "9.5`", ",", 
+   "10.`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.707222101425392*^9, 
+  3.707222129477474*^9}},ExpressionUUID->"2dd8190d-5099-428d-97cf-\
+6d26cf354765"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Span", "[", 
+  RowBox[{"3", ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707222108037953*^9, 3.707222114632367*^9}, {
+  3.707222165872208*^9, 
+  3.7072221823538523`*^9}},ExpressionUUID->"b9baaa27-192b-43f1-a9be-\
+35909a52fcdf"],
+
+Cell[BoxData[
+ RowBox[{"3", ";;", "5", ";;", "2"}]], "Output",
+ CellChangeTimes->{3.707222115293859*^9, 
+  3.707222173588807*^9},ExpressionUUID->"ccf081af-2edf-4468-a54c-\
+26ee1e8672b1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dataset", "[", "dataAssociation", "]"}]], "Input",
+ CellChangeTimes->{{3.707222314108143*^9, 
+  3.707222317755534*^9}},ExpressionUUID->"481fd903-3ba4-4342-9212-\
+4c739566171c"],
+
+Cell[BoxData[
+ TemplateBox[{TagBox[
+    DynamicModuleBox[{
+     TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
+      Data`UnorderedAssociation[
+       "RowCount" -> 2, "Length" -> 2, "InitialType" -> TypeSystem`Assoc[
+          TypeSystem`Atom[String], 
+          TypeSystem`Struct[{"url", "title"}, {TypeSystem`AnyType, 
+            TypeSystem`Atom[String]}], 2], "Shape" -> 
+        TypeSystem`PackageScope`HeaderShape[
+          Association[{All, 
+             TypeSystem`PackageScope`KeyDummy[1]} -> 1, {All, "url"} -> 
+           1, {All, "title"} -> 1], 
+          TypeSystem`PackageScope`Limited[
+           TypeSystem`PackageScope`ColumnShape[
+            TypeSystem`PackageScope`KeyValueShape[
+             TypeSystem`PackageScope`AtomShape[163.20000000000002`], 
+             TypeSystem`PackageScope`RowShape[
+              Association[
+              "url" -> TypeSystem`PackageScope`UnknownShape, "title" -> 
+               TypeSystem`PackageScope`AtomShape[57.60000000000001]]]]], 
+           2, {}]], "InitialData" -> 
+        TypeSystem`PackageScope`CacheHandle[176150458], "Type" -> 
+        TypeSystem`Assoc[
+          TypeSystem`Atom[String], 
+          TypeSystem`Struct[{"url", "title"}, {TypeSystem`AnyType, 
+            TypeSystem`Atom[String]}], 2], "HandleQ" -> True, "RowTarget" -> 
+        20, "Data" -> TypeSystem`PackageScope`CacheHandle[176150458]], 
+      TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
+      TypeSystem`NestedGrid`PackagePrivate`$pos$$ = 1, 
+      TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
+      DynamicModule[{
+        TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
+           Style[
+            Grid[{{
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    Style[
+                    RawBoxes[
+                    StyleBox["\"\"", FontColor -> GrayLevel[0.4]]], Italic, 
+                    GrayLevel[0.7]], {{20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    Style[
+                    RawBoxes[
+                    StyleBox[
+                    "\"\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], Italic, 
+                    GrayLevel[0.7]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][{
+                    All, Keys}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[All, Keys]], "Mouse"], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox["\"url\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"url\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][{
+                    All, "url"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[All, "url"]], "Mouse"], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Item[
+                Annotation[
+                 EventHandler[
+                  MouseAppearance[
+                   Mouseover[
+                    Pane[
+                    RawBoxes[
+                    StyleBox["\"title\"", FontColor -> GrayLevel[0.4]]], {{
+                    20, Full}, 15}], 
+                    Style[
+                    Pane[
+                    RawBoxes[
+                    StyleBox[
+                    "\"title\"", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], {{20, Full}, 15}], FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][{
+                    All, "title"}]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[All, "title"]], "Mouse"], Background -> 
+                GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["Computational ...", 
+                    Style[
+                    "Computational ...", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][{
+                    
+                    Key["Computational ..."]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                   GeneralUtilities`Slice[
+                    Key["Computational ..."]]], "Mouse"], 
+                 ImageSize -> {{163.20000000000002`, Full}, Automatic}], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "url1", FontFamily -> "Source Code Pro", FontSize -> 13, 
+                   ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[
+                   Key["Computational ..."], 
+                   Key["url"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["title1", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[
+                   Key["Computational ..."], 
+                   Key["title"]]], "Mouse"], 
+                ImageSize -> {{57.60000000000001, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}, {
+               Item[
+                Pane[
+                 Annotation[
+                  EventHandler[
+                   MouseAppearance[
+                    Mouseover["Computational bla", 
+                    Style[
+                    "Computational bla", FontColor -> 
+                    RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                   TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][{
+                    
+                    Key["Computational bla"]}]], 
+                  TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                   GeneralUtilities`Slice[
+                    Key["Computational bla"]]], "Mouse"], 
+                 ImageSize -> {{163.20000000000002`, Full}, Automatic}], 
+                Background -> GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation[
+                 RawBoxes[
+                  StyleBox[
+                  "url2", FontFamily -> "Source Code Pro", FontSize -> 13, 
+                   ShowStringCharacters -> True]], 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[
+                   Key["Computational bla"], 
+                   Key["url"]]], "Mouse"], 
+                ImageSize -> {{60, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}], 
+               Pane[
+                Annotation["title2", 
+                 TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+                 
+                  GeneralUtilities`Slice[
+                   Key["Computational bla"], 
+                   Key["title"]]], "Mouse"], 
+                ImageSize -> {{57.60000000000001, Full}, Automatic}, 
+                Alignment -> {Left, Baseline}]}}, BaseStyle -> {ContextMenu -> {
+                 MenuItem["Copy position to clipboard", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                   TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                  MenuEvaluator -> Automatic], 
+                 MenuItem["Copy data to clipboard", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                  MenuEvaluator -> Automatic], Delimiter, 
+                 MenuItem["Paste position in new cell", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                   TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                  MenuEvaluator -> Automatic], 
+                 MenuItem["Paste data in new cell", 
+                  KernelExecute[
+                   TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                   TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                  MenuEvaluator -> Automatic]}, FontFamily -> "Verdana", 
+               FontSize -> 12}, Alignment -> Left, RowMinHeight -> 1.5, 
+             Dividers -> All, FrameStyle -> GrayLevel[0.85], 
+             BaseStyle -> {FontFamily -> "Verdana", FontSize -> 12}], 
+            LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> False,
+             ShowAutoStyles -> False]], 
+         TypeSystem`NestedGrid`PackagePrivate`initialQ = True, 
+         TypeSystem`NestedGrid`PackagePrivate`self = BoxObject[414353]}, 
+        Dynamic[
+         TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
+         TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
+            Not[TypeSystem`NestedGrid`PackagePrivate`initialQ], 
+            
+            Module[{TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = $Failed, 
+              TypeSystem`NestedGrid`PackagePrivate`tmpData$ = 
+              TypeSystem`NestedGrid`PackagePrivate`LookupCacheValue[
+                TypeSystem`NestedGrid`PackagePrivate`$state$$["Data"]]}, 
+             TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = 
+              If[TypeSystem`NestedGrid`PackagePrivate`tmpData$ === 
+                TypeSystem`NestedGrid`PackagePrivate`$NotCached, 
+                TypeSystem`NestedGrid`PackagePrivate`renderedGrid, 
+                TypeSystem`NestedGrid`PackagePrivate`renderGrid[
+                TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+                 TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498][
+                TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
+               Not[
+                FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
+               TypeSystem`NestedGrid`PackagePrivate`renderedGrid = 
+               TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]; Null]]; 
+          TypeSystem`NestedGrid`PackagePrivate`initialQ = False; 
+          TypeSystem`NestedGrid`PackagePrivate`$pos$$; If[
+            FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid], 
+            TypeSystem`SparseGrid[
+             TypeSystem`H["(data no longer present)"]], 
+            If[GeneralUtilities`$DebugMode, 
+             Row[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid, "  ", 
+               TypeSystem`NestedGrid`PackagePrivate`formatState[
+               TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                TypeSystem`NestedGrid`PackagePrivate`$pos$$]}], 
+             TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]], 
+         TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$pos$$}], 
+        DynamicModuleValues :> {}], 
+      TypeSystem`NestedGrid`PackagePrivate`$posCell$$, 
+      TypeSystem`NestedGrid`PackagePrivate`$topBar$$ = Dynamic[
+        TypeSystem`NestedGrid`PackagePrivate`alignBar[
+        TypeSystem`NestedGrid`PackagePrivate`$state$$][
+         TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[
+          TypeSystem`PackageScope`Pathbar[
+          TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+           TypeSystem`NestedGrid`PackagePrivate`updateState[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$pos$$, 
+            TypeSystem`NestedGrid`PackagePrivate`$grid$$, 134353498]]]], 
+        TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
+      TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Framed[
+        Dynamic[
+         Replace[
+          MouseAnnotation[Null], {
+          TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][Null] -> 
+           "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[134353498][
+             Pattern[TypeSystem`NestedGrid`PackagePrivate`path, 
+              Blank[]]] :> (
+            TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
+             TypeSystem`NestedGrid`PackagePrivate`path; 
+            TypeSystem`NestedGrid`PackagePrivate`makePathTrail[
+             TypeSystem`NestedGrid`PackagePrivate`path, 
+              TypeSystem`NestedGrid`PackagePrivate`makePathElements]), Null :> 
+           Spacer[10], Blank[] :> Spacer[10]}], TrackedSymbols :> {}], 
+        FrameStyle -> None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> 
+        Top, ImageSize -> {Automatic, 14}]}, 
+     DynamicBox[
+      ToBoxes[
+       Column[
+        If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, {
+          TypeSystem`NestedGrid`PackagePrivate`displayScrollBar[
+          TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$pos$$], 
+          TypeSystem`NestedGrid`PackagePrivate`onDesktopShow[
+           TypeSystem`NestedGrid`PackagePrivate`alignBar[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$][
+           TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}, {
+         TypeSystem`NestedGrid`PackagePrivate`$topBar$$, 
+          TypeSystem`NestedGrid`PackagePrivate`displayScrollBar[
+          TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+           TypeSystem`NestedGrid`PackagePrivate`$pos$$], 
+          TypeSystem`NestedGrid`PackagePrivate`onDesktopShow[
+           TypeSystem`NestedGrid`PackagePrivate`alignBar[
+           TypeSystem`NestedGrid`PackagePrivate`$state$$][
+           TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]]}], Spacings -> 
+        If[TypeSystem`NestedGrid`PackagePrivate`$path$$ == {}, 
+          0, {{}, {0, 0.05, 0}}]], StandardForm], 
+      ImageSizeCache -> {311., {42.134033203125, 47.865966796875}}, 
+      TrackedSymbols :> {
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
+     BaseStyle -> {LineBreakWithin -> False}, Deinitialization :> 
+     TypeSystem`NestedGrid`PackagePrivate`deleteState[
+      TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+     DynamicModuleValues :> {}, Initialization :> 
+     Block[{$ContextPath = $ContextPath}, 
+       Needs["TypeSystem`"]]], Deploy, DefaultBaseStyle -> "Deploy"]},
+  "CopyTag",
+  DisplayFunction->(#& ),
+  InterpretationFunction->("Dataset[<>]"& )]], "Output",
+ CellChangeTimes->{
+  3.707222318763431*^9},ExpressionUUID->"a4e77c3a-80e8-414b-8a33-\
+c4d46bcb0e59"]
+}, Open  ]]
 },
 WindowSize->{754, 755},
 WindowMargins->{{22, Automatic}, {Automatic, 18}},
@@ -891,16 +855,84 @@ Cell[976, 32, 386, 8, 54, "Output", "ExpressionUUID" -> \
 }, Open  ]],
 Cell[1377, 43, 688, 14, 117, "Input", "ExpressionUUID" -> \
 "7f2343e5-6aab-4191-8c33-c9e9ba79de5d"],
-Cell[2068, 59, 721, 19, 109, "Input", "ExpressionUUID" -> \
+Cell[2068, 59, 721, 19, 75, "Input", "ExpressionUUID" -> \
 "6e799ac0-2e22-467f-94ea-17fabdaef5c5"],
 Cell[CellGroupData[{
-Cell[2814, 82, 1008, 25, 118, "Input", "ExpressionUUID" -> \
+Cell[2814, 82, 1222, 27, 180, "Input", "ExpressionUUID" -> \
 "860c47fa-060e-4d66-aa05-f0deb2dbd7bd"],
-Cell[3825, 109, 35088, 751, 6816, "Output", "ExpressionUUID" -> \
-"7d05054d-a959-4735-811f-e1ba66eb11d3"]
+Cell[4039, 111, 5566, 110, 1104, "Output", "ExpressionUUID" -> \
+"d081ab0d-21bb-4520-955f-594fcdacaa31"]
 }, Open  ]],
-Cell[38928, 863, 152, 3, 32, "Input", "ExpressionUUID" -> \
-"ff10c5fd-8aae-4ee4-903f-4e4eb1201f2a"]
+Cell[9620, 224, 152, 3, 32, "Input", "ExpressionUUID" -> \
+"ff10c5fd-8aae-4ee4-903f-4e4eb1201f2a"],
+Cell[9775, 229, 251, 5, 32, "Input", "ExpressionUUID" -> \
+"88aeea7f-4eb0-4ee8-828c-3084a4c36cc3"],
+Cell[10029, 236, 94, 0, 32, "Input", "ExpressionUUID" -> \
+"15e0a131-ae4e-40c3-b051-cd04d3e544d7"],
+Cell[CellGroupData[{
+Cell[10148, 240, 795, 19, 54, "Input", "ExpressionUUID" -> \
+"8c3caf1d-b95e-4daa-b0fe-af58cbcf1c78"],
+Cell[10946, 261, 759, 17, 58, "Output", "ExpressionUUID" -> \
+"27cc3343-0332-4f4f-b85e-98ec32942155"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11742, 283, 261, 6, 32, "Input", "ExpressionUUID" -> \
+"55e3c4c2-ede0-4dbc-9e87-8af0f3381f03"],
+Cell[12006, 291, 157, 3, 32, "Output", "ExpressionUUID" -> \
+"84b43811-37db-4b07-8ffb-973a53e943eb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12200, 299, 263, 6, 32, "Input", "ExpressionUUID" -> \
+"b46e7ada-5df4-4176-9fe2-f49265c1f3db"],
+Cell[12466, 307, 216, 5, 32, "Output", "ExpressionUUID" -> \
+"c2cb7ac7-b21a-4b19-b13f-701b1605f70b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12719, 317, 280, 7, 32, "Input", "ExpressionUUID" -> \
+"0f716694-e3c7-4a1f-9ffa-a954338aba25"],
+Cell[13002, 326, 135, 3, 32, "Output", "ExpressionUUID" -> \
+"a5aef72b-055b-4ee2-a876-be9797bcc689"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13174, 334, 311, 8, 32, "Input", "ExpressionUUID" -> \
+"02ab67f1-fefa-4263-b1f1-417e0b7a6216"],
+Cell[13488, 344, 331, 8, 24, "Message", "ExpressionUUID" -> \
+"87aa0d5f-a559-4e61-ab1c-2c396e9a551f"],
+Cell[13822, 354, 592, 14, 35, "Output", "ExpressionUUID" -> \
+"aaac487c-4574-4683-b4a8-da29e52853b4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14451, 373, 410, 10, 54, "Input", "ExpressionUUID" -> \
+"4d28caf4-eb18-4889-beca-f2d15aed9577"],
+Cell[14864, 385, 621, 16, 35, "Output", "ExpressionUUID" -> \
+"de9b6bd2-1916-4bf1-8e43-5d103d3013fb"]
+}, Open  ]],
+Cell[15500, 404, 180, 4, 32, "Input", "ExpressionUUID" -> \
+"a725ae65-63d3-4f1e-9b8c-62fa41d920f8"],
+Cell[CellGroupData[{
+Cell[15705, 412, 304, 7, 32, "Input", "ExpressionUUID" -> \
+"bf4b982b-fb5d-4592-bea2-e81c32016c9e"],
+Cell[16012, 421, 329, 8, 35, "Output", "ExpressionUUID" -> \
+"ab4c376c-4ffc-44a6-a610-43c55f2d0dc1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16378, 434, 220, 5, 32, "Input", "ExpressionUUID" -> \
+"1517e7a4-5f06-4117-8a3a-518163457e80"],
+Cell[16601, 441, 432, 9, 32, "Output", "ExpressionUUID" -> \
+"2dd8190d-5099-428d-97cf-6d26cf354765"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17070, 455, 257, 6, 32, "Input", "ExpressionUUID" -> \
+"b9baaa27-192b-43f1-a9be-35909a52fcdf"],
+Cell[17330, 463, 186, 4, 32, "Output", "ExpressionUUID" -> \
+"ccf081af-2edf-4468-a54c-26ee1e8672b1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17553, 472, 200, 4, 32, "Input", "ExpressionUUID" -> \
+"481fd903-3ba4-4342-9212-4c739566171c"],
+Cell[17756, 478, 18197, 351, 107, "Output", "ExpressionUUID" -> \
+"a4e77c3a-80e8-414b-8a33-c4d46bcb0e59"]
+}, Open  ]]
 }
 ]
 *)
