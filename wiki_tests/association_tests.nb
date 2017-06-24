@@ -1,0 +1,609 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     22295,        601]
+NotebookOptionsPosition[     21174,        566]
+NotebookOutlinePosition[     21530,        582]
+CellTagsIndexPosition[     21487,        579]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"compData", "=", 
+  RowBox[{"<|", "|>"}]}]], "Input",
+ CellChangeTimes->{{3.707238864109303*^9, 
+  3.7072388687639513`*^9}},ExpressionUUID->"5f1ad33a-f88d-4e6a-b0d8-\
+a167ce543036"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.7072388699469013`*^9},ExpressionUUID->"29356137-d056-4b00-b941-\
+ea4ec1c4ce1d"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"compData", "[", 
+      RowBox[{"articles", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], "]"}], "=", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<info\>\"", "\[Rule]", 
+        RowBox[{"<|", 
+         RowBox[{
+          RowBox[{"\"\<articlePlaintext\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<articleContributors\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<pageID\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<summaryPlaintext\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<languagesList\>\"", "\[Rule]", "\"\<\>\""}]}], 
+         "|>"}]}], ",", 
+       RowBox[{"\"\<allLinks\>\"", "\[Rule]", 
+        RowBox[{"<|", 
+         RowBox[{
+          RowBox[{"\"\<linksList\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<backlinksList\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<externalLinks\>\"", "\[Rule]", "\"\<\>\""}]}], 
+         "|>"}]}]}], "|>"}]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "1", ",", 
+      RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.707234730452804*^9, 3.707234789013647*^9}, {
+   3.707234938809731*^9, 3.7072349933821*^9}, {3.707235035397169*^9, 
+   3.707235038300548*^9}, 3.70723511119551*^9, {3.707235173537575*^9, 
+   3.7072352307836237`*^9}, 3.7072353124928827`*^9, {3.707235351922326*^9, 
+   3.707235355122036*^9}, {3.707235409225371*^9, 3.707235444471192*^9}, {
+   3.707235650513859*^9, 3.707235650599167*^9}, {3.7072356892950163`*^9, 
+   3.707235718789629*^9}, {3.70723588459243*^9, 3.70723600002057*^9}, {
+   3.707237435198062*^9, 
+   3.707237438629389*^9}},ExpressionUUID->"4ad26349-d070-413e-b2a1-\
+a7f0cbfa4898"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"compData", "[", 
+  RowBox[{"[", "1", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707235630984248*^9, 3.707235632096054*^9}, {
+  3.707235682368277*^9, 3.707235685854299*^9}, {3.707236030563348*^9, 
+  3.707236035442527*^9}},ExpressionUUID->"7c243a35-7ddd-4a4f-8910-\
+dd252cd6260f"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"info\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"articlePlaintext\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"articleContributors\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"pageID\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"summaryPlaintext\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"languagesList\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\<\"allLinks\"\>", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\<\"linksList\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"backlinksList\"\>", "\[Rule]", "\<\"\"\>"}], ",", 
+      RowBox[{"\<\"externalLinks\"\>", "\[Rule]", "\<\"\"\>"}]}], 
+     "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.7072374483242493`*^9, 3.707238840369093*^9, 
+  3.707238874439999*^9},ExpressionUUID->"019cfefa-382d-4811-9bb9-\
+5f986b73360b"]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<info\>\"", "]"}], 
+        "[", "\"\<articlePlaintext\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<ArticlePlaintext\>\""}], 
+        "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 1\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<info\>\"", "]"}], 
+        "[", "\"\<articleContributors\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", 
+         "\"\<ArticleContributors\>\""}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 2\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<info\>\"", "]"}], 
+        "[", "\"\<pageID\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<PageID\>\""}], "]"}]}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 3\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<info\>\"", "]"}], 
+        "[", "\"\<summaryPlaintext\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<SummaryPlaintext\>\""}], 
+        "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 4\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<info\>\"", "]"}], 
+        "[", "\"\<languagesList\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<LanguagesList\>\""}], 
+        "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 5\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<allLinks\>\"", 
+         "]"}], "[", "\"\<linksList\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<LinksList\>\""}], "]"}]}],
+       ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 6\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<allLinks\>\"", 
+         "]"}], "[", "\"\<backlinksList\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<BacklinksList\>\""}], 
+        "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 7\>\""}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Monitor", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"compData", "[", 
+          RowBox[{"articles", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "]"}], "[", "\"\<allLinks\>\"", 
+         "]"}], "[", "\"\<externalLinks\>\"", "]"}], " ", "=", " ", 
+       RowBox[{"WikipediaData", "[", 
+        RowBox[{
+         RowBox[{"articles", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<ExternalLinks\>\""}], 
+        "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Length", "[", "articles", "]"}]}], "}"}]}], "]"}], ",", 
+    RowBox[{"i", 
+     RowBox[{"\"\< of \>\"", "<>", 
+      RowBox[{"ToString", "[", 
+       RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
+      "\"\< / 8\>\""}]}]}], "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7072361982148952`*^9, 3.707236224541543*^9}, {
+   3.7072362604129267`*^9, 3.707236422790126*^9}, {3.707236459450902*^9, 
+   3.707236528314417*^9}, {3.707237023596346*^9, 3.707237027241796*^9}, {
+   3.707237256843018*^9, 3.70723726058361*^9}, 3.707237326712865*^9, {
+   3.707237400369822*^9, 3.707237425629578*^9}, {3.707237500867975*^9, 
+   3.7072375631815*^9}, {3.707238232555751*^9, 3.707238251161953*^9}, {
+   3.7072383685140343`*^9, 3.707238375156249*^9}, {3.7072384186088047`*^9, 
+   3.707238462114962*^9}},ExpressionUUID->"d3282606-140a-4feb-a5ac-\
+f80d5201b20e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["compData"], "Input",
+ CellChangeTimes->{{3.707238208443371*^9, 
+  3.70723820919071*^9}},ExpressionUUID->"2b753c51-1353-4194-8ece-\
+bc58db75f7ed"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"\[LeftAssociation]", 
+          RowBox[{
+           RowBox[{"\<\"Computational aeroacoustics\"\>", "\[Rule]", 
+            RowBox[{"\[LeftAssociation]", 
+             RowBox[{
+              RowBox[{"\<\"info\"\>", "\[Rule]", 
+               RowBox[{"\[LeftAssociation]", 
+                RowBox[{
+                 RowBox[{"\<\"articlePlaintext\"\>", "\[Rule]", 
+                  TemplateBox[{"17723"},
+                   "OutputSizeLimit`Skeleton"]}], ",", 
+                 RowBox[{"\<\"articleContributors\"\>", "\[Rule]", 
+                  RowBox[{"{", 
+                   
+                   RowBox[{"\<\"Jorge Stolfi\"\>", 
+                    ",", "\<\"SlaveToTheWage\"\>", ",", "\<\"Bgwhite\"\>", 
+                    ",", "\<\"Wavelength\"\>", ",", 
+                    TemplateBox[{"25"},
+                    "OutputSizeLimit`Skeleton"], ",", "\<\"FrescoBot\"\>", 
+                    ",", "\<\"Stefanomazzalai\"\>", 
+                    ",", "\<\"Cesarlegendre\"\>"}], "}"}]}], ",", 
+                 TemplateBox[{"1"},
+                  "OutputSizeLimit`Skeleton"], ",", 
+                 TemplateBox[{"1"},
+                  "OutputSizeLimit`Skeleton"], ",", 
+                 RowBox[{"\<\"languagesList\"\>", "\[Rule]", 
+                  RowBox[{"{", 
+                   RowBox[{"\<\"German\"\>", ",", "\<\"Portuguese\"\>"}], 
+                   "}"}]}]}], "\[RightAssociation]"}]}], ",", 
+              TemplateBox[{"1"},
+               "OutputSizeLimit`Skeleton"]}], "\[RightAssociation]"}]}], ",", 
+           
+           TemplateBox[{"98"},
+            "OutputSizeLimit`Skeleton"], ",", 
+           RowBox[{"\<\"Computational X\"\>", "\[Rule]", 
+            TemplateBox[{"1"},
+             "OutputSizeLimit`Skeleton"]}]}], "\[RightAssociation]"}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{55., {2., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLText",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{48., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 118, 27246999139671262889, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{54., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 118, 27246999139671262889, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{40., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 118, 27246999139671262889, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{69., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    BaseStyle->"OutputSizeLimit",
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  If[27246999139671262889 === $SessionID, 
+   Out[118], Message[
+     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
+   Null]]], "Output",
+ CellChangeTimes->{
+  3.707239353020795*^9},ExpressionUUID->"8ea66b5e-a5ae-4451-b649-\
+9867cf663636"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{109, Automatic}, {Automatic, 12}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 204, 5, 32, "Input", "ExpressionUUID" -> \
+"5f1ad33a-f88d-4e6a-b0d8-a167ce543036"],
+Cell[790, 29, 184, 4, 32, "Output", "ExpressionUUID" -> \
+"29356137-d056-4b00-b941-ea4ec1c4ce1d"]
+}, Open  ]],
+Cell[989, 36, 1796, 39, 138, "Input", "ExpressionUUID" -> \
+"4ad26349-d070-413e-b2a1-a7f0cbfa4898"],
+Cell[CellGroupData[{
+Cell[2810, 79, 305, 6, 32, "Input", "ExpressionUUID" -> \
+"7c243a35-7ddd-4a4f-8910-dd252cd6260f"],
+Cell[3118, 87, 1047, 21, 81, "Output", "ExpressionUUID" -> \
+"019cfefa-382d-4811-9bb9-5f986b73360b"]
+}, Open  ]],
+Cell[4180, 111, 7663, 209, 516, "Input", "ExpressionUUID" -> \
+"d3282606-140a-4feb-a5ac-f80d5201b20e"],
+Cell[CellGroupData[{
+Cell[11868, 324, 159, 3, 32, "Input", "ExpressionUUID" -> \
+"2b753c51-1353-4194-8ece-bc58db75f7ed"],
+Cell[12030, 329, 9128, 234, 268, "Output", "ExpressionUUID" -> \
+"8ea66b5e-a5ae-4451-b649-9867cf663636"]
+}, Open  ]]
+}
+]
+*)
+
