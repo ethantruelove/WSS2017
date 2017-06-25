@@ -10,16 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     27661,        709]
-NotebookOptionsPosition[     26630,        676]
-NotebookOutlinePosition[     26983,        692]
-CellTagsIndexPosition[     26940,        689]
+NotebookDataLength[     23348,        631]
+NotebookOptionsPosition[     22321,        598]
+NotebookOutlinePosition[     22675,        614]
+CellTagsIndexPosition[     22632,        611]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{"testSet", "=", 
@@ -290,16 +288,22 @@ b9fbzhit5sdhvvts5aa00u74l\>\"", ",", "\"\<XMLObject\>\""}], "]"}]}],
      RowBox[{"\"\< of \>\"", "<>", 
       RowBox[{"ToString", "[", 
        RowBox[{"Length", "[", "articles", "]"}], "]"}], "<>", 
-      "\"\< / 8\>\""}]}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", "compData"}], "Input",
+      "\"\< / 8\>\""}]}]}], "]"}], ";"}]}], "Input",
  CellChangeTimes->{{3.707150415177102*^9, 3.7071504247372713`*^9}, {
    3.707150478590958*^9, 3.707150481925675*^9}, {3.707150519462817*^9, 
    3.707150524292242*^9}, {3.7071506831613083`*^9, 3.707150700422186*^9}, 
    3.70715094759079*^9, 3.707150992958666*^9, 3.707151064898362*^9, 
    3.7071512411177073`*^9, {3.707239718220765*^9, 3.7072397189441843`*^9}, {
-   3.707239757447393*^9, 
-   3.707239787487401*^9}},ExpressionUUID->"cbeff7a1-7774-4706-8499-\
+   3.707239757447393*^9, 3.707239787487401*^9}, {3.707337147710986*^9, 
+   3.707337148817031*^9}},ExpressionUUID->"cbeff7a1-7774-4706-8499-\
 636fe65d1bf6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["compData"], "Input",
+ CellChangeTimes->{{3.7073371509484997`*^9, 
+  3.7073371519504013`*^9}},ExpressionUUID->"4ce498ca-de14-4f40-8462-\
+e54de031888c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -387,8 +391,7 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm],
-               ImageSizeCache->{48., {0., 8.}}],
+                StandardForm]],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -400,7 +403,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 13, 27247035295924700941, 5/2],
+            OutputSizeLimit`Defer, 57, 27247663399774573920, 5/2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -432,7 +435,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 13, 27247035295924700941, 5 2],
+            OutputSizeLimit`Defer, 57, 27247663399774573920, 5 2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -451,8 +454,7 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm],
-               ImageSizeCache->{40., {0., 8.}}],
+                StandardForm]],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -464,7 +466,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 13, 27247035295924700941, Infinity],
+            OutputSizeLimit`Defer, 57, 27247663399774573920, Infinity],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -483,8 +485,7 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm],
-               ImageSizeCache->{69., {0., 8.}}],
+                StandardForm]],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -533,13 +534,35 @@ Cell[BoxData[
     StripOnInput->False],
    Deploy,
    DefaultBaseStyle->"Deploy"],
-  If[27247035295924700941 === $SessionID, 
-   Out[13], Message[
+  If[27247663399774573920 === $SessionID, 
+   Out[57], Message[
      MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
    Null]]], "Output",
  CellChangeTimes->{
-  3.707240199145615*^9},ExpressionUUID->"faad77ce-d77d-4070-8c1a-\
-e61c8a0feb8e"]
+  3.707338950768771*^9},ExpressionUUID->"87c3e6d6-a733-459e-9047-\
+3d462ee84c85"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\</Users/ethan/Desktop/compData.csv\>\"", ",", "compData", ",", 
+   "\"\<CSV\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.707317161459559*^9, 3.707317183385028*^9}, {
+  3.707317283480492*^9, 3.707317322028838*^9}, {3.707335936936182*^9, 
+  3.707335953694022*^9}, {3.707336855179329*^9, 3.707336876119965*^9}, {
+  3.707336988655386*^9, 3.707336991126129*^9}, {3.707337034883246*^9, 
+  3.707337037410635*^9}},ExpressionUUID->"2e91c82c-bf1f-4f78-ac36-\
+1e24c31f4c1e"],
+
+Cell[BoxData["\<\"/Users/ethan/Desktop/compData.csv\"\>"], "Output",
+ CellChangeTimes->{{3.707317302849917*^9, 3.7073173233942327`*^9}, 
+   3.707336753070898*^9, {3.7073368581021423`*^9, 3.707336877143264*^9}, 
+   3.707336992271456*^9, 
+   3.7073370384520607`*^9},ExpressionUUID->"2d7a6398-9292-46c8-9a90-\
+a46e0e170c94"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -565,117 +588,16 @@ Cell[BoxData[
 a2d11cbd8709"],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"aeroacoustics\"\>", ",", "\<\"algebra\"\>", 
-   ",", "\<\"anatomy\"\>", 
-   ",", "\<\"and Mathematical Organization Theory\"\>", 
-   ",", "\<\"and Statistical Genetics\"\>", 
-   ",", "\<\"and Systems Neuroscience\"\>", 
-   ",", "\<\"and Theoretical Chemistry\"\>", ",", "\<\"archaeology\"\>", 
-   ",", "\<\"astrophysics\"\>", ",", "\<\"auditory scene analysis\"\>", 
-   ",", "\<\"biology\"\>", ",", "\<\"Biology and Chemistry\"\>", 
-   ",", "\<\"Biology Department\"\>", 
-   ",", "\<\"chemical methods in solid-state physics\"\>", 
-   ",", "\<\"chemistry\"\>", ",", "\<\"Chemistry Grid\"\>", 
-   ",", "\<\"Chemistry List\"\>", ",", "\<\"cognition\"\>", 
-   ",", "\<\"complexity\"\>", ",", "\<\"Complexity Conference\"\>", 
-   ",", "\<\"complexity of mathematical operations\"\>", 
-   ",", "\<\"complexity theory\"\>", ",", "\<\"creativity\"\>", 
-   ",", "\<\"criminology\"\>", ",", "\<\"cybernetics\"\>", 
-   ",", "\<\"Diffie\[Dash]Hellman assumption\"\>", ",", "\<\"economics\"\>", 
-   ",", "\<\"electromagnetics\"\>", ",", "\<\"engineering\"\>", 
-   ",", "\<\"epidemiology\"\>", ",", "\<\"epigenetics\"\>", 
-   ",", "\<\"epistemology\"\>", ",", "\<\"finance\"\>", 
-   ",", "\<\"fluid dynamics\"\>", ",", "\<\"gene\"\>", 
-   ",", "\<\"genomics\"\>", ",", "\<\"geometry\"\>", 
-   ",", "\<\"geophysics\"\>", ",", "\<\"group theory\"\>", 
-   ",", "\<\"hardness assumption\"\>", ",", "\<\"Heuristic Intelligence\"\>", 
-   ",", "\<\"history\"\>", ",", "\<\"human phantom\"\>", ",", "\<\"humor\"\>",
-    ",", "\<\"immunology\"\>", ",", "\<\"indistinguishability\"\>", 
-   ",", "\<\"informatics\"\>", ",", "\<\"Infrastructure for Geodynamics\"\>", 
-   ",", "\<\"intelligence\"\>", ",", "\<\"irreducibility\"\>", 
-   ",", "\<\"knowledge economy\"\>", ",", "\<\"law\"\>", 
-   ",", "\<\"learning theory\"\>", ",", "\<\"lexicology\"\>", 
-   ",", "\<\"linguistics\"\>", ",", "\<\"lithography\"\>", 
-   ",", "\<\"logic\"\>", ",", "\<\"y enhanced craft item\"\>", 
-   ",", "\<\"magnetohydrodynamics\"\>", ",", "\<\"Materials Science\"\>", 
-   ",", "\<\"mathematics\"\>", ",", "\<\"mechanics\"\>", 
-   ",", "\<\"methods for free surface flow\"\>", ",", "\<\"model\"\>", 
-   ",", "\<\"musicology\"\>", ",", "\<\"neurogenetic modeling\"\>", 
-   ",", "\<\"neuroscience\"\>", ",", "\<\"number theory\"\>", 
-   ",", "\<\"particle physics\"\>", ",", "\<\"photography\"\>", 
-   ",", "\<\"photography (artistic)\"\>", ",", "\<\"phylogenetics\"\>", 
-   ",", "\<\"physics\"\>", ",", "\<\"problem\"\>", ",", "\<\"RAM\"\>", 
-   ",", "\<\"representational understanding of mind\"\>", 
-   ",", "\<\"resource\"\>", ",", "\<\"Resource for Drug Discovery\"\>", 
-   ",", "\<\"science\"\>", ",", "\<\"Science & Discovery\"\>", 
-   ",", "\<\"Science Graduate Fellowship\"\>", ",", "\<\"scientist\"\>", 
-   ",", "\<\"semantics\"\>", ",", "\<\"semiotics\"\>", 
-   ",", "\<\"social choice\"\>", ",", "\<\"social science\"\>", 
-   ",", "\<\"sociology\"\>", ",", "\<\"statistics\"\>", 
-   ",", "\<\"Statistics & Data Analysis\"\>", ",", "\<\"steering\"\>", 
-   ",", "\<\"sustainability\"\>", ",", "\<\"theology\"\>", 
-   ",", "\<\"theory of mind\"\>", ",", "\<\"thermodynamics\"\>", 
-   ",", "\<\"thinking\"\>", ",", "\<\"topology\"\>", 
-   ",", "\<\"transportation science\"\>", ",", "\<\"trust\"\>", 
-   ",", "\<\"visualistics\"\>", ",", "\<\"X\"\>"}], "}"}]], "Output",
+ RowBox[{"{", "}"}]], "Output",
  CellChangeTimes->{
   3.7072531041665087`*^9, {3.70725314444343*^9, 3.707253151862508*^9}, 
-   3.707257049439602*^9},ExpressionUUID->"e02db962-e74d-495a-8c0b-\
-0a2d30f7fa3d"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"WikipediaSearch", "[", "\"\<Organization Theory\>\"", 
-  "]"}]], "Input",
- CellChangeTimes->{{3.707253249496573*^9, 3.707253262364216*^9}, {
-  3.70725705841263*^9, 3.707257062460334*^9}, {3.707257107526816*^9, 
-  3.707257175624515*^9}},ExpressionUUID->"d0fad631-42e5-4511-9b77-\
-01245d634e89"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"\[LeftAssociation]", 
-    RowBox[{
-     RowBox[{"\<\"Title\"\>", "\[Rule]", "\<\"Organization Theory\"\>"}], ",", 
-     RowBox[{"\<\"Snippet\"\>", "\[Rule]", "\<\"\"\>"}]}], 
-    "\[RightAssociation]"}], ",", 
-   RowBox[{"\[LeftAssociation]", 
-    RowBox[{
-     RowBox[{"\<\"Title\"\>", "\[Rule]", "\<\"Organizational theory\"\>"}], 
-     ",", 
-     RowBox[{"\<\"Snippet\"\>", 
-      "\[Rule]", "\<\"Organizational theory consists of approaches to \
-organizational analysis. Theories of organizations include rational system \
-perspective, division of labor, bureaucratic theory, and contingency \
-theory.\"\>"}]}], "\[RightAssociation]"}], ",", 
-   RowBox[{"\[LeftAssociation]", 
-    RowBox[{
-     RowBox[{"\<\"Title\"\>", 
-      "\[Rule]", "\<\"Organization theory (Castells)\"\>"}], ",", 
-     RowBox[{"\<\"Snippet\"\>", 
-      "\[Rule]", "\<\"The theory of the Information Age is deeply rooted in \
-organization theory. This may come as a surprise since Manuel Castells is \
-perhaps more readily associated with either the study of the Internet, cities \
-and regions, or social movements.\"\>"}]}], "\[RightAssociation]"}]}], 
-  "}"}]], "Output",
- CellChangeTimes->{
-  3.707253264080617*^9, {3.707257059805642*^9, 3.707257063402545*^9}, {
-   3.707257108507616*^9, 
-   3.7072571766384583`*^9}},ExpressionUUID->"0c0a16e2-0837-4ed7-b29b-\
-81fc8242c4b2"]
-}, Open  ]],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.707252695902968*^9, 
-  3.707252697504678*^9}},ExpressionUUID->"d517b6b9-642f-4be2-aef3-\
-772946cc57e3"]
+   3.707257049439602*^9, 
+   3.7073359858367243`*^9},ExpressionUUID->"1621b9ad-f13e-4bd2-b075-\
+8a1f165b2da1"]
+}, Open  ]]
 },
 WindowSize->{808, 755},
-WindowMargins->{{4, Automatic}, {Automatic, 4}},
+WindowMargins->{{53, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
 2017)",
 StyleDefinitions->"Default.nb"
@@ -691,26 +613,26 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[CellGroupData[{
-Cell[583, 22, 10394, 279, 894, "Input", "ExpressionUUID" -> \
+Cell[561, 20, 10402, 278, 873, "Input", "ExpressionUUID" -> \
 "cbeff7a1-7774-4706-8499-636fe65d1bf6"],
-Cell[10980, 303, 9327, 238, 186, "Output", "ExpressionUUID" -> \
-"faad77ce-d77d-4070-8c1a-e61c8a0feb8e"]
+Cell[CellGroupData[{
+Cell[10988, 302, 164, 3, 32, "Input", "ExpressionUUID" -> \
+"4ce498ca-de14-4f40-8462-e54de031888c"],
+Cell[11155, 307, 9183, 235, 186, "Output", "ExpressionUUID" -> \
+"87c3e6d6-a733-459e-9047-3d462ee84c85"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20344, 546, 797, 18, 32, "Input", "ExpressionUUID" -> \
+Cell[20375, 547, 521, 10, 32, "Input", "ExpressionUUID" -> \
+"2e91c82c-bf1f-4f78-ac36-1e24c31f4c1e"],
+Cell[20899, 559, 321, 5, 32, "Output", "ExpressionUUID" -> \
+"2d7a6398-9292-46c8-9a90-a46e0e170c94"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21257, 569, 797, 18, 32, "Input", "ExpressionUUID" -> \
 "b4b4db01-ad68-4e4a-86a3-a2d11cbd8709"],
-Cell[21144, 566, 3552, 58, 432, "Output", "ExpressionUUID" -> \
-"e02db962-e74d-495a-8c0b-0a2d30f7fa3d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[24733, 629, 317, 6, 32, "Input", "ExpressionUUID" -> \
-"d0fad631-42e5-4511-9b77-01245d634e89"],
-Cell[25053, 637, 1406, 31, 243, "Output", "ExpressionUUID" -> \
-"0c0a16e2-0837-4ed7-b29b-81fc8242c4b2"]
-}, Open  ]],
-Cell[26474, 671, 152, 3, 32, "Input", "ExpressionUUID" -> \
-"d517b6b9-642f-4be2-aef3-772946cc57e3"]
+Cell[22057, 589, 248, 6, 32, "Output", "ExpressionUUID" -> \
+"1621b9ad-f13e-4bd2-b075-8a1f165b2da1"]
+}, Open  ]]
 }
 ]
 *)
