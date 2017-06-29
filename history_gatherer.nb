@@ -1,0 +1,107 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      3201,         99]
+NotebookOptionsPosition[      2693,         80]
+NotebookOutlinePosition[      3049,         96]
+CellTagsIndexPosition[      3006,         93]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"template", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<https://tools.wmflabs.org/xtools-articleinfo/?article=\>\"", ",", 
+     "\"\<&project=en.wikipedia.org\>\""}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"urlForm", " ", "=", 
+   RowBox[{"Flatten", "@", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"StringReplace", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Keys", "[", "compData", "]"}], "[", 
+         RowBox[{"[", "i", "]"}], "]"}], ",", 
+        RowBox[{"\"\< \>\"", "\[Rule]", " ", "\"\<_\>\""}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", 
+        RowBox[{"Length", "[", 
+         RowBox[{"Keys", "[", "compData", "]"}], "]"}]}], "}"}]}], "]"}]}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"TitleToEdit", "[", "article_", "]"}], ":=", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"template", "[", 
+      RowBox[{"[", "1", "]"}], "]"}], "<>", " ", "article", " ", "<>", " ", 
+     RowBox[{"template", "[", 
+      RowBox[{"[", "2", "]"}], "]"}]}], ",", "\"\<Data\>\""}], 
+   "]"}]}]}], "Code",
+ CellChangeTimes->{{3.707680203560443*^9, 3.7076802158039627`*^9}, 
+   3.707680267651513*^9, {3.707682379490658*^9, 3.707682388059463*^9}, 
+   3.707729401056321*^9, {3.7077296524948797`*^9, 3.707729676627605*^9}, {
+   3.707730121711423*^9, 
+   3.7077301476840963`*^9}},ExpressionUUID->"41e94519-7938-4a74-a879-\
+2213ab503c6b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"editInfo", " ", "=", 
+   RowBox[{"AssociationMap", "[", 
+    RowBox[{"TitleToEdit", ",", "urlForm"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7077302294428*^9, 3.7077302737047043`*^9}, {
+  3.7077303038384743`*^9, 3.70773031062223*^9}, {3.707730893005835*^9, 
+  3.7077309063004303`*^9}},ExpressionUUID->"75cd1282-19bf-487a-a064-\
+de528bcc6836"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DumpSave", "[", 
+   RowBox[{
+   "\"\</Users/ethan/Desktop/WSS2017/saved_data/editInfo.mx\>\"", ",", 
+    "editInfo"}], "]"}], ";"}]], "Code",
+ CellChangeTimes->{{3.7077322405834618`*^9, 
+  3.7077323045736647`*^9}},ExpressionUUID->"acaa37a8-3fda-4d02-b32c-\
+e976caeb7aaf"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{204, Automatic}, {Automatic, 24}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[561, 20, 1430, 38, 91, "Code", "ExpressionUUID" -> \
+"41e94519-7938-4a74-a879-2213ab503c6b"],
+Cell[1994, 60, 386, 8, 32, "Input", "ExpressionUUID" -> \
+"75cd1282-19bf-487a-a064-de528bcc6836"],
+Cell[2383, 70, 306, 8, 52, "Code", "ExpressionUUID" -> \
+"acaa37a8-3fda-4d02-b32c-e976caeb7aaf"]
+}
+]
+*)
+
