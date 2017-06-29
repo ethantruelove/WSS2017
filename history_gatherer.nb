@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      3201,         99]
-NotebookOptionsPosition[      2693,         80]
-NotebookOutlinePosition[      3049,         96]
-CellTagsIndexPosition[      3006,         93]
+NotebookDataLength[      3232,        100]
+NotebookOptionsPosition[      2725,         81]
+NotebookOutlinePosition[      3081,         97]
+CellTagsIndexPosition[      3038,         94]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -60,12 +60,13 @@ Cell[BoxData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"editInfo", " ", "=", 
+  RowBox[{"editInfo", " ", "=", " ", 
    RowBox[{"AssociationMap", "[", 
-    RowBox[{"TitleToEdit", ",", "urlForm"}], "]"}]}], ";"}]], "Input",
+    RowBox[{"TitleToEdit", ",", "urlForm"}], "]"}]}], ";"}]], "Code",
  CellChangeTimes->{{3.7077302294428*^9, 3.7077302737047043`*^9}, {
-  3.7077303038384743`*^9, 3.70773031062223*^9}, {3.707730893005835*^9, 
-  3.7077309063004303`*^9}},ExpressionUUID->"75cd1282-19bf-487a-a064-\
+   3.7077303038384743`*^9, 3.70773031062223*^9}, {3.707730893005835*^9, 
+   3.7077309063004303`*^9}, 
+   3.707734332884267*^9},ExpressionUUID->"75cd1282-19bf-487a-a064-\
 de528bcc6836"],
 
 Cell[BoxData[
@@ -97,9 +98,9 @@ CellTagsIndex->{}
 Notebook[{
 Cell[561, 20, 1430, 38, 91, "Code", "ExpressionUUID" -> \
 "41e94519-7938-4a74-a879-2213ab503c6b"],
-Cell[1994, 60, 386, 8, 32, "Input", "ExpressionUUID" -> \
+Cell[1994, 60, 418, 9, 52, "Code", "ExpressionUUID" -> \
 "75cd1282-19bf-487a-a064-de528bcc6836"],
-Cell[2383, 70, 306, 8, 52, "Code", "ExpressionUUID" -> \
+Cell[2415, 71, 306, 8, 52, "Code", "ExpressionUUID" -> \
 "acaa37a8-3fda-4d02-b32c-e976caeb7aaf"]
 }
 ]
