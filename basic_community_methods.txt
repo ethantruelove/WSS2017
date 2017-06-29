@@ -1,0 +1,19 @@
+Modularity-based clustering:
+
+Modularity is the fraction of the edges that fall within the given groups minus the expected fraction if edges were distributed at random.
+
+Centrality-based clustering:
+
+Has cluster heads and member nodes. Considers optimal member node degree for a cluster and distance to cluster heads from member nodes.
+
+Clique percolation-based clustering:
+
+Built from k-cliques (where every two vertices in a clique have distinct edges). Two k-cliques are connected if they share k-1 nodes.
+
+Hierarchical-based clustering:
+
+Either agglomerative or divisive and created using a greedy algorithm.
+
+Spectral-based clustering:
+
+Makes use of the spectrum of the similarity matrix of the data to perform dimensionality reduction.
