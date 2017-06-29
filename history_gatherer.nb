@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[      3232,        100]
-NotebookOptionsPosition[      2725,         81]
-NotebookOutlinePosition[      3081,         97]
-CellTagsIndexPosition[      3038,         94]
+NotebookDataLength[      5242,        151]
+NotebookOptionsPosition[      4537,        128]
+NotebookOutlinePosition[      4891,        144]
+CellTagsIndexPosition[      4848,        141]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,47 +26,57 @@ Cell[BoxData[{
     "\"\<https://tools.wmflabs.org/xtools-articleinfo/?article=\>\"", ",", 
      "\"\<&project=en.wikipedia.org\>\""}], "}"}]}], ";"}], "\n", 
  RowBox[{
-  RowBox[{"urlForm", " ", "=", 
-   RowBox[{"Flatten", "@", 
+  RowBox[{"urlForm", " ", "=", " ", 
+   RowBox[{"Flatten", " ", "@", " ", 
     RowBox[{"Table", "[", 
      RowBox[{
       RowBox[{"StringReplace", "[", 
-       RowBox[{
-        RowBox[{
-         RowBox[{"Keys", "[", "compData", "]"}], "[", 
-         RowBox[{"[", "i", "]"}], "]"}], ",", 
-        RowBox[{"\"\< \>\"", "\[Rule]", " ", "\"\<_\>\""}]}], "]"}], ",", 
+       RowBox[{"i", ",", " ", 
+        RowBox[{"\"\< \>\"", "\[Rule]", " ", "\"\<_\>\""}]}], "]"}], ",", " ", 
       RowBox[{"{", 
-       RowBox[{"i", ",", 
-        RowBox[{"Length", "[", 
-         RowBox[{"Keys", "[", "compData", "]"}], "]"}]}], "}"}]}], "]"}]}]}], 
+       RowBox[{"i", ",", " ", 
+        RowBox[{"Keys", "[", "compData", "]"}]}], "}"}]}], "]"}]}]}], 
   ";"}], "\n", 
  RowBox[{
-  RowBox[{"TitleToEdit", "[", "article_", "]"}], ":=", 
-  RowBox[{"Import", "[", 
+  RowBox[{"TitleToEdit", "[", "article_", "]"}], " ", ":=", 
+  RowBox[{"Block", "[", 
    RowBox[{
+    RowBox[{"{", "}"}], ",", " ", "\n", "\t", 
     RowBox[{
-     RowBox[{"template", "[", 
-      RowBox[{"[", "1", "]"}], "]"}], "<>", " ", "article", " ", "<>", " ", 
-     RowBox[{"template", "[", 
-      RowBox[{"[", "2", "]"}], "]"}]}], ",", "\"\<Data\>\""}], 
-   "]"}]}]}], "Code",
+     RowBox[{"Print", "[", 
+      RowBox[{
+       RowBox[{"template", "[", 
+        RowBox[{"[", "1", "]"}], "]"}], "<>", " ", "article", " ", "<>", " ", 
+       
+       RowBox[{"template", "[", 
+        RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ";", " ", "\n", "\t", 
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"template", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "<>", " ", "article", " ", "<>", " ", 
+        RowBox[{"template", "[", 
+         RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "\"\<XML\>\""}], 
+      "]"}]}]}], "\n", "]"}]}]}], "Code",
  CellChangeTimes->{{3.707680203560443*^9, 3.7076802158039627`*^9}, 
    3.707680267651513*^9, {3.707682379490658*^9, 3.707682388059463*^9}, 
    3.707729401056321*^9, {3.7077296524948797`*^9, 3.707729676627605*^9}, {
-   3.707730121711423*^9, 
-   3.7077301476840963`*^9}},ExpressionUUID->"41e94519-7938-4a74-a879-\
+   3.707730121711423*^9, 3.7077301476840963`*^9}, {3.7077362324286013`*^9, 
+   3.707736272265313*^9}, 3.7077376355442038`*^9, {3.707738274432808*^9, 
+   3.7077382774542418`*^9}, {3.7077497562503366`*^9, 3.70774981425574*^9}, {
+   3.7077499466333637`*^9, 3.707750000710371*^9}, {3.707750143634145*^9, 
+   3.707750146201461*^9}},ExpressionUUID->"41e94519-7938-4a74-a879-\
 2213ab503c6b"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"editInfo", " ", "=", " ", 
    RowBox[{"AssociationMap", "[", 
-    RowBox[{"TitleToEdit", ",", "urlForm"}], "]"}]}], ";"}]], "Code",
+    RowBox[{"TitleToEdit", ",", " ", "urlForm"}], "]"}]}], ";"}]], "Code",
  CellChangeTimes->{{3.7077302294428*^9, 3.7077302737047043`*^9}, {
    3.7077303038384743`*^9, 3.70773031062223*^9}, {3.707730893005835*^9, 
-   3.7077309063004303`*^9}, 
-   3.707734332884267*^9},ExpressionUUID->"75cd1282-19bf-487a-a064-\
+   3.7077309063004303`*^9}, 3.707734332884267*^9, 
+   3.707749721516241*^9},ExpressionUUID->"75cd1282-19bf-487a-a064-\
 de528bcc6836"],
 
 Cell[BoxData[
@@ -77,10 +87,47 @@ Cell[BoxData[
     "editInfo"}], "]"}], ";"}]], "Code",
  CellChangeTimes->{{3.7077322405834618`*^9, 
   3.7077323045736647`*^9}},ExpressionUUID->"acaa37a8-3fda-4d02-b32c-\
-e976caeb7aaf"]
+e976caeb7aaf"],
+
+Cell[BoxData[
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"i", "=", "0"}], ",", 
+   RowBox[{"i", "\[LessEqual]", 
+    RowBox[{"Length", "[", "urlForm", "]"}]}], ",", 
+   RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", "\t", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"editInfo", "[", 
+       RowBox[{"urlForm", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "]"}], "===", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"Print", "[", 
+      RowBox[{"urlForm", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], "]"}], ",", 
+     RowBox[{"Nothing", "[", "]"}]}], "]"}]}], "\n", "]"}]], "Code",
+ CellChangeTimes->{
+  3.707738169350052*^9},ExpressionUUID->"794e5447-def6-4878-9d6b-\
+8354265801d8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"CheckEditInfo", "[", "article_", "]"}], ":=", "\n", "\t", 
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"editInfo", "[", "article", "]"}], "===", 
+     RowBox[{"{", "}"}]}], ",", 
+    RowBox[{
+     RowBox[{"editInfo", "[", "article", "]"}], " ", "=", " ", 
+     RowBox[{"TitleToEdit", "[", "article", "]"}]}]}]}]}]], "Code",
+ CellChangeTimes->{{3.707749394066428*^9, 
+  3.707749475449144*^9}},ExpressionUUID->"494cb94b-1ae5-49b3-bdc1-\
+7bc3a13781fa"]
 },
 WindowSize->{808, 755},
-WindowMargins->{{204, Automatic}, {Automatic, 24}},
+WindowMargins->{{Automatic, 54}, {Automatic, 0}},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
 2017)",
 StyleDefinitions->"Default.nb"
@@ -96,12 +143,16 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[561, 20, 1430, 38, 91, "Code", "ExpressionUUID" -> \
+Cell[561, 20, 1999, 48, 148, "Code", "ExpressionUUID" -> \
 "41e94519-7938-4a74-a879-2213ab503c6b"],
-Cell[1994, 60, 418, 9, 52, "Code", "ExpressionUUID" -> \
+Cell[2563, 70, 445, 9, 52, "Code", "ExpressionUUID" -> \
 "75cd1282-19bf-487a-a064-de528bcc6836"],
-Cell[2415, 71, 306, 8, 52, "Code", "ExpressionUUID" -> \
-"acaa37a8-3fda-4d02-b32c-e976caeb7aaf"]
+Cell[3011, 81, 306, 8, 52, "Code", "ExpressionUUID" -> \
+"acaa37a8-3fda-4d02-b32c-e976caeb7aaf"],
+Cell[3320, 91, 710, 20, 91, "Code", "ExpressionUUID" -> \
+"794e5447-def6-4878-9d6b-8354265801d8"],
+Cell[4033, 113, 500, 13, 72, "Code", "ExpressionUUID" -> \
+"494cb94b-1ae5-49b3-bdc1-7bc3a13781fa"]
 }
 ]
 *)
