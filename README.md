@@ -1,3 +1,3 @@
 Project Title: Analyzing Wikipedia Article Sets with the Wolfram Language
 
-Project Description: Find out relationships between articles in the 'Computational X' field on Wikipedia and see how they compare to their non-computational counterparts. Link analysis will be performed to view communities within the set of computational Wikipedia articles. Additional information pertaining to edit histories will be shown.
+Project Description: Find out relationships between articles in the 'Computational X' field on Wikipedia and see how they compare to their non-computational counterparts. Link analysis will be performed to view communities within the set of computational Wikipedia articles. Information incorporating edit counts over time has been added in addition to information on contributions made by top editors.
