@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   2214267,      46875]
-NotebookOptionsPosition[   2199598,      46542]
-NotebookOutlinePosition[   2200008,      46560]
-CellTagsIndexPosition[   2199965,      46557]
+NotebookDataLength[   2226699,      47071]
+NotebookOptionsPosition[   2211984,      46737]
+NotebookOutlinePosition[   2212396,      46755]
+CellTagsIndexPosition[   2212353,      46752]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -283,7 +283,8 @@ Cell[BoxData[{
    3.707645660725754*^9}, {3.707758706786306*^9, 3.70775877517244*^9}, {
    3.707758886420808*^9, 3.7077588910603323`*^9}, {3.707766189021303*^9, 
    3.707766204968112*^9}, 3.708095875650947*^9, {3.708095943165794*^9, 
-   3.7080959564908037`*^9}},ExpressionUUID->"87da55d0-5e19-42b6-a1d8-\
+   3.7080959564908037`*^9}, 3.708354110515092*^9, 
+   3.708354148714615*^9},ExpressionUUID->"87da55d0-5e19-42b6-a1d8-\
 63b88b1cdf09"],
 
 Cell[BoxData[
@@ -1917,9 +1918,10 @@ HHPKearSYfoqNSmmlPLp9RSmZopTup5+xxtzgzf0w9y6W3WL27hNC7cwC1zQ
    3.708095957217*^9}, 3.7080966711369343`*^9, 3.708106944805668*^9, 
    3.7081706825427227`*^9, 3.708171847060424*^9, 3.7081874583461657`*^9, 
    3.708205129439135*^9, 3.7082501712960863`*^9, 3.7082517990816803`*^9, 
-   3.7083514859310207`*^9, 
-   3.7083518813642673`*^9},ExpressionUUID->"c73b17bf-225e-4088-b5fc-\
-e1af3bd99a27"]
+   3.7083514859310207`*^9, 3.7083518813642673`*^9, 3.708352239813711*^9, {
+   3.708354124250079*^9, 
+   3.7083541499772177`*^9}},ExpressionUUID->"4ff47f7f-cbd8-4f67-aa05-\
+1dd9bf25b8f8"]
 }, Open  ]],
 
 Cell["\<\
@@ -3041,14 +3043,15 @@ xAQMRYtreGyQ4AxTfEOF7yBEZHDoIfiBAt3PvZ7m/bKyLYuiLe46dPf33c52
   DefaultBaseStyle->{
    "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
   FormatType->TraditionalForm,
-  FrameTicks->None]], "Output",
+  FrameTicks->None,
+  ImageSize->{589.8713854295665, Automatic}]], "Output",
  CellChangeTimes->{3.7077595650285807`*^9, 3.7077735540191383`*^9, 
   3.70809564270217*^9, 3.708096671407023*^9, 3.7081069450276737`*^9, 
   3.708170682753461*^9, 3.708171847275592*^9, 3.708187458529207*^9, 
   3.7082051296264267`*^9, 3.708250171498028*^9, 3.708251799255898*^9, 
-  3.7083514861292877`*^9, 
-  3.708351881596086*^9},ExpressionUUID->"5c3c93c1-280e-4de0-af83-\
-4dfe351f7d0e"]
+  3.7083514861292877`*^9, 3.708351881596086*^9, 
+  3.708352240031352*^9},ExpressionUUID->"26db0b76-44b1-478a-8b20-\
+e478ce3408ba"]
 }, Open  ]],
 
 Cell["\<\
@@ -4534,9 +4537,9 @@ Cell[BoxData[
   3.708095983011538*^9, 3.708096671725019*^9, 3.708106945348053*^9, 
   3.708170683070714*^9, 3.708171847636013*^9, 3.708187458796804*^9, 
   3.708205129867313*^9, 3.7082501717754602`*^9, 3.7082517995019617`*^9, 
-  3.708351486373653*^9, 
-  3.7083518819303493`*^9},ExpressionUUID->"1e2e3454-89cd-42f8-9d3e-\
-51b626d613c3"]
+  3.708351486373653*^9, 3.7083518819303493`*^9, 
+  3.708352240290101*^9},ExpressionUUID->"dc2be5b1-45a9-4ee4-a3d3-\
+dffa24f7c9a5"]
 }, Open  ]],
 
 Cell["\<\
@@ -4563,9 +4566,9 @@ Cell[BoxData["74"], "Output",
    3.7077735543423634`*^9, 3.708095645265419*^9, 3.7080966718655863`*^9, 
    3.70810694547957*^9, 3.708170683264326*^9, 3.708171847770262*^9, 
    3.7081874588595867`*^9, 3.70820512992043*^9, 3.7082501718381453`*^9, 
-   3.708251799551586*^9, 3.708351486416135*^9, 
-   3.708351882258868*^9},ExpressionUUID->"d2df667a-55a4-4860-8788-\
-bc641b371126"]
+   3.708251799551586*^9, 3.708351486416135*^9, 3.708351882258868*^9, 
+   3.708352240324494*^9},ExpressionUUID->"3002b037-6a50-4d60-808e-\
+7e72f73c2a59"]
 }, Open  ]],
 
 Cell["\<\
@@ -7251,9 +7254,9 @@ Cell[BoxData[
   3.708095645866088*^9, 3.708096672341959*^9, 3.708106946010096*^9, 
   3.708170683789968*^9, 3.708171848320387*^9, 3.708187459259549*^9, 
   3.708205130386348*^9, 3.708250172255416*^9, 3.70825179995595*^9, 
-  3.7083514868529663`*^9, 
-  3.708351883724489*^9},ExpressionUUID->"deb86b59-3c53-49d1-af86-\
-42f60edce7e3"]
+  3.7083514868529663`*^9, 3.708351883724489*^9, 
+  3.708352240793952*^9},ExpressionUUID->"0874ba57-4c00-45a2-9b75-\
+52d7f0df2a8a"]
 }, Open  ]],
 
 Cell["Let\[CloseCurlyQuote]s make some slight changes.", "Text",
@@ -8231,9 +8234,9 @@ nESwoG+cX80eEiee82P1jhdB5/dwt5vbSfwf3vy5bQ==
    "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
   FormatType->TraditionalForm,
   FrameTicks->None]], "Output",
- CellChangeTimes->{3.7083514870857067`*^9, 
-  3.7083518847885313`*^9},ExpressionUUID->"3534f973-d328-4a3e-9ee3-\
-ac5831159be3"]
+ CellChangeTimes->{3.7083514870857067`*^9, 3.7083518847885313`*^9, 
+  3.708352241056603*^9},ExpressionUUID->"d42ac7ee-1a1b-4725-a251-\
+aec828bf7181"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9502,9 +9505,9 @@ Cell[BoxData[
        0.03764015014011565]}}}},
   FormatType->TraditionalForm,
   FrameTicks->None]], "Output",
- CellChangeTimes->{3.7083515344791403`*^9, 
-  3.708351885944264*^9},ExpressionUUID->"546c0c22-475e-45c9-b4a7-\
-2c6b10c21ce8"]
+ CellChangeTimes->{3.7083515344791403`*^9, 3.708351885944264*^9, 
+  3.7083522413207283`*^9},ExpressionUUID->"920f0f51-a028-4245-a6c1-\
+43facd1fb967"]
 }, Open  ]],
 
 Cell["\<\
@@ -10960,8 +10963,8 @@ Cell[BoxData[
   3.7080966726327353`*^9, 3.708106946292379*^9, 3.708170684127112*^9, 
   3.7081718486298637`*^9, 3.7081874595603533`*^9, 3.708205130755068*^9, 
   3.708250172546568*^9, 3.70825180032139*^9, 3.708351487330078*^9, 
-  3.7083518862790213`*^9},ExpressionUUID->"875e9335-03e5-462d-9819-\
-998205c211f6"]
+  3.7083518862790213`*^9, 
+  3.70835224160049*^9},ExpressionUUID->"dc77c971-2461-4943-a8c4-b23fe7403b44"]
 }, Open  ]],
 
 Cell["\<\
@@ -20650,9 +20653,9 @@ Cell[BoxData[
   3.707773558786228*^9, 3.708095647536605*^9, 3.7080966743933496`*^9, 
   3.708106948114525*^9, 3.708170685937202*^9, 3.708171850364435*^9, 
   3.7081874609286737`*^9, 3.708205132178236*^9, 3.708250173904649*^9, 
-  3.708251801688286*^9, 3.708351488675322*^9, 
-  3.708351889584178*^9},ExpressionUUID->"7187eab4-fe00-49d5-92c8-\
-7f8887c86653"]
+  3.708251801688286*^9, 3.708351488675322*^9, 3.708351889584178*^9, 
+  3.708352243100301*^9},ExpressionUUID->"a078e489-c4c2-4c47-873d-\
+64fd343a304e"]
 }, Open  ]],
 
 Cell["\<\
@@ -22236,9 +22239,9 @@ KkvF7Dke3PB/uGNlMdHaiWlPA81IJ7ZfRV2YeoUPjw4IWA==
   3.708095647935416*^9, 3.708096674805397*^9, 3.7081069486750927`*^9, 
   3.708170686195909*^9, 3.708171850791144*^9, 3.7081874612963*^9, 
   3.708205132566835*^9, 3.708250174179578*^9, 3.708251802022869*^9, 
-  3.708351488993867*^9, 
-  3.708351889948407*^9},ExpressionUUID->"6aab349f-7569-4561-965a-\
-5411b1fda586"]
+  3.708351488993867*^9, 3.708351889948407*^9, 
+  3.708352243446974*^9},ExpressionUUID->"dd25f223-b38e-4fa7-9f8a-\
+73540d77ebdf"]
 }, Open  ]],
 
 Cell["\<\
@@ -30179,9 +30182,9 @@ Cell[BoxData[
   3.708095648694706*^9, 3.708096676069556*^9, 3.708106949632724*^9, 
   3.7081706871884403`*^9, 3.70817185164568*^9, 3.708187461899867*^9, 
   3.708205133222797*^9, 3.708250174829122*^9, 3.708251802714698*^9, 
-  3.708351489660714*^9, 
-  3.708351890894738*^9},ExpressionUUID->"05ecb6fb-7901-42b7-98a6-\
-6fff127ef598"]
+  3.708351489660714*^9, 3.708351890894738*^9, 
+  3.708352244230627*^9},ExpressionUUID->"e80ed8c8-cbd9-4eef-a581-\
+ba89e9d26dfc"]
 }, Open  ]],
 
 Cell["\<\
@@ -30750,9 +30753,9 @@ gP4xDf8DleTLuA==
   3.708095648936263*^9, 3.7080966768634443`*^9, 3.7081069498802633`*^9, 
   3.708170687945569*^9, 3.708171851888524*^9, 3.708187462072033*^9, 
   3.708205133431273*^9, 3.708250174998913*^9, 3.7082518029669323`*^9, 
-  3.708351489853644*^9, 
-  3.7083518911461077`*^9},ExpressionUUID->"f6f4fef5-4ef2-429d-9e63-\
-c87bfa3c8a6a"]
+  3.708351489853644*^9, 3.7083518911461077`*^9, 
+  3.708352244472229*^9},ExpressionUUID->"f12ac1a6-bde4-49cc-ada4-\
+dc4bb084720c"]
 }, Open  ]],
 
 Cell["Let\[CloseCurlyQuote]s make a WordCloud.", "Text",
@@ -32273,8 +32276,9 @@ Cell[BoxData[
   FormatType->TraditionalForm,
   FrameTicks->None]], "Output",
  CellChangeTimes->{3.708351635105546*^9, 3.708351673810891*^9, 
-  3.7083518917818613`*^9},ExpressionUUID->"54f18821-34c6-4034-ac84-\
-2ae83aa07b65"]
+  3.7083518917818613`*^9, 
+  3.708352244757003*^9},ExpressionUUID->"16cd3f79-ad6b-48a0-8c59-\
+432457df4d0d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -35845,11 +35849,11 @@ Cell[BoxData[
      BaseStyle->"Graphics"]}},
   FormatType->TraditionalForm,
   FrameTicks->None,
-  ImageSize->Large]], "Output",
+  ImageSize->{932.046875, Automatic}]], "Output",
  CellChangeTimes->{3.708351723851769*^9, 3.7083517634939623`*^9, 
-  3.708351794918565*^9, 
-  3.708351895877655*^9},ExpressionUUID->"cb190c02-647a-4bcf-85d8-\
-38617d5f2916"]
+  3.708351794918565*^9, 3.708351895877655*^9, 
+  3.708352248099147*^9},ExpressionUUID->"1b687acc-37b2-4300-b1b6-\
+384a068711fe"]
 }, Open  ]]
 }, Open  ]],
 
@@ -36545,8 +36549,9 @@ Cell[BoxData[
    3.708096677283279*^9, 3.708106950295257*^9, 3.708170688636243*^9, 
    3.70817185230405*^9, 3.7081874624424343`*^9, 3.708205133858262*^9, 
    3.708250175284772*^9, 3.70825180313463*^9, 3.7083514901384087`*^9, 
-   3.708351896611855*^9},ExpressionUUID->"716c3498-1ebc-49ac-ab9d-\
-2aabe598e3b9"]
+   3.708351896611855*^9, 
+   3.7083522483804913`*^9},ExpressionUUID->"89e67b0b-e1ad-4b7f-a464-\
+abe4d66aae39"]
 }, Open  ]],
 
 Cell["\<\
@@ -37251,8 +37256,9 @@ afUzesb6qe56n5H7Ac3rkbw=
    3.7081718524604263`*^9, 3.708187462596552*^9, 3.708205134063491*^9, 
    3.708250175408248*^9, {3.708251803226903*^9, 3.708251839703023*^9}, 
    3.7082518759852753`*^9, 3.7082521323493*^9, 3.7083514902566643`*^9, 
-   3.708351896901067*^9},ExpressionUUID->"cb4eeba3-7583-4162-840f-\
-d0b8e2729abd"]
+   3.708351896901067*^9, 
+   3.708352248500922*^9},ExpressionUUID->"2de3deb2-a094-4d7d-a18b-\
+776e17142283"]
 }, Open  ]],
 
 Cell["\<\
@@ -37316,8 +37322,9 @@ Cell[BoxData[
  CellChangeTimes->{
   3.708252176477585*^9, {3.708252256414988*^9, 3.7082522838265533`*^9}, {
    3.708252511416445*^9, 3.7082525229485817`*^9}, 3.7083514903006573`*^9, 
-   3.708351896943705*^9},ExpressionUUID->"164455e0-3892-4f4e-8b4a-\
-4b30b4504e31"],
+   3.708351896943705*^9, 
+   3.708352248548646*^9},ExpressionUUID->"3d390a6a-6a24-4b3d-a18a-\
+a6259049b958"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, {{{}, 
@@ -37951,7 +37958,7 @@ hlfO74zNCRSSArk0MUgjq1phcjaRAjvsKuvEEI1ZL7vjE1Mo7EgoE4aM0hjx
 QxNFFG4WNTPEEzRmj/C1yBIKeic/c499pAF1mdXdUgoBZzaUtk/SiGLHi23L
 KFRUSVRTUzQUm7OyFeUU/geNNi9j
         "]]},
-      Annotation[#, "Charting`Private`Tag$17055#1"]& ]}, {}, {}}},
+      Annotation[#, "Charting`Private`Tag$29025#1"]& ]}, {}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -37987,8 +37994,9 @@ KFRUSVRTUzQUm7OyFeUU/geNNi9j
  CellChangeTimes->{
   3.708252176477585*^9, {3.708252256414988*^9, 3.7082522838265533`*^9}, {
    3.708252511416445*^9, 3.7082525229485817`*^9}, 3.7083514903006573`*^9, 
-   3.70835189722075*^9},ExpressionUUID->"41153aeb-dc8b-4ca6-9537-\
-c4ee9b9eb97f"]
+   3.708351896943705*^9, 
+   3.7083522486405077`*^9},ExpressionUUID->"90e0e9cd-8fe4-41d8-ad79-\
+13f58bc6a3da"]
 }, Open  ]]
 }, Open  ]],
 
@@ -43470,9 +43478,182 @@ Cell[BoxData[
   3.70817068975513*^9, 3.708171853454702*^9, 3.70818746326483*^9, 
    3.708187677615389*^9, 3.708205135097637*^9, {3.7082501760531683`*^9, 
    3.708250178207608*^9}, 3.708250697009286*^9, 3.7082508125216913`*^9, 
-   3.708251804148143*^9, 3.7083514910894938`*^9, 
-   3.7083518982507267`*^9},ExpressionUUID->"bb16b8eb-5836-4eac-8ebb-\
-fd6dcdb9264b"]
+   3.708251804148143*^9, 3.7083514910894938`*^9, 3.7083518982507267`*^9, 
+   3.708352249371458*^9},ImageCache->GraphicsData["CompressedBitmap", "\<\
+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
+aVxpXGlcaVxpXGlcaVxpXGncG2Pcjbu40qS31aSyv0rjSuNK40rjSuNK40rj
+SuNK40rjSuNK40rjPiTGFS9QEm8sa9+KsE8fd9C+tvKOdIKH1wloAXnxOn9p
+oLXIKJ+maUY/60Ia/hYa/oj+I28PXNA3kvAXOtFz6RtT7klLPxyWPuaWJm8l
+I+9CmZrU0pTZxt798bPtuz/k9sFhWZc5fLIV5+NhKxtt+Q7RyootnxItPyVa
+6bKJN9poJcv6eEhH23tCHD09xHl/yHcdQiuW2ej365AcDM1HsEwCCBL+WLOa
+vNNjxGO2pP1ujP1yT6WP6lo2IN6+uOHBuNJ+N85+h/R9zU7v7QhWkJ0RGknj
+Xbvxtq9cpYGkgaSBpIGkgaSBpIGkgaSBpIGkgc5roJX0R2mWm2EW2W+kgaSB
+pIGkgaSBpIGkgaSBpIGkgaSBpIGkgaSBpIGkgR4aA8kduBtplpV+8+mtTDuB
+f3XY7DuFirT2RIhElTgWAj8tjo6G8HTCPSNaeYeoPRCtPCXK7gwBpUfPiqNf
+EXRdeyuQda0cCOklUBIoCZQESgIlgZJASaAkUBIoCdQNB4riJOGRfiSBkkBJ
+oCRQEigJlARKAnVhQB1zoMhjSBxFg6iGtbdXSvDWgMeAIgQNZHEIi8UCwoUP
++nQKlhdB2TBoJZg7gVmBTW721SzwPAfUyRQM24Oi5mDS52P8gYTwNIS0gD5O
+xkWMDCjQL+eK+sCd+qND0U6GID4hxFgBsYN4neArKnz4gkF8ahPfPmDtY1hS
+V4OJOgOdjIAVSKy2YEVmClcjN+MrEEus1mIlZtU6xvGLPsxLdsB1QD1InCZB
+kaBIUCQoEhQJigTlYkHZ6cLTww2F9A8JigRFgiJBkaBIUCQoEhQJigTloQNF
+rnjO9o/fGTZxtFXtg2HtOrXfLo5+YyjmCijvE0cfF3T3RNkHpehSdCm6FF2K
+LkWXol+g6Csx0c0X+BZjLUWXokvRpeiXIvoxF72uKqgbJvr2fKQbrU6b5whQ
+gmt074aZ+entV+sIMo9kI86BvgGyDGG6+ZVTt0yz2EZjzSIufQHGRIGQa7aS
+1nsr9EkchZrDsGyYqeiEqgNLWGsp90r1+eoK7pYCuptAnsYQxQlkRbnpJXTX
+KmeVOPQFXUkNUKcOfRHqhpd1XaOc5LuBaG6c+VKqaxFy3TwlBZGCSEFujyBU
+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
+fp/Vg/jj20R7b/t/6tTShw==\
+\>"],ExpressionUUID->"cb37cdad-4802-4b98-b188-a080141527c8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -43492,7 +43673,7 @@ Cell[BoxData[
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`article$$ = "Computational_aeroacoustics", 
+   DynamicModuleBox[{$CellContext`article$$ = "Computational_epigenetics", 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
@@ -43553,13 +43734,13 @@ Cell[BoxData[
        "Computational_thinking", "Computational_topology", 
        "Computational_transportation_science", "Computational_trust", 
        "Computational_visualistics", "Computational_X"}}}, Typeset`size$$ = {
-    576., {202., 207.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`article$17913$$ = 0}, 
+    576., {203., 208.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`article$29868$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`article$$ = "Computational_aeroacoustics"},
        "ControllerVariables" :> {
-        Hold[$CellContext`article$$, $CellContext`article$17913$$, 0]}, 
+        Hold[$CellContext`article$$, $CellContext`article$29868$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -43628,7 +43809,7 @@ Cell[BoxData[
           "Computational_topology", "Computational_transportation_science", 
           "Computational_trust", "Computational_visualistics", 
           "Computational_X"}}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{621., {247., 253.}},
+     ImageSizeCache->{621., {248., 254.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -43644,9 +43825,9 @@ Cell[BoxData[
    3.708106951154441*^9, {3.708107731527895*^9, 3.7081077410048018`*^9}, 
    3.7081645200712633`*^9, 3.708169937114524*^9, {3.708187465006772*^9, 
    3.708187483060235*^9}, 3.708205136617776*^9, 3.708250176138743*^9, 
-   3.7082518043103456`*^9, 3.70835149117244*^9, 
-   3.7083518991765327`*^9},ExpressionUUID->"fa57f5b4-efa9-4c41-8838-\
-5d449ce2c77d"]
+   3.7082518043103456`*^9, 3.70835149117244*^9, 3.7083518991765327`*^9, 
+   3.708352249441207*^9},ExpressionUUID->"f7e522d9-b293-4331-a1f2-\
+adc5c1729e77"]
 }, Open  ]]
 }, Open  ]],
 
@@ -43821,7 +44002,9 @@ Cell[BoxData[
   3.708096678457008*^9, 3.708106951422264*^9, 3.708170689992865*^9, 
   3.70817185372795*^9, 3.708187463466105*^9, 3.70820513675126*^9, 
   3.708250176932115*^9, 3.70825180521567*^9, 3.708351491943083*^9, 
-  3.70835190002134*^9},ExpressionUUID->"e1bd506f-ee8c-4bda-97c4-6ab4f33a7e97"]
+  3.70835190002134*^9, 
+  3.708352250238233*^9},ExpressionUUID->"b2aaf9d6-77f6-4f4a-8a97-\
+48a6de3aa07c"]
 }, Open  ]],
 
 Cell["\<\
@@ -43840,9 +44023,10 @@ have made.\
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"editStats", "[", "\"\<Computational_physics\>\"", "]"}]], "Code",
- CellChangeTimes->{{3.708091815781507*^9, 
-  3.708091823493259*^9}},ExpressionUUID->"b04d4780-5366-42e8-9653-\
+ RowBox[{"editStats", "[", "\"\<Computational_anatomy\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.708091815781507*^9, 3.708091823493259*^9}, {
+  3.708361852051138*^9, 
+  3.708361852600069*^9}},ExpressionUUID->"b04d4780-5366-42e8-9653-\
 3ca827c379eb"],
 
 Cell[BoxData[
@@ -43850,36 +44034,38 @@ Cell[BoxData[
   RowBox[{
    RowBox[{"{", 
     RowBox[{
-    "40", ",", "8", ",", "7", ",", "6", ",", "5", ",", "4", ",", "4", ",", 
-     "4", ",", "3", ",", "3", ",", "3", ",", "3", ",", "3", ",", "3", ",", 
-     "3", ",", "3", ",", "3", ",", "2", ",", "2", ",", "2", ",", "2", ",", 
-     "2", ",", "2", ",", "2", ",", "2", ",", "2", ",", "2", ",", "2", ",", 
-     "2", ",", "2"}], "}"}], ",", 
+    "2396", ",", "64", ",", "37", ",", "32", ",", "31", ",", "24", ",", "12", 
+     ",", "10", ",", "10", ",", "9", ",", "9", ",", "8", ",", "7", ",", "6", 
+     ",", "6", ",", "3", ",", "3", ",", "3", ",", "3", ",", "2", ",", "2", 
+     ",", "2", ",", "2", ",", "2", ",", "2", ",", "2", ",", "2", ",", "1", 
+     ",", "1", ",", "1"}], "}"}], ",", 
    RowBox[{"{", 
-    RowBox[{"\<\"Ema--or\"\>", ",", "\<\"92.237.25.17\"\>", 
-     ",", "\<\"Nicoguaro\"\>", ",", "\<\"JJL\"\>", ",", "\<\"Bduke\"\>", 
-     ",", "\<\"Jorgecarleitao\"\>", ",", "\<\"Djr32\"\>", 
-     ",", "\<\"81.133.28.241\"\>", ",", "\<\"FrescoBot\"\>", 
-     ",", "\<\"Fmadd\"\>", ",", "\<\"Hhhippo\"\>", 
-     ",", "\<\"David Schaich\"\>", ",", "\<\"Andrewwall\"\>", 
-     ",", "\<\"Zvelindovsky\"\>", ",", "\<\"196.10.121.2\"\>", 
-     ",", "\<\"193.198.146.227\"\>", ",", "\<\"Michael Hardy\"\>", 
-     ",", "\<\"Philippojscherer\"\>", ",", "\<\"CBM\"\>", 
-     ",", "\<\"NeonMerlin\"\>", ",", "\<\"Berg0747\"\>", 
-     ",", "\<\"Tomtzigt\"\>", ",", "\<\"Oxymoron83\"\>", 
-     ",", "\<\"AlnoktaBOT\"\>", ",", "\<\"Chobot\"\>", ",", "\<\"Robbot\"\>", 
-     ",", "\<\"GrimFang4\"\>", ",", "\<\"Tim Starling\"\>", 
-     ",", "\<\"51.37.104.97\"\>", ",", "\<\"109.66.120.41\"\>"}], "}"}], ",", 
+    RowBox[{"\<\"Mim.cis\"\>", ",", "\<\"Bieqa\"\>", 
+     ",", "\<\"ArguMentor\"\>", ",", "\<\"174.3.155.181\"\>", 
+     ",", "\<\"128.220.140.127\"\>", ",", "\<\"Michael Hardy\"\>", 
+     ",", "\<\"67.171.96.220\"\>", ",", "\<\"Yobot\"\>", 
+     ",", "\<\"76.199.251.252\"\>", ",", "\<\"Rjwilmsi\"\>", 
+     ",", "\<\"92.151.169.79\"\>", ",", "\<\"BG19bot\"\>", 
+     ",", "\<\"137.132.205.245\"\>", ",", "\<\"Dannyboytward\"\>", 
+     ",", "\<\"Shaowei19920317\"\>", ",", "\<\"Woodlot\"\>", 
+     ",", "\<\"Marcocapelle\"\>", ",", "\<\"24.126.65.226\"\>", 
+     ",", "\<\"CommonsDelinker\"\>", ",", "\<\"LilHelpa\"\>", 
+     ",", "\<\"BattyBot\"\>", ",", "\<\"Headbomb\"\>", 
+     ",", "\<\"SwisterTwister\"\>", ",", "\<\"Shenme\"\>", 
+     ",", "\<\"Wiae\"\>", ",", "\<\"128.220.140.134\"\>", 
+     ",", "\<\"There'sNoTime\"\>", ",", "\<\"786b6364\"\>", 
+     ",", "\<\"CitationCleanerBot\"\>", ",", "\<\"RussBot\"\>"}], "}"}], ",", 
    
    RowBox[{"{", 
-    RowBox[{"\<\"112 others\"\>", ",", "121", ",", "\<\"-More-\"\>"}], 
-    "}"}]}], "}"}]], "Output",
+    RowBox[{"\<\"24 others\"\>", ",", "24", ",", "\<\"-More-\"\>"}], "}"}]}], 
+  "}"}]], "Output",
  CellChangeTimes->{3.708091823900798*^9, 3.70809565051398*^9, 
   3.7080966785070057`*^9, 3.708106951466627*^9, 3.708170690032424*^9, 
   3.708171853791019*^9, 3.708187463513484*^9, 3.7082051368085012`*^9, 
   3.7082501770358057`*^9, 3.708251805293868*^9, 3.708351492000231*^9, 
-  3.708351900067041*^9},ExpressionUUID->"5249bd12-770f-4a8f-ae7d-\
-286d22c46540"]
+  3.708351900067041*^9, 3.7083522502824078`*^9, 
+  3.7083618529171343`*^9},ExpressionUUID->"9a424282-49c8-424e-8c13-\
+cbb5f29d2bb0"]
 }, Open  ]],
 
 Cell["\<\
@@ -43904,34 +44090,39 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"PlotEditStats", "[", "\"\<Computational_biology\>\"", "]"}]], "Code",\
+ RowBox[{"PlotEditStats", "[", "\"\<Computational_anatomy\>\"", "]"}]], "Code",\
 
- CellChangeTimes->{{3.708091971840214*^9, 
-  3.708091992587175*^9}},ExpressionUUID->"68616e7a-82ab-403f-84c5-\
+ CellChangeTimes->{{3.708091971840214*^9, 3.708091992587175*^9}, {
+   3.70835298195428*^9, 3.708352983205586*^9}, {3.708353029477282*^9, 
+   3.708353030074308*^9}, 3.708353063289383*^9, {3.708354676926347*^9, 
+   3.7083547249910316`*^9}, 3.708354845996357*^9, {3.708355414146078*^9, 
+   3.7083554152224483`*^9}, {3.7083602054057093`*^9, 3.708360233044541*^9}, {
+   3.708361815747349*^9, 
+   3.708361835821012*^9}},ExpressionUUID->"68616e7a-82ab-403f-84c5-\
 125356d7883a"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {}, 
-   DynamicModuleBox[{DynamicChart`click$18371$18566 = False, 
-    DynamicChart`click$18377$18566 = False, DynamicChart`click$18381$18566 = 
-    False, DynamicChart`click$18385$18566 = False, 
-    DynamicChart`click$18389$18566 = False, DynamicChart`click$18393$18566 = 
-    False, DynamicChart`click$18397$18566 = False, 
-    DynamicChart`click$18401$18566 = False, DynamicChart`click$18405$18566 = 
-    False, DynamicChart`click$18409$18566 = False, 
-    DynamicChart`click$18413$18566 = False, DynamicChart`click$18417$18566 = 
-    False, DynamicChart`click$18421$18566 = False, 
-    DynamicChart`click$18425$18566 = False, DynamicChart`click$18429$18566 = 
-    False, DynamicChart`click$18433$18566 = False, 
-    DynamicChart`click$18437$18566 = False, DynamicChart`click$18441$18566 = 
-    False, DynamicChart`click$18445$18566 = False, 
-    DynamicChart`click$18449$18566 = False, DynamicChart`click$18453$18566 = 
-    False, DynamicChart`click$18457$18566 = False, 
-    DynamicChart`click$18461$18566 = False, DynamicChart`click$18465$18566 = 
-    False, DynamicChart`click$18469$18566 = False, 
-    DynamicChart`click$18473$18566 = False, DynamicChart`click$18477$18566 = 
-    False, DynamicChart`click$18481$18566 = False, 
-    DynamicChart`click$18485$18566 = False, DynamicChart`click$18489$18566 = 
+   DynamicModuleBox[{DynamicChart`click$48474$48665 = False, 
+    DynamicChart`click$48478$48665 = False, DynamicChart`click$48482$48665 = 
+    False, DynamicChart`click$48486$48665 = False, 
+    DynamicChart`click$48490$48665 = False, DynamicChart`click$48494$48665 = 
+    False, DynamicChart`click$48498$48665 = False, 
+    DynamicChart`click$48502$48665 = False, DynamicChart`click$48506$48665 = 
+    False, DynamicChart`click$48510$48665 = False, 
+    DynamicChart`click$48514$48665 = False, DynamicChart`click$48518$48665 = 
+    False, DynamicChart`click$48522$48665 = False, 
+    DynamicChart`click$48526$48665 = False, DynamicChart`click$48530$48665 = 
+    False, DynamicChart`click$48534$48665 = False, 
+    DynamicChart`click$48538$48665 = False, DynamicChart`click$48542$48665 = 
+    False, DynamicChart`click$48546$48665 = False, 
+    DynamicChart`click$48550$48665 = False, DynamicChart`click$48554$48665 = 
+    False, DynamicChart`click$48558$48665 = False, 
+    DynamicChart`click$48562$48665 = False, DynamicChart`click$48566$48665 = 
+    False, DynamicChart`click$48570$48665 = False, 
+    DynamicChart`click$48574$48665 = False, DynamicChart`click$48578$48665 = 
+    False, DynamicChart`click$48582$48665 = False, 
+    DynamicChart`click$48586$48665 = False, DynamicChart`click$48590$48665 = 
     False}, {
      {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
          {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
@@ -43948,30 +44139,29 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {2.5177302826641603`, 
+                 DiskBox[{0, 0}, 1., {-2.4507223523545933`, 
                   3.141592653589793}]},
                 
                 ImageSizeCache->{{31.585786437626894`, 
-                 181.41421356237308`}, {-89.28783849948701, \
--0.5857864376268793}}],
-               StatusArea[#, 14]& ,
-               TagBoxNote->"14"],
-              StyleBox["14", {
+                 328.4142135623731}, {-150.4142135623731, 146.4142135623731}}],
+               StatusArea[#, 2396]& ,
+               TagBoxNote->"2396"],
+              StyleBox["2396", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[14, {
+              Style[2396, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18371$18566, 
-                FEPrivate`Not[DynamicChart`click$18371$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48474$48665, 
+                FEPrivate`Not[DynamicChart`click$48474$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18371$18566, {{{1., 0}, {
-               0, 1.}}, {-0.1903485339190471, 0.06137943983834796}}, {{1, 
-             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18371$18566}]]}, 
+           If[DynamicChart`click$48474$48665, {{{1., 0}, {0, 1.}}, {
+              0.18818563940380287`, 0.06772123095589652}}, {{1, 0}, {0, 
+             1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48474$48665}]]}, 
          {RGBColor[
           0.9852275862068965, 0.7156786206896552, 0.3088510344827586], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -43987,29 +44177,29 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {2.0721143034315657`, 
-                  2.5177302826641603`}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.600099714783826, -2.4507223523545933`}]},
                 
-                ImageSizeCache->{{59.276438353916845`, 
-                 181.4142135623731}, {-132.3258530087538, \
--0.5857864376268935}}],
-               StatusArea[#, 10]& ,
-               TagBoxNote->"10"],
-              StyleBox["10", {
+                ImageSizeCache->{{52.61558406177545, 
+                 181.4142135623731}, {-3.4142135623730923`, 
+                 93.0838127049359}}],
+               StatusArea[#, 64]& ,
+               TagBoxNote->"64"],
+              StyleBox["64", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[10, {
+              Style[64, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18377$18566, 
-                FEPrivate`Not[DynamicChart`click$18377$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48478$48665, 
+                FEPrivate`Not[DynamicChart`click$48478$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18377$18566, {{{1., 0}, {
-               0, 1.}}, {-0.13249619513920882`, 0.14981574774913584`}}, {{1, 
+           If[DynamicChart`click$48478$48665, {{{1., 0}, {
+               0, 1.}}, {-0.16321822622368923`, -0.11558464702715757`}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18377$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48478$48665}]]}, 
          {RGBColor[
           0.9875911724137931, 0.6882100413793104, 0.29143486896551724`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44025,30 +44215,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {1.626498324198971, 
-                  2.0721143034315657`}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.6864585024382253`, -2.600099714783826}]},
                 
-                ImageSizeCache->{{107.9402684251844, 
-                 181.4142135623731}, {-150.18622315073986`, \
--0.5857864376268935}}],
-               StatusArea[#, 10]& ,
-               TagBoxNote->"10"],
-              StyleBox["10", {
+                ImageSizeCache->{{46.55008277671652, 
+                 181.4142135623731}, {-3.4142135623730923`, 
+                 75.18035450532355}}],
+               StatusArea[#, 37]& ,
+               TagBoxNote->"37"],
+              StyleBox["37", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[10, {
+              Style[37, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18381$18566, 
-                FEPrivate`Not[DynamicChart`click$18381$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48482$48665, 
+                FEPrivate`Not[DynamicChart`click$48482$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18381$18566, {{{1., 0}, {
-               0, 1.}}, {-0.05498467144857605, 0.1922932289647562}}, {{1, 
+           If[DynamicChart`click$48482$48665, {{{1., 0}, {
+               0, 1.}}, {-0.17567796862692237`, -0.09558897080269294}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18381$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48482$48665}]]}, 
          {RGBColor[
           0.9899547586206896, 0.6607414620689656, 0.27401870344827584`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44064,30 +44254,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {1.2254439428896355`, 
-                  1.626498324198971}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.7611471836528416`, -2.6864585024382253`}]},
                 
-                ImageSizeCache->{{170.4018264308595, 
-                 231.1778701470703}, {-150.41421356237308`, \
--0.5857864376268935}}],
-               StatusArea[#, 9]& ,
-               TagBoxNote->"9"],
-              StyleBox["9", {
+                ImageSizeCache->{{42.0963879381664, 
+                 181.4142135623731}, {-3.4142135623730923`, 
+                 64.03288701493061}}],
+               StatusArea[#, 32]& ,
+               TagBoxNote->"32"],
+              StyleBox["32", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[9, {
+              Style[32, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18385$18566, 
-                FEPrivate`Not[DynamicChart`click$18385$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48486$48665, 
+                FEPrivate`Not[DynamicChart`click$48486$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18385$18566, {{{1., 0}, {0, 1.}}, {
-              0.028863891038565334`, 0.1979062298011708}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18385$18566}]]}, 
+           If[DynamicChart`click$48486$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1827975874484251, -0.0811482718425685}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48486$48665}]]}, 
          {RGBColor[
           0.9923183448275862, 0.6332728827586207, 0.2566025379310345], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44103,30 +44293,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {0.9135127574268194, 
-                  1.2254439428896355`}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.8335018435795014`, -2.7611471836528416`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 271.2266026757254}, {-141.73477777218363`, \
--0.5857864376268935}}],
-               StatusArea[#, 7]& ,
-               TagBoxNote->"7"],
-              StyleBox["7", {
+                ImageSizeCache->{{38.507391864554876`, 
+                 181.4142135623731}, {-3.4142135623731065`, 
+                 54.00032990394366}}],
+               StatusArea[#, 31]& ,
+               TagBoxNote->"31"],
+              StyleBox["31", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[7, {
+              Style[31, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18389$18566, 
-                FEPrivate`Not[DynamicChart`click$18389$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48490$48665, 
+                FEPrivate`Not[DynamicChart`click$48490$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18389$18566, {{{1., 0}, {0, 1.}}, {
-              0.09611635103733678, 0.17538998564133432`}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18389$18566}]]}, 
+           If[DynamicChart`click$48490$48665, {{{1., 0}, {
+               0, 1.}}, {-0.18826454263691358`, -0.06750157024628209}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48490$48665}]]}, 
          {RGBColor[
           0.9946819310344828, 0.6058043034482758, 0.2391863724137931], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44142,30 +44332,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {0.6461431698872624, 
-                  0.9135127574268194}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.8895183544904626`, -2.8335018435795014`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 298.78077359260783`}, {-119.78746977595421`, \
--0.5857864376268793}}],
-               StatusArea[#, 6]& ,
-               TagBoxNote->"6"],
-              StyleBox["6", {
+                ImageSizeCache->{{36.2314057122465, 
+                 181.4142135623731}, {-3.4142135623731065`, 
+                 43.99047825369454}}],
+               StatusArea[#, 24]& ,
+               TagBoxNote->"24"],
+              StyleBox["24", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[6, {
+              Style[24, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18393$18566, 
-                FEPrivate`Not[DynamicChart`click$18393$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48494$48665, 
+                FEPrivate`Not[DynamicChart`click$48494$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18393$18566, {{{1., 0}, {0, 1.}}, {
-              0.14220690342215217`, 0.14063142116569358`}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18393$18566}]]}, 
+           If[DynamicChart`click$48494$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1922065241236683, -0.055286997425233055`}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48494$48665}]]}, 
          {RGBColor[
           0.9970455172413794, 0.5783357241379311, 0.22177020689655175`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44181,30 +44371,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {0.37877358234770586`, 
-                  0.6461431698872624}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.917526609945944, -2.8895183544904626`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 317.99468311168175`}, {-91.92461174625484, \
--0.5857864376268793}}],
-               StatusArea[#, 6]& ,
-               TagBoxNote->"6"],
-              StyleBox["6", {
+                ImageSizeCache->{{35.26048457317353, 
+                 181.4142135623731}, {-3.4142135623731065`, 
+                 36.07795980158675}}],
+               StatusArea[#, 12]& ,
+               TagBoxNote->"12"],
+              StyleBox["12", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[6, {
+              Style[12, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18397$18566, 
-                FEPrivate`Not[DynamicChart`click$18397$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48498$48665, 
+                FEPrivate`Not[DynamicChart`click$48498$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18397$18566, {{{1., 0}, {0, 1.}}, {
-              0.17430834966120098`, 0.09806426075991447}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18397$18566}]]}, 
+           If[DynamicChart`click$48498$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19435897823084528`, -0.04716553382568477}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48498$48665}]]}, 
          {RGBColor[
           0.9994091034482758, 0.5508671448275863, 0.20435404137931035`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44220,30 +44410,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {0.11140399480814889`, 
-                  0.37877358234770586`}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.9408668228255124`, -2.917526609945944}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 327.50295912166064`}, {-57.77205878907768, \
--0.5857864376268864}}],
-               StatusArea[#, 6]& ,
-               TagBoxNote->"6"],
-              StyleBox["6", {
+                ImageSizeCache->{{34.53723488916077, 
+                 181.4142135623731}, {-3.4142135623731065`, 
+                 32.07700348398446}}],
+               StatusArea[#, 10]& ,
+               TagBoxNote->"10"],
+              StyleBox["10", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[6, {
+              Style[10, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18401$18566, 
-                FEPrivate`Not[DynamicChart`click$18401$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48502$48665, 
+                FEPrivate`Not[DynamicChart`click$48502$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18401$18566, {{{1., 0}, {0, 1.}}, {
-              0.1940231569835045, 0.04852849218917036}}, {{1, 0}, {0, 1}}, {{
-             1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18401$18566}]]}, 
+           If[DynamicChart`click$48502$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1955057302346281, -0.04216051998522821}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48502$48665}]]}, 
          {RGBColor[0.9776551724137931, 0.5368827586206897, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44258,30 +44448,30 @@ Cell[BoxData[
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
                  
-                 DiskBox[{0, 0}, 1., {-0.1559655927314081, 
-                  0.11140399480814889`}]},
+                 DiskBox[{0, 0}, 
+                  1., {-2.96420703570508, -2.9408668228255124`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 328.4142135623731}, {-19.756747665557796`, 
-                 22.24831801948458}}],
-               StatusArea[#, 6]& ,
-               TagBoxNote->"6"],
-              StyleBox["6", {
+                ImageSizeCache->{{33.89245432935448, 
+                 181.4142135623731}, {-3.4142135623730994`, 
+                 28.723167770752845`}}],
+               StatusArea[#, 10]& ,
+               TagBoxNote->"10"],
+              StyleBox["10", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[6, {
+              Style[10, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18405$18566, 
-                FEPrivate`Not[DynamicChart`click$18405$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48506$48665, 
+                FEPrivate`Not[DynamicChart`click$48506$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18405$18566, {{{1., 0}, {0, 1.}}, {
-              0.19995035865345182`, -0.004455791103270712}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18405$18566}]]}, 
+           If[DynamicChart`click$48506$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1964364264292349, -0.037586305640642456`}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48506$48665}]]}, 
          {RGBColor[0.9478620689655173, 0.5273931034482758, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44297,29 +44487,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-0.3342119844244462, -0.1559655927314081}]},
+                  1., {-2.9852132272966907`, -2.96420703570508}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 326.62992784165385`}, {-3.4142135623731065`, 
-                 47.63386766478978}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{33.379534111543904`, 
+                 181.4142135623731}, {-3.4142135623730994`, 
+                 25.353366274155846`}}],
+               StatusArea[#, 9]& ,
+               TagBoxNote->"9"],
+              StyleBox["9", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[9, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18409$18566, 
-                FEPrivate`Not[DynamicChart`click$18409$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48510$48665, 
+                FEPrivate`Not[DynamicChart`click$48510$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18409$18566, {{{1., 0}, {0, 1.}}, {
-              0.19402315698350453`, -0.04852849218917032}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18409$18566}]]}, 
+           If[DynamicChart`click$48510$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1972214798018938, -0.033221798638111096`}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48510$48665}]]}, 
          {RGBColor[0.9180689655172414, 0.5179034482758621, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44335,30 +44525,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-0.5124583761174835, -0.3342119844244462}]},
+                  1., {-3.0062194188883007`, -2.9852132272966907`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 320.2805700287372}, {-3.4142135623730923`, 
-                 71.49144522091017}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{32.93068526094055, 
+                 181.4142135623731}, {-3.414213562373096, 
+                 22.308411198759504`}}],
+               StatusArea[#, 9]& ,
+               TagBoxNote->"9"],
+              StyleBox["9", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[9, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18413$18566, 
-                FEPrivate`Not[DynamicChart`click$18413$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48514$48665, 
+                FEPrivate`Not[DynamicChart`click$48514$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[
-            DynamicChart`click$18413$18566, {{{1., 0}, {0, 1.}}, {
-              0.1823447819761259, -0.08216069915768189}}, {{1, 0}, {0, 1}}, {{
-             1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18413$18566}]]}, 
+           If[DynamicChart`click$48514$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1978757805635537, -0.029071901664052643`}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48514$48665}]]}, 
          {RGBColor[0.8882758620689656, 0.5084137931034483, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44374,29 +44563,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-0.690704767810522, -0.5124583761174835}]},
+                  1., {-3.024891589191955, -3.0062194188883007`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 309.5308505633559}, {-3.4142135623730923`, 
-                 93.0650578608571}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{32.58565755726053, 
+                 181.4142135623731}, {-3.4142135623730994`, 
+                 19.253354199236902`}}],
+               StatusArea[#, 8]& ,
+               TagBoxNote->"8"],
+              StyleBox["8", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[8, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18417$18566, 
-                FEPrivate`Not[DynamicChart`click$18417$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48518$48665, 
+                FEPrivate`Not[DynamicChart`click$48518$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18417$18566, {{{1., 0}, {0, 1.}}, {
-              0.16488831206835208`, -0.113189418866119}}, {{1, 0}, {0, 1}}, {{
-             1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18417$18566}]]}, 
+           If[DynamicChart`click$48518$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1984135654531566, -0.025140744701896478`}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48518$48665}]]}, 
          {RGBColor[0.8584827586206897, 0.49892413793103446`, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44412,29 +44601,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-0.8689511595035597, -0.690704767810522}]},
+                  1., {-3.041229738207652, -3.024891589191955}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 294.7214038116292}, {-3.4142135623730923`, 
-                 111.67108645483091`}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{32.32550974291988, 
+                 181.4142135623731}, {-3.414213562373096, 
+                 16.530357021587708`}}],
+               StatusArea[#, 7]& ,
+               TagBoxNote->"7"],
+              StyleBox["7", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[7, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18421$18566, 
-                FEPrivate`Not[DynamicChart`click$18421$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48522$48665, 
+                FEPrivate`Not[DynamicChart`click$48522$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18421$18566, {{{1., 0}, {0, 1.}}, {
-              0.14220690342215217`, -0.14063142116569358`}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18421$18566}]]}, 
+           If[DynamicChart`click$48522$48665, {{{1., 0}, {
+               0, 1.}}, {-0.198823236508024, -0.02166380909430203}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48522$48665}]]}, 
          {RGBColor[0.8286896551724138, 0.48943448275862067`, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44450,29 +44639,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.0471975511965974`, -0.8689511595035597}]},
+                  1., {-3.055233865935393, -3.041229738207652}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 276.32150774151705`}, {-3.414213562373078, 
-                 126.71994791868559`}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{32.13359710867596, 
+                 181.4142135623731}, {-3.414213562373096, 
+                 14.142806882434083`}}],
+               StatusArea[#, 6]& ,
+               TagBoxNote->"6"],
+              StyleBox["6", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[6, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18425$18566, 
-                FEPrivate`Not[DynamicChart`click$18425$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48526$48665, 
+                FEPrivate`Not[DynamicChart`click$48526$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18425$18566, {{{1., 0}, {0, 1.}}, {
-              0.11501927872436211`, -0.16361713089321517`}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18425$18566}]]}, 
+           If[DynamicChart`click$48526$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19912900806470926`, -0.01864505690967322}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48526$48665}]]}, 
          {RGBColor[0.798896551724138, 0.4799448275862069, 0.2], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -44488,29 +44677,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.225443942889636, -1.0471975511965974`}]},
+                  1., {-3.0692379936631333`, -3.055233865935393}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 254.91421356237313`}, {-3.414213562373078, 
-                 137.73477777218366`}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{31.9704055630568, 
+                 181.41421356237308`}, {-3.4142135623730994`, 
+                 12.093182004525957`}}],
+               StatusArea[#, 6]& ,
+               TagBoxNote->"6"],
+              StyleBox["6", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[6, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18429$18566, 
-                FEPrivate`Not[DynamicChart`click$18429$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48530$48665, 
+                FEPrivate`Not[DynamicChart`click$48530$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18429$18566, {{{1., 0}, {0, 1.}}, {
-              0.084186952485667, -0.18141818274686816`}}, {{1, 0}, {0, 1}}, {{
-             1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18429$18566}]]}, 
+           If[DynamicChart`click$48530$48665, {{{1., 0}, {
+               0, 1.}}, {-0.1993705814560183, -0.01585469173113033}}, {{1, 
+             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48530$48665}]]}, 
          {RGBColor[
           0.7765145379310345, 0.4758620689655172, 0.23603304827586216`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44527,29 +44716,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.4036903345826728`, -1.225443942889636}]},
+                  1., {-3.076240057527004, -3.0692379936631333`}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 231.17787014707022`}, {-3.414213562373078, 
-                 144.3665408989073}}],
-               StatusArea[#, 4]& ,
-               TagBoxNote->"4"],
-              StyleBox["4", {
+                ImageSizeCache->{{31.8995904198963, 
+                 181.41421356237308`}, {-3.4142135623730994`, 
+                 10.041070623835271`}}],
+               StatusArea[#, 3]& ,
+               TagBoxNote->"3"],
+              StyleBox["3", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[4, {
+              Style[3, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18433$18566, 
-                FEPrivate`Not[DynamicChart`click$18433$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48534$48665, 
+                FEPrivate`Not[DynamicChart`click$48534$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18433$18566, {{{1., 0}, {0, 1.}}, {
-              0.05068693158872321, -0.1934705015399508}}, {{1, 0}, {0, 1}}, {{
-             1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18433$18566}]]}, 
+           If[DynamicChart`click$48534$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19952610505655177`, -0.013759847417826557`}}, {{1,
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48534$48665}]]}, 
          {RGBColor[
           0.7615436137931034, 0.47718620689655167`, 0.3080991448275862], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44566,11 +44755,11 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.5373751283524522`, -1.4036903345826728`}]},
+                  1., {-3.0832421213908736`, -3.076240057527004}]},
                 
-                ImageSizeCache->{{178.5857864376269, 
-                 205.8646286860933}, {-3.414213562373078, 
-                 146.33212343072054`}}],
+                ImageSizeCache->{{31.83596710994621, 
+                 181.41421356237308`}, {-3.4142135623730976`, 
+                 9.014208241950644}}],
                StatusArea[#, 3]& ,
                TagBoxNote->"3"],
               StyleBox["3", {
@@ -44581,14 +44770,14 @@ Cell[BoxData[
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18437$18566, 
-                FEPrivate`Not[DynamicChart`click$18437$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48538$48665, 
+                FEPrivate`Not[DynamicChart`click$48538$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18437$18566, {{{1., 0}, {0, 1.}}, {
-              0.020019138324819732`, -0.19899556301770083`}}, {{1, 0}, {0, 
-             1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18437$18566}]]}, 
+           If[DynamicChart`click$48538$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19961756034705244`, -0.012362426990315591`}}, {{1,
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48538$48665}]]}, 
          {RGBColor[
           0.7465726896551724, 0.4785103448275862, 0.3801652413793103], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44603,12 +44792,12 @@ Cell[BoxData[
                     GrayLevel[0.5], 
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
-                 
                  DiskBox[{0, 0}, 
-                  1., {-1.6710599221222306`, -1.5373751283524522`}]},
-                ImageSizeCache->{{163.87171976888442`, 
-                 186.32621518250122`}, {-3.414213562373078, 
-                 146.4142135623731}}],
+                  1., {-3.090244185254744, -3.0832421213908736`}]},
+                
+                ImageSizeCache->{{31.779538752574553`, 
+                 181.41421356237308`}, {-3.4142135623730994`, 
+                 7.986875184825866}}],
                StatusArea[#, 3]& ,
                TagBoxNote->"3"],
               StyleBox["3", {
@@ -44619,14 +44808,14 @@ Cell[BoxData[
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18441$18566, 
-                FEPrivate`Not[DynamicChart`click$18441$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48542$48665, 
+                FEPrivate`Not[DynamicChart`click$48542$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18441$18566, {{{1., 0}, {
-               0, 1.}}, {-0.006682995401534948, -0.19988831274605093`}}, {{1, 
+           If[DynamicChart`click$48542$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19969922864846443`, -0.01096440044910474}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18441$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48542$48665}]]}, 
          {RGBColor[
           0.7316017655172413, 0.4798344827586207, 0.45223133793103454`], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44643,11 +44832,11 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.8047447158920091`, -1.6710599221222306`}]},
+                  1., {-3.097246249118614, -3.090244185254744}]},
                 
-                ImageSizeCache->{{144.5082243483002, 
-                 181.41421356237308`}, {-3.414213562373078, 
-                 145.6759523803832}}],
+                ImageSizeCache->{{31.730308114390255`, 
+                 181.41421356237308`}, {-3.4142135623730976`, 
+                 6.959121821262922}}],
                StatusArea[#, 3]& ,
                TagBoxNote->"3"],
               StyleBox["3", {
@@ -44656,15 +44845,16 @@ Cell[BoxData[
              Annotation[#, 
               Style[3, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+            
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18445$18566, 
-                FEPrivate`Not[DynamicChart`click$18445$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48546$48665, 
+                FEPrivate`Not[DynamicChart`click$48546$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18445$18566, {{{1., 0}, {
-               0, 1.}}, {-0.03326587091662605, -0.1972140507980057}}, {{1, 
+           If[DynamicChart`click$48546$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19977110595669725`, -0.00956583633761514}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18445$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48546$48665}]]}, 
          {RGBColor[
           0.7166308413793103, 0.48115862068965515`, 0.5242974344827587], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44681,29 +44871,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-1.9384295096617867`, -1.8047447158920091`}]},
+                  1., {-3.101914291694528, -3.097246249118614}]},
                 
-                ImageSizeCache->{{125.75284383051259`, 
-                 181.4142135623731}, {-3.414213562373078, 
-                 142.40973713583355`}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.70148762829959, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 5.930998540671381}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18449$18566, 
-                FEPrivate`Not[DynamicChart`click$18449$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48550$48665, 
+                FEPrivate`Not[DynamicChart`click$48550$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18449$18566, {{{1., 0}, {
-               0, 1.}}, {-0.05925511617712677, -0.1910204994413825}}, {{1, 
+           If[DynamicChart`click$48550$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19982352192579428`, -0.008400005069737688}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18449$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48550$48665}]]}, 
          {RGBColor[
           0.7016599172413793, 0.4824827586206897, 0.5963635310344828], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44720,29 +44910,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.072114303431565, -1.9384295096617867`}]},
+                  1., {-3.106582334270441, -3.101914291694528}]},
                 
-                ImageSizeCache->{{107.94026842518446`, 
-                 181.4142135623731}, {-3.414213562373078, 
-                 136.59176338548872`}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.675867836555113`, 
+                 181.41421356237308`}, {-3.4142135623730994`, 
+                 5.245402402759948}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18453$18566, 
-                FEPrivate`Not[DynamicChart`click$18453$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48554$48665, 
+                FEPrivate`Not[DynamicChart`click$48554$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18453$18566, {{{1., 0}, {
-               0, 1.}}, {-0.08418695248566689, -0.18141818274686822`}}, {{1, 
+           If[DynamicChart`click$48554$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19986055622927823`, -0.007467132228875834}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18453$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48554$48665}]]}, 
          {RGBColor[
           0.6866889931034482, 0.48380689655172415`, 0.6684296275862069], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44759,29 +44949,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.2057990972013437`, -2.072114303431565}]},
+                  1., {-3.111250376846355, -3.106582334270441}]},
                 
-                ImageSizeCache->{{91.38836396241174, 
-                 181.4142135623731}, {-3.414213562373078, 
-                 128.32585300875388`}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.65344929742693, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 4.559679199850522}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18457$18566, 
-                FEPrivate`Not[DynamicChart`click$18457$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48558$48665, 
+                FEPrivate`Not[DynamicChart`click$48558$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18457$18566, {{{1., 0}, {
-               0, 1.}}, {-0.10761647063267446`, -0.1685784542833595}}, {{1, 
+           If[DynamicChart`click$48558$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19989323545493887`, -0.00653409667485743}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18457$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48558$48665}]]}, 
          {RGBColor[
           0.6693828413793104, 0.48722758620689655`, 0.7262188965517241], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44798,29 +44988,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.339483890971122, -2.2057990972013437`}]},
+                  1., {-3.115918419422268, -3.111250376846355}]},
                 
-                ImageSizeCache->{{76.39249956945453, 
-                 181.4142135623731}, {-3.4142135623730923`, 
-                 117.7595113721249}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.634232499428123`, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 3.8738438742504666`}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18461$18566, 
-                FEPrivate`Not[DynamicChart`click$18461$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48562$48665, 
+                FEPrivate`Not[DynamicChart`click$48562$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18461$18566, {{{1., 0}, {
-               0, 1.}}, {-0.12912557031176042`, -0.15273043930946648`}}, {{1, 
+           If[DynamicChart`click$48562$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19992155889067675`, -0.00560091873907015}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18461$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48562$48665}]]}, 
          {RGBColor[
           0.6450710068965517, 0.4969379310344828, 0.7411776827586207], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44837,29 +45027,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.4731686847409007`, -2.339483890971122}]},
+                  1., {-3.1205864619981813`, -3.115918419422268}]},
                 
-                ImageSizeCache->{{63.22027680166376, 
-                 181.4142135623731}, {-3.4142135623730923`, 
-                 105.08129509242877`}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.618217861303833`, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 3.1879113707108937`}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18465$18566, 
-                FEPrivate`Not[DynamicChart`click$18465$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48566$48665, 
+                FEPrivate`Not[DynamicChart`click$48566$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18465$18566, {{{1., 0}, {
-               0, 1.}}, {-0.14833042112959147`, -0.13415694602784475`}}, {{1, 
+           If[DynamicChart`click$48566$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19994552591930784`, -0.004667618756004341}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18465$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48566$48665}]]}, 
          {RGBColor[0.6207591724137931, 0.506648275862069, 0.7561364689655172],
            EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
           GeometricTransformationBox[
@@ -44876,29 +45066,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.606853478510679, -2.4731686847409007`}]},
+                  1., {-3.1252545045740954`, -3.1205864619981813`}]},
                 
-                ImageSizeCache->{{52.10675428638643, 
-                 181.4142135623731}, {-3.4142135623730923`, 
-                 90.51744723952916}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.605405732022405`, 
+                 181.41421356237308`}, {-3.4142135623730976`, 
+                 2.5018966361000814`}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18469$18566, 
-                FEPrivate`Not[DynamicChart`click$18469$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48570$48665, 
+                FEPrivate`Not[DynamicChart`click$48570$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18469$18566, {{{1., 0}, {
-               0, 1.}}, {-0.16488831206835203`, -0.1131894188661191}}, {{1, 
+           If[DynamicChart`click$48570$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19996513601857657`, -0.003734217062809563}}, {{1, 
              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18469$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48570$48665}]]}, 
          {RGBColor[
           0.5964473379310344, 0.5163586206896552, 0.7710952551724137], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44915,29 +45105,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.7405382722804577`, -2.606853478510679}]},
+                  1., {-3.1299225471500085`, -3.1252545045740954`}]},
                 
-                ImageSizeCache->{{43.25025309619187, 
-                 181.4142135623731}, {-3.4142135623730923`, 
-                 74.32786002338503}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.59579639076756, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 1.8158146190781732`}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18473$18566, 
-                FEPrivate`Not[DynamicChart`click$18473$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48574$48665, 
+                FEPrivate`Not[DynamicChart`click$48574$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18473$18566, {{{1., 0}, {
-               0, 1.}}, {-0.17850376717197625`, -0.09020202384322043}}, {{1, 
-             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18473$18566}]]}, 
+           If[DynamicChart`click$48574$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19998038876116747`, -0.0028007339988519657`}}, {{
+             1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48574$48665}]]}, 
          {RGBColor[
           0.5721355034482758, 0.5260689655172414, 0.7860540413793103], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44954,29 +45144,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.874223066050236, -2.7405382722804577`}]},
+                  1., {-3.1345905897259225`, -3.1299225471500085`}]},
                 
-                ImageSizeCache->{{36.808817704633526`, 
-                 181.4142135623731}, {-3.4142135623731065`, 
-                 56.80143701140689}}],
-               StatusArea[#, 3]& ,
-               TagBoxNote->"3"],
-              StyleBox["3", {
+                ImageSizeCache->{{31.589390046932436`, 
+                 181.41421356237308`}, {-3.414213562373098, 
+                 1.129680269771828}}],
+               StatusArea[#, 2]& ,
+               TagBoxNote->"2"],
+              StyleBox["2", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[3, {
+              Style[2, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18477$18566, 
-                FEPrivate`Not[DynamicChart`click$18477$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48578$48665, 
+                FEPrivate`Not[DynamicChart`click$48578$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18477$18566, {{{1., 0}, {
-               0, 1.}}, {-0.18893381832158374`, -0.06560497156791388}}, {{1, 
-             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18477$18566}]]}, 
+           If[DynamicChart`click$48578$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19999128381471443`, -0.0018671899052707264`}}, {{
+             1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48578$48665}]]}, 
          {RGBColor[
           0.5478236689655173, 0.5357793103448276, 0.8010128275862068], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -44993,29 +45183,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-2.9633462618967545`, -2.874223066050236}]},
+                  1., {-3.13692461101388, -3.1345905897259225`}]},
                 
-                ImageSizeCache->{{33.914835673785745`, 
-                 181.4142135623731}, {-3.4142135623731065`, 
-                 38.25093763745219}}],
-               StatusArea[#, 2]& ,
-               TagBoxNote->"2"],
-              StyleBox["2", {
+                ImageSizeCache->{{31.587388045398114`, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 0.44350853944753066`}}],
+               StatusArea[#, 1]& ,
+               TagBoxNote->"1"],
+              StyleBox["1", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[2, {
+              Style[1, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18481$18566, 
-                FEPrivate`Not[DynamicChart`click$18481$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48582$48665, 
+                FEPrivate`Not[DynamicChart`click$48582$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18481$18566, {{{1., 0}, {
-               0, 1.}}, {-0.1950561632483918, -0.04419381380710129}}, {{1, 
-             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18481$18566}]]}, 
+           If[DynamicChart`click$48582$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19999659522505256`, -0.0011670040216232075`}}, {{
+             1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$48582$48665}]]}, 
          {RGBColor[
           0.5235118344827586, 0.5454896551724138, 0.8159716137931033], 
           EdgeForm[{GrayLevel[0], Opacity[0.5]}], GeometricTransformationBox[
@@ -45032,29 +45222,29 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-3.052469457743274, -2.9633462618967545`}]},
+                  1., {-3.1392586323018365`, -3.13692461101388}]},
                 
-                ImageSizeCache->{{32.169206498255534`, 
-                 181.4142135623731}, {-3.414213562373096, 
-                 25.477904879725966`}}],
-               StatusArea[#, 2]& ,
-               TagBoxNote->"2"],
-              StyleBox["2", {
+                ImageSizeCache->{{31.586186840115005`, 
+                 181.41421356237308`}, {-3.4142135623730985`, 
+                 0.1004133289061313}}],
+               StatusArea[#, 1]& ,
+               TagBoxNote->"1"],
+              StyleBox["1", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[2, {
+              Style[1, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18485$18566, 
-                FEPrivate`Not[DynamicChart`click$18485$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48586$48665, 
+                FEPrivate`Not[DynamicChart`click$48586$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18485$18566, {{{1., 0}, {
-               0, 1.}}, {-0.19821549763095603`, -0.026657391074755895`}}, {{1,
+           If[DynamicChart`click$48586$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19999877427879317`, -0.0007002049559567152}}, {{1,
               0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-            TrackedSymbols :> {DynamicChart`click$18485$18566}]]}, 
+            TrackedSymbols :> {DynamicChart`click$48586$48665}]]}, 
          {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
           Opacity[0.5]}], GeometricTransformationBox[
            TagBox[
@@ -45070,72 +45260,177 @@ Cell[BoxData[
                     Opacity[0.66]}], {}, {}], 
                  
                  DiskBox[{0, 0}, 
-                  1., {-3.141592653589793, -3.052469457743274}]},
+                  1., {-3.141592653589793, -3.1392586323018365`}]},
                 
                 ImageSizeCache->{{31.585786437626894`, 
-                 181.41421356237308`}, {-3.414213562373096, 
-                 12.49798667480811}}],
-               StatusArea[#, 2]& ,
-               TagBoxNote->"2"],
-              StyleBox["2", {
+                 181.41421356237308`}, {-3.4142135623730985`, \
+-0.24268561981328585`}}],
+               StatusArea[#, 1]& ,
+               TagBoxNote->"1"],
+              StyleBox["1", {
                 GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
              
              Annotation[#, 
-              Style[2, {
+              Style[1, {
                 GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
             
             EventHandlerTag[{
-             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18489$18566, 
-                FEPrivate`Not[DynamicChart`click$18489$18566]], 
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48590$48665, 
+                FEPrivate`Not[DynamicChart`click$48590$48665]], 
               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
               True}]], Dynamic[
-           If[DynamicChart`click$18489$18566, {{{1., 0}, {
-               0, 1.}}, {-0.19980145925644013`, -0.0089093702918385}}, {{1, 
-             0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+           If[DynamicChart`click$48590$48665, {{{1., 0}, {
+               0, 1.}}, {-0.19999986380863116`, -0.00023340207581675312`}}, {{
+             1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
             TrackedSymbols :> {
-             DynamicChart`click$18489$18566}]]}}}, {}}, {}}, {{{
+             DynamicChart`click$48590$48665}]]}}}, {}}, {}}, {{{
         GeometricTransformationBox[
          TagBox[
           TagBox[
            TooltipBox[
             TagBox[{{}, {}},
-             StatusArea[#, 14]& ,
-             TagBoxNote->"14"],
-            StyleBox["14", {
+             StatusArea[#, 2396]& ,
+             TagBoxNote->"2396"],
+            StyleBox["2396", {
               GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
            Annotation[#, 
-            Style[14, {
+            Style[2396, {
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18371$18566, 
-              FEPrivate`Not[DynamicChart`click$18371$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48474$48665, 
+              FEPrivate`Not[DynamicChart`click$48474$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18371$18566, {{{1., 0}, {
-             0, 1.}}, {-0.1903485339190471, 0.06137943983834796}}, {{1, 0}, {
-           0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18371$18566}]], 
+         If[DynamicChart`click$48474$48665, {{{1., 0}, {0, 1.}}, {
+            0.18818563940380287`, 0.06772123095589652}}, {{1, 0}, {0, 1}}, {{
+           1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48474$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
            TooltipBox[
             TagBox[{{}, {}},
-             StatusArea[#, 10]& ,
-             TagBoxNote->"10"],
-            StyleBox["10", {
+             StatusArea[#, 64]& ,
+             TagBoxNote->"64"],
+            StyleBox["64", {
               GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
            Annotation[#, 
-            Style[10, {
+            Style[64, {
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18377$18566, 
-              FEPrivate`Not[DynamicChart`click$18377$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48478$48665, 
+              FEPrivate`Not[DynamicChart`click$48478$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18377$18566, {{{1., 0}, {
-             0, 1.}}, {-0.13249619513920882`, 0.14981574774913584`}}, {{1, 
+         If[DynamicChart`click$48478$48665, {{{1., 0}, {
+             0, 1.}}, {-0.16321822622368923`, -0.11558464702715757`}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18377$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48478$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 37]& ,
+             TagBoxNote->"37"],
+            StyleBox["37", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[37, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48482$48665, 
+              FEPrivate`Not[DynamicChart`click$48482$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48482$48665, {{{1., 0}, {
+             0, 1.}}, {-0.17567796862692237`, -0.09558897080269294}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48482$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 32]& ,
+             TagBoxNote->"32"],
+            StyleBox["32", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[32, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48486$48665, 
+              FEPrivate`Not[DynamicChart`click$48486$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48486$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1827975874484251, -0.0811482718425685}}, {{1, 0}, {
+           0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48486$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 31]& ,
+             TagBoxNote->"31"],
+            StyleBox["31", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[31, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48490$48665, 
+              FEPrivate`Not[DynamicChart`click$48490$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48490$48665, {{{1., 0}, {
+             0, 1.}}, {-0.18826454263691358`, -0.06750157024628209}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48490$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 24]& ,
+             TagBoxNote->"24"],
+            StyleBox["24", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[24, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48494$48665, 
+              FEPrivate`Not[DynamicChart`click$48494$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48494$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1922065241236683, -0.055286997425233055`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48494$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 12]& ,
+             TagBoxNote->"12"],
+            StyleBox["12", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[12, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48498$48665, 
+              FEPrivate`Not[DynamicChart`click$48498$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48498$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19435897823084528`, -0.04716553382568477}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48498$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45150,13 +45445,34 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18381$18566, 
-              FEPrivate`Not[DynamicChart`click$18381$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48502$48665, 
+              FEPrivate`Not[DynamicChart`click$48502$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18381$18566, {{{1., 0}, {
-             0, 1.}}, {-0.05498467144857605, 0.1922932289647562}}, {{1, 0}, {
+         If[DynamicChart`click$48502$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1955057302346281, -0.04216051998522821}}, {{1, 0}, {
            0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18381$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48502$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 10]& ,
+             TagBoxNote->"10"],
+            StyleBox["10", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[10, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48506$48665, 
+              FEPrivate`Not[DynamicChart`click$48506$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48506$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1964364264292349, -0.037586305640642456`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48506$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45171,13 +45487,55 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18385$18566, 
-              FEPrivate`Not[DynamicChart`click$18385$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48510$48665, 
+              FEPrivate`Not[DynamicChart`click$48510$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18385$18566, {{{1., 0}, {0, 1.}}, {
-            0.028863891038565334`, 0.1979062298011708}}, {{1, 0}, {0, 1}}, {{
-           1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18385$18566}]], 
+         If[DynamicChart`click$48510$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1972214798018938, -0.033221798638111096`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48510$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 9]& ,
+             TagBoxNote->"9"],
+            StyleBox["9", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[9, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48514$48665, 
+              FEPrivate`Not[DynamicChart`click$48514$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48514$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1978757805635537, -0.029071901664052643`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48514$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 8]& ,
+             TagBoxNote->"8"],
+            StyleBox["8", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[8, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48518$48665, 
+              FEPrivate`Not[DynamicChart`click$48518$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48518$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1984135654531566, -0.025140744701896478`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48518$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45192,327 +45550,55 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18389$18566, 
-              FEPrivate`Not[DynamicChart`click$18389$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48522$48665, 
+              FEPrivate`Not[DynamicChart`click$48522$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18389$18566, {{{1., 0}, {0, 1.}}, {
-            0.09611635103733678, 0.17538998564133432`}}, {{1, 0}, {0, 1}}, {{
-           1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18389$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 6]& ,
-             TagBoxNote->"6"],
-            StyleBox["6", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[6, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18393$18566, 
-              FEPrivate`Not[DynamicChart`click$18393$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18393$18566, {{{1., 0}, {0, 1.}}, {
-            0.14220690342215217`, 0.14063142116569358`}}, {{1, 0}, {0, 1}}, {{
-           1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18393$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 6]& ,
-             TagBoxNote->"6"],
-            StyleBox["6", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[6, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18397$18566, 
-              FEPrivate`Not[DynamicChart`click$18397$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18397$18566, {{{1., 0}, {0, 1.}}, {
-            0.17430834966120098`, 0.09806426075991447}}, {{1, 0}, {0, 1}}, {{
-           1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18397$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 6]& ,
-             TagBoxNote->"6"],
-            StyleBox["6", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[6, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18401$18566, 
-              FEPrivate`Not[DynamicChart`click$18401$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18401$18566, {{{1., 0}, {0, 1.}}, {
-            0.1940231569835045, 0.04852849218917036}}, {{1, 0}, {0, 1}}, {{1, 
-           0}, {0, 1}}], TrackedSymbols :> {DynamicChart`click$18401$18566}]],
-         GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 6]& ,
-             TagBoxNote->"6"],
-            StyleBox["6", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[6, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18405$18566, 
-              FEPrivate`Not[DynamicChart`click$18405$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18405$18566, {{{1., 0}, {0, 1.}}, {
-            0.19995035865345182`, -0.004455791103270712}}, {{1, 0}, {0, 
-           1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18405$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18409$18566, 
-              FEPrivate`Not[DynamicChart`click$18409$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18409$18566, {{{1., 0}, {0, 1.}}, {
-            0.19402315698350453`, -0.04852849218917032}}, {{1, 0}, {0, 1}}, {{
-           1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18409$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18413$18566, 
-              FEPrivate`Not[DynamicChart`click$18413$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18413$18566, {{{1., 0}, {0, 1.}}, {
-            0.1823447819761259, -0.08216069915768189}}, {{1, 0}, {0, 1}}, {{1,
-            0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18413$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18417$18566, 
-              FEPrivate`Not[DynamicChart`click$18417$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18417$18566, {{{1., 0}, {0, 1.}}, {
-            0.16488831206835208`, -0.113189418866119}}, {{1, 0}, {0, 1}}, {{1,
-            0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18417$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18421$18566, 
-              FEPrivate`Not[DynamicChart`click$18421$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18421$18566, {{{1., 0}, {0, 1.}}, {
-            0.14220690342215217`, -0.14063142116569358`}}, {{1, 0}, {0, 
-           1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18421$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18425$18566, 
-              FEPrivate`Not[DynamicChart`click$18425$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18425$18566, {{{1., 0}, {0, 1.}}, {
-            0.11501927872436211`, -0.16361713089321517`}}, {{1, 0}, {0, 
-           1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18425$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18429$18566, 
-              FEPrivate`Not[DynamicChart`click$18429$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18429$18566, {{{1., 0}, {0, 1.}}, {
-            0.084186952485667, -0.18141818274686816`}}, {{1, 0}, {0, 1}}, {{1,
-            0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18429$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 4]& ,
-             TagBoxNote->"4"],
-            StyleBox["4", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[4, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18433$18566, 
-              FEPrivate`Not[DynamicChart`click$18433$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18433$18566, {{{1., 0}, {0, 1.}}, {
-            0.05068693158872321, -0.1934705015399508}}, {{1, 0}, {0, 1}}, {{1,
-            0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18433$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18437$18566, 
-              FEPrivate`Not[DynamicChart`click$18437$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18437$18566, {{{1., 0}, {0, 1.}}, {
-            0.020019138324819732`, -0.19899556301770083`}}, {{1, 0}, {0, 
-           1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18437$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18441$18566, 
-              FEPrivate`Not[DynamicChart`click$18441$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18441$18566, {{{1., 0}, {
-             0, 1.}}, {-0.006682995401534948, -0.19988831274605093`}}, {{1, 
-           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18441$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18445$18566, 
-              FEPrivate`Not[DynamicChart`click$18445$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18445$18566, {{{1., 0}, {
-             0, 1.}}, {-0.03326587091662605, -0.1972140507980057}}, {{1, 0}, {
+         If[DynamicChart`click$48522$48665, {{{1., 0}, {
+             0, 1.}}, {-0.198823236508024, -0.02166380909430203}}, {{1, 0}, {
            0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18445$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48522$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
            TooltipBox[
             TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
+             StatusArea[#, 6]& ,
+             TagBoxNote->"6"],
+            StyleBox["6", {
               GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
            Annotation[#, 
-            Style[3, {
+            Style[6, {
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18449$18566, 
-              FEPrivate`Not[DynamicChart`click$18449$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48526$48665, 
+              FEPrivate`Not[DynamicChart`click$48526$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18449$18566, {{{1., 0}, {
-             0, 1.}}, {-0.05925511617712677, -0.1910204994413825}}, {{1, 0}, {
+         If[DynamicChart`click$48526$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19912900806470926`, -0.01864505690967322}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48526$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 6]& ,
+             TagBoxNote->"6"],
+            StyleBox["6", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[6, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48530$48665, 
+              FEPrivate`Not[DynamicChart`click$48530$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48530$48665, {{{1., 0}, {
+             0, 1.}}, {-0.1993705814560183, -0.01585469173113033}}, {{1, 0}, {
            0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18449$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48530$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45527,13 +45613,33 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18453$18566, 
-              FEPrivate`Not[DynamicChart`click$18453$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48534$48665, 
+              FEPrivate`Not[DynamicChart`click$48534$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18453$18566, {{{1., 0}, {
-             0, 1.}}, {-0.08418695248566689, -0.18141818274686822`}}, {{1, 
+         If[DynamicChart`click$48534$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19952610505655177`, -0.013759847417826557`}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18453$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48534$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 3]& ,
+             TagBoxNote->"3"],
+            StyleBox["3", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[3, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48538$48665, 
+              FEPrivate`Not[DynamicChart`click$48538$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48538$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19961756034705244`, -0.012362426990315591`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48538$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45548,13 +45654,13 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18457$18566, 
-              FEPrivate`Not[DynamicChart`click$18457$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48542$48665, 
+              FEPrivate`Not[DynamicChart`click$48542$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18457$18566, {{{1., 0}, {
-             0, 1.}}, {-0.10761647063267446`, -0.1685784542833595}}, {{1, 
+         If[DynamicChart`click$48542$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19969922864846443`, -0.01096440044910474}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18457$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48542$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45569,97 +45675,14 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18461$18566, 
-              FEPrivate`Not[DynamicChart`click$18461$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18461$18566, {{{1., 0}, {
-             0, 1.}}, {-0.12912557031176042`, -0.15273043930946648`}}, {{1, 
-           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18461$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18465$18566, 
-              FEPrivate`Not[DynamicChart`click$18465$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18465$18566, {{{1., 0}, {
-             0, 1.}}, {-0.14833042112959147`, -0.13415694602784475`}}, {{1, 
-           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18465$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18469$18566, 
-              FEPrivate`Not[DynamicChart`click$18469$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18469$18566, {{{1., 0}, {
-             0, 1.}}, {-0.16488831206835203`, -0.1131894188661191}}, {{1, 
-           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18469$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18473$18566, 
-              FEPrivate`Not[DynamicChart`click$18473$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48546$48665, 
+              FEPrivate`Not[DynamicChart`click$48546$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
          If[
-          DynamicChart`click$18473$18566, {{{1., 0}, {
-             0, 1.}}, {-0.17850376717197625`, -0.09020202384322043}}, {{1, 
+          DynamicChart`click$48546$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19977110595669725`, -0.00956583633761514}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18473$18566}]], 
-        GeometricTransformationBox[
-         TagBox[
-          TagBox[
-           TooltipBox[
-            TagBox[{{}, {}},
-             StatusArea[#, 3]& ,
-             TagBoxNote->"3"],
-            StyleBox["3", {
-              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
-           Annotation[#, 
-            Style[3, {
-              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
-          
-          EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18477$18566, 
-              FEPrivate`Not[DynamicChart`click$18477$18566]], PassEventsDown -> 
-            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18477$18566, {{{1., 0}, {
-             0, 1.}}, {-0.18893381832158374`, -0.06560497156791388}}, {{1, 
-           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18477$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48546$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45674,13 +45697,13 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18481$18566, 
-              FEPrivate`Not[DynamicChart`click$18481$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48550$48665, 
+              FEPrivate`Not[DynamicChart`click$48550$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18481$18566, {{{1., 0}, {
-             0, 1.}}, {-0.1950561632483918, -0.04419381380710129}}, {{1, 0}, {
-           0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18481$18566}]], 
+         If[DynamicChart`click$48550$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19982352192579428`, -0.008400005069737688}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48550$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45695,13 +45718,13 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18485$18566, 
-              FEPrivate`Not[DynamicChart`click$18485$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48554$48665, 
+              FEPrivate`Not[DynamicChart`click$48554$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18485$18566, {{{1., 0}, {
-             0, 1.}}, {-0.19821549763095603`, -0.026657391074755895`}}, {{1, 
+         If[DynamicChart`click$48554$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19986055622927823`, -0.007467132228875834}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
-          TrackedSymbols :> {DynamicChart`click$18485$18566}]], 
+          TrackedSymbols :> {DynamicChart`click$48554$48665}]], 
         GeometricTransformationBox[
          TagBox[
           TagBox[
@@ -45716,14 +45739,182 @@ Cell[BoxData[
               GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
           
           EventHandlerTag[{
-           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$18489$18566, 
-              FEPrivate`Not[DynamicChart`click$18489$18566]], PassEventsDown -> 
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48558$48665, 
+              FEPrivate`Not[DynamicChart`click$48558$48665]], PassEventsDown -> 
             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
-         If[DynamicChart`click$18489$18566, {{{1., 0}, {
-             0, 1.}}, {-0.19980145925644013`, -0.0089093702918385}}, {{1, 
+         If[DynamicChart`click$48558$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19989323545493887`, -0.00653409667485743}}, {{1, 
            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48558$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 2]& ,
+             TagBoxNote->"2"],
+            StyleBox["2", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[2, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48562$48665, 
+              FEPrivate`Not[DynamicChart`click$48562$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48562$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19992155889067675`, -0.00560091873907015}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48562$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 2]& ,
+             TagBoxNote->"2"],
+            StyleBox["2", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[2, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48566$48665, 
+              FEPrivate`Not[DynamicChart`click$48566$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48566$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19994552591930784`, -0.004667618756004341}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48566$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 2]& ,
+             TagBoxNote->"2"],
+            StyleBox["2", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[2, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48570$48665, 
+              FEPrivate`Not[DynamicChart`click$48570$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48570$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19996513601857657`, -0.003734217062809563}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48570$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 2]& ,
+             TagBoxNote->"2"],
+            StyleBox["2", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[2, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48574$48665, 
+              FEPrivate`Not[DynamicChart`click$48574$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48574$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19998038876116747`, -0.0028007339988519657`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48574$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 2]& ,
+             TagBoxNote->"2"],
+            StyleBox["2", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[2, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48578$48665, 
+              FEPrivate`Not[DynamicChart`click$48578$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48578$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19999128381471443`, -0.0018671899052707264`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48578$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 1]& ,
+             TagBoxNote->"1"],
+            StyleBox["1", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[1, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48582$48665, 
+              FEPrivate`Not[DynamicChart`click$48582$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[
+          DynamicChart`click$48582$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19999659522505256`, -0.0011670040216232075`}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48582$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 1]& ,
+             TagBoxNote->"1"],
+            StyleBox["1", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[1, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48586$48665, 
+              FEPrivate`Not[DynamicChart`click$48586$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48586$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19999877427879317`, -0.0007002049559567152}}, {{1, 
+           0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+          TrackedSymbols :> {DynamicChart`click$48586$48665}]], 
+        GeometricTransformationBox[
+         TagBox[
+          TagBox[
+           TooltipBox[
+            TagBox[{{}, {}},
+             StatusArea[#, 1]& ,
+             TagBoxNote->"1"],
+            StyleBox["1", {
+              GrayLevel[0], FontFamily -> "Arial"}, StripOnInput -> False]],
+           Annotation[#, 
+            Style[1, {
+              GrayLevel[0], FontFamily -> "Arial"}], "Tooltip"]& ],
+          
+          EventHandlerTag[{
+           "MouseClicked" :> FEPrivate`Set[DynamicChart`click$48590$48665, 
+              FEPrivate`Not[DynamicChart`click$48590$48665]], PassEventsDown -> 
+            True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+         If[DynamicChart`click$48590$48665, {{{1., 0}, {
+             0, 1.}}, {-0.19999986380863116`, -0.00023340207581675312`}}, {{1,
+            0}, {0, 1}}, {{1, 0}, {0, 1}}], 
           TrackedSymbols :> {
-           DynamicChart`click$18489$18566}]]}, {}}, {}}, {}, {}},
+           DynamicChart`click$48590$48665}]]}, {}}, {}}, {}, {}},
     DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
   ContentSelectable->False,
   GridLinesStyle->Directive[
@@ -45736,9 +45927,13 @@ Cell[BoxData[
    3.708095650808972*^9, 3.708096678790419*^9, 3.708106951818594*^9, 
    3.708170690329895*^9, 3.708171854157412*^9, 3.708187463815674*^9, 
    3.708205137091022*^9, 3.7082501773329678`*^9, 3.708251805583002*^9, 
-   3.708351492316846*^9, 
-   3.708351900391355*^9},ExpressionUUID->"248da8b0-ce1d-450d-9647-\
-3404dcd7d41f"]
+   3.708351492316846*^9, 3.708351900391355*^9, 3.708352250580441*^9, 
+   3.708352983738563*^9, 3.708353030517239*^9, 3.708353063503626*^9, {
+   3.708354678444274*^9, 3.7083547256903667`*^9}, 3.708354846223432*^9, 
+   3.708355415783959*^9, {3.708360206891802*^9, 3.708360233557735*^9}, {
+   3.708361818468444*^9, 
+   3.708361836427391*^9}},ExpressionUUID->"8504c8ce-0a3b-4f45-9392-\
+25b0028bb6ce"]
 }, Open  ]],
 
 Cell["\<\
@@ -45977,9 +46172,9 @@ article Computational_complexity\"\>"], "Output",
    3.7080942994923553`*^9}, 3.7080956508560047`*^9, 3.7080966788797617`*^9, 
    3.7081069518869047`*^9, 3.70817069039534*^9, 3.708171854231265*^9, 
    3.708187463912799*^9, 3.708205137142109*^9, 3.708250177432107*^9, 
-   3.70825180565833*^9, 3.708351492402987*^9, 
-   3.7083519005261097`*^9},ExpressionUUID->"61914489-960a-4e58-83d3-\
-087bf76e1f06"]
+   3.70825180565833*^9, 3.708351492402987*^9, 3.7083519005261097`*^9, 
+   3.708352250670389*^9},ExpressionUUID->"d731d4c5-e17c-4830-af02-\
+9fd20f1e5d1f"]
 }, Open  ]],
 
 Cell["\<\
@@ -46213,9 +46408,9 @@ Cell[BoxData[
  CellChangeTimes->{3.708171650789723*^9, 3.708171854326973*^9, 
   3.708187463991583*^9, 3.708205137300692*^9, 3.708250177577817*^9, 
   3.7082510015090523`*^9, 3.708251061299094*^9, 3.7082511218466063`*^9, 
-  3.708251805824356*^9, 3.7083514925759373`*^9, 
-  3.708351900921577*^9},ExpressionUUID->"3aee35ef-1e0e-4819-a628-\
-40468a60f5cf"]
+  3.708251805824356*^9, 3.7083514925759373`*^9, 3.708351900921577*^9, 
+  3.7083522508313313`*^9},ExpressionUUID->"ddd8d18a-4f0a-4d6c-b7e9-\
+bfba146c45c7"]
 }, Open  ]],
 
 Cell["\<\
@@ -46533,15 +46728,15 @@ Cell[BoxData[
    3.708170690539756*^9, 3.708171619342319*^9, 3.708171854465334*^9, 
    3.7081874641057787`*^9, 3.708205137417924*^9, 3.7082501776937733`*^9, {
    3.70825125395858*^9, 3.7082512627712517`*^9}, 3.7082518061686783`*^9, 
-   3.708351492696061*^9, 
-   3.7083519012041073`*^9},ExpressionUUID->"6daf8ab0-c541-42b1-bcf0-\
-dbaf8729159b"]
+   3.708351492696061*^9, 3.7083519012041073`*^9, 
+   3.708352250941362*^9},ExpressionUUID->"b0337324-c6f8-4237-ac9e-\
+4f3a62607e42"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1061, 851},
-WindowMargins->{{Automatic, 166}, {Automatic, 0}},
+WindowSize->{1064, 851},
+WindowMargins->{{Automatic, 163}, {Automatic, -23}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
@@ -46577,7 +46772,7 @@ Cell[2235, 69, 336, 7, 30, "Text", "ExpressionUUID" -> \
 "e9ae55e6-8652-49bc-9229-d554499197e9"],
 Cell[2574, 78, 2484, 53, 148, "Code", "ExpressionUUID" -> \
 "49ac374c-0b92-44fe-9551-ad84728aaf3a"],
-Cell[5061, 133, 900, 15, 87, "Text", "ExpressionUUID" -> \
+Cell[5061, 133, 900, 15, 68, "Text", "ExpressionUUID" -> \
 "36695b16-d98b-431c-8330-645b46af9d16"],
 Cell[5964, 150, 1113, 23, 110, "Code", "ExpressionUUID" -> \
 "c752e573-bf63-444c-a04c-69ad13d916fe"],
@@ -46591,289 +46786,290 @@ Cell[7590, 190, 223, 5, 30, "Text", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[7850, 200, 254, 4, 64, "Section", "ExpressionUUID" -> \
 "ba88946d-e579-4504-a7ab-f1aa8e885c63"],
-Cell[8107, 206, 368, 8, 49, "Text", "ExpressionUUID" -> \
+Cell[8107, 206, 368, 8, 30, "Text", "ExpressionUUID" -> \
 "f09cecfe-86dd-4a09-9e57-a3b509a49915"],
 Cell[CellGroupData[{
-Cell[8500, 218, 3119, 68, 224, "Code", "ExpressionUUID" -> \
+Cell[8500, 218, 3167, 69, 224, "Code", "ExpressionUUID" -> \
 "87da55d0-5e19-42b6-a1d8-63b88b1cdf09"],
-Cell[11622, 288, 91603, 1633, 731, "Output", "ExpressionUUID" -> \
-"c73b17bf-225e-4088-b5fc-e1af3bd99a27"]
+Cell[11670, 289, 91677, 1634, 731, "Output", "ExpressionUUID" -> \
+"4ff47f7f-cbd8-4f67-aa05-1dd9bf25b8f8"]
 }, Open  ]],
-Cell[103240, 1924, 815, 13, 87, "Text", "ExpressionUUID" -> \
+Cell[103362, 1926, 815, 13, 68, "Text", "ExpressionUUID" -> \
 "a2d288bf-859b-46f8-8d3f-cccf88423a60"],
-Cell[104058, 1939, 1090, 27, 72, "Code", "ExpressionUUID" -> \
+Cell[104180, 1941, 1090, 27, 72, "Code", "ExpressionUUID" -> \
 "0f438277-39dd-4cdc-ae8d-879c1fd86f5d"],
 Cell[CellGroupData[{
-Cell[105173, 1970, 451, 9, 52, "Code", "ExpressionUUID" -> \
+Cell[105295, 1972, 451, 9, 52, "Code", "ExpressionUUID" -> \
 "66b9c912-140d-486e-9799-c2026f821816"],
-Cell[105627, 1981, 57351, 1069, 447, "Output", "ExpressionUUID" -> \
-"5c3c93c1-280e-4de0-af83-4dfe351f7d0e"]
+Cell[105749, 1983, 57418, 1070, 747, "Output", "ExpressionUUID" -> \
+"26db0b76-44b1-478a-8b20-e478ce3408ba"]
 }, Open  ]],
-Cell[162993, 3053, 213, 5, 30, "Text", "ExpressionUUID" -> \
+Cell[163182, 3056, 213, 5, 30, "Text", "ExpressionUUID" -> \
 "d09e2781-b83a-4ce9-9cbf-de7e2a4d6e0b"],
 Cell[CellGroupData[{
-Cell[163231, 3062, 689, 13, 52, "Code", "ExpressionUUID" -> \
+Cell[163420, 3065, 689, 13, 52, "Code", "ExpressionUUID" -> \
 "596250b9-5cf3-439b-a1b1-dc402dadffd4"],
-Cell[163923, 3077, 67269, 1461, 283, "Output", "ExpressionUUID" -> \
-"1e2e3454-89cd-42f8-9d3e-51b626d613c3"]
+Cell[164112, 3080, 67291, 1461, 283, "Output", "ExpressionUUID" -> \
+"dc2be5b1-45a9-4ee4-a3d3-dffa24f7c9a5"]
 }, Open  ]],
-Cell[231207, 4541, 380, 7, 49, "Text", "ExpressionUUID" -> \
+Cell[231418, 4544, 380, 7, 30, "Text", "ExpressionUUID" -> \
 "3a1c96eb-bc55-428f-9b32-dbaddeb39bec"],
 Cell[CellGroupData[{
-Cell[231612, 4552, 268, 6, 52, "Code", "ExpressionUUID" -> \
+Cell[231823, 4555, 268, 6, 52, "Code", "ExpressionUUID" -> \
 "0d2a51bf-54eb-453c-8460-b83d6bab7daa"],
-Cell[231883, 4560, 446, 7, 32, "Output", "ExpressionUUID" -> \
-"d2df667a-55a4-4860-8788-bc641b371126"]
+Cell[232094, 4563, 468, 7, 32, "Output", "ExpressionUUID" -> \
+"3002b037-6a50-4d60-808e-7e72f73c2a59"]
 }, Open  ]],
-Cell[232344, 4570, 270, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[232577, 4573, 270, 6, 30, "Text", "ExpressionUUID" -> \
 "46b8a919-7131-4fc1-96ce-e7d3b8970c71"],
-Cell[232617, 4578, 1041, 25, 72, "Code", "ExpressionUUID" -> \
+Cell[232850, 4581, 1041, 25, 72, "Code", "ExpressionUUID" -> \
 "16170c4f-32ca-47cd-8755-68860fcfaa08"],
 Cell[CellGroupData[{
-Cell[233683, 4607, 498, 11, 52, "Code", "ExpressionUUID" -> \
+Cell[233916, 4610, 498, 11, 52, "Code", "ExpressionUUID" -> \
 "64e23b4c-f8f9-4592-acd9-b8479bfce18a"],
-Cell[234184, 4620, 126404, 2635, 307, "Output", "ExpressionUUID" -> \
-"deb86b59-3c53-49d1-af86-42f60edce7e3"]
+Cell[234417, 4623, 126426, 2635, 307, "Output", "ExpressionUUID" -> \
+"0874ba57-4c00-45a2-9b75-52d7f0df2a8a"]
 }, Open  ]],
-Cell[360603, 7258, 192, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[360858, 7261, 192, 3, 30, "Text", "ExpressionUUID" -> \
 "c09c0b78-a1a3-4eba-a672-f88b30836936"],
-Cell[360798, 7263, 907, 28, 72, "Code", "ExpressionUUID" -> \
+Cell[361053, 7266, 907, 28, 72, "Code", "ExpressionUUID" -> \
 "7353dfea-53f0-429a-ba7c-c27cff5e1033"],
 Cell[CellGroupData[{
-Cell[361730, 7295, 246, 6, 52, "Code", "ExpressionUUID" -> \
+Cell[361985, 7298, 246, 6, 52, "Code", "ExpressionUUID" -> \
 "063c4584-e13e-47c8-965f-d093c1817fa5"],
-Cell[361979, 7303, 54490, 932, 418, "Output", "ExpressionUUID" -> \
-"3534f973-d328-4a3e-9ee3-ac5831159be3"]
+Cell[362234, 7306, 54512, 932, 418, "Output", "ExpressionUUID" -> \
+"d42ac7ee-1a1b-4725-a251-aec828bf7181"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[416506, 8240, 271, 8, 52, "Code", "ExpressionUUID" -> \
+Cell[416783, 8243, 271, 8, 52, "Code", "ExpressionUUID" -> \
 "4017f0d6-243f-4b83-80e0-d911cd7fe2f6"],
-Cell[416780, 8250, 64317, 1256, 269, "Output", "ExpressionUUID" -> \
-"546c0c22-475e-45c9-b4a7-2c6b10c21ce8"]
+Cell[417057, 8253, 64341, 1256, 269, "Output", "ExpressionUUID" -> \
+"920f0f51-a028-4245-a6c1-43facd1fb967"]
 }, Open  ]],
-Cell[481112, 9509, 372, 8, 30, "Text", "ExpressionUUID" -> \
+Cell[481413, 9512, 372, 8, 30, "Text", "ExpressionUUID" -> \
 "9e7e8ed4-64ec-4abf-b17c-943634953ef6"],
-Cell[481487, 9519, 583, 13, 52, "Code", "ExpressionUUID" -> \
+Cell[481788, 9522, 583, 13, 52, "Code", "ExpressionUUID" -> \
 "41bc9b12-d347-4a58-bedc-73b33c696d4e"],
-Cell[482073, 9534, 250, 4, 30, "Text", "ExpressionUUID" -> \
+Cell[482374, 9537, 250, 4, 30, "Text", "ExpressionUUID" -> \
 "4c90c625-c7b5-497c-a6d3-a6c77a7dcc47"],
 Cell[CellGroupData[{
-Cell[482348, 9542, 614, 11, 52, "Code", "ExpressionUUID" -> \
+Cell[482649, 9545, 614, 11, 52, "Code", "ExpressionUUID" -> \
 "c290ee73-1231-4f74-a393-1a0fe49ce1a3"],
-Cell[482965, 9555, 65105, 1408, 257, "Output", "ExpressionUUID" -> \
-"875e9335-03e5-462d-9819-998205c211f6"]
+Cell[483266, 9558, 65127, 1408, 257, "Output", "ExpressionUUID" -> \
+"dc77c971-2461-4943-a8c4-b23fe7403b44"]
 }, Open  ]],
-Cell[548085, 10966, 531, 9, 68, "Text", "ExpressionUUID" -> \
+Cell[548408, 10969, 531, 9, 49, "Text", "ExpressionUUID" -> \
 "75fd90c0-b754-4182-aec3-4b05d21b74dc"],
 Cell[CellGroupData[{
-Cell[548641, 10979, 1145, 26, 300, "Code", "ExpressionUUID" -> \
+Cell[548964, 10982, 1145, 26, 300, "Code", "ExpressionUUID" -> \
 "77abd3b4-ec0d-4617-89b6-f64b74f1796e"],
-Cell[549789, 11007, 453927, 9647, 380, "Output", "ExpressionUUID" -> \
-"7187eab4-fe00-49d5-92c8-7f8887c86653"]
+Cell[550112, 11010, 453949, 9647, 188, "Output", "ExpressionUUID" -> \
+"a078e489-c4c2-4c47-873d-64fd343a304e"]
 }, Open  ]],
-Cell[1003731, 20657, 333, 7, 49, "Text", "ExpressionUUID" -> \
+Cell[1004076, 20660, 333, 7, 30, "Text", "ExpressionUUID" -> \
 "9a3d290b-c6e9-4e94-bb40-4898c1144e25"],
-Cell[1004067, 20666, 1432, 27, 414, "Code", "ExpressionUUID" -> \
+Cell[1004412, 20669, 1432, 27, 414, "Code", "ExpressionUUID" -> \
 "1be67fc7-d003-40b0-9a25-b8265bb69c3b"],
-Cell[1005502, 20695, 270, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[1005847, 20698, 270, 6, 30, "Text", "ExpressionUUID" -> \
 "d24c1616-1ef5-487e-b486-926608319d30"],
-Cell[1005775, 20703, 1264, 32, 205, "Code", "ExpressionUUID" -> \
+Cell[1006120, 20706, 1264, 32, 205, "Code", "ExpressionUUID" -> \
 "0bed20a2-8fd5-4048-a385-b2fa41590d87"],
-Cell[1007042, 20737, 184, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[1007387, 20740, 184, 3, 30, "Text", "ExpressionUUID" -> \
 "13e57dd1-699e-4d3b-ae13-d0eb0c28f3ae"],
 Cell[CellGroupData[{
-Cell[1007251, 20744, 447, 9, 52, "Code", "ExpressionUUID" -> \
+Cell[1007596, 20747, 447, 9, 52, "Code", "ExpressionUUID" -> \
 "217fd37c-35cd-4c1d-8eda-c04c4417d25c"],
-Cell[1007701, 20755, 78863, 1485, 411, "Output", "ExpressionUUID" -> \
-"6aab349f-7569-4561-965a-5411b1fda586"]
+Cell[1008046, 20758, 78885, 1485, 411, "Output", "ExpressionUUID" -> \
+"dd25f223-b38e-4fa7-9f8a-73540d77ebdf"]
 }, Open  ]],
-Cell[1086579, 22243, 312, 7, 49, "Text", "ExpressionUUID" -> \
+Cell[1086946, 22246, 312, 7, 30, "Text", "ExpressionUUID" -> \
 "2f4d42c3-c497-49a1-a28a-6b83ee28c9bd"],
 Cell[CellGroupData[{
-Cell[1086916, 22254, 998, 24, 148, "Code", "ExpressionUUID" -> \
+Cell[1087283, 22257, 998, 24, 148, "Code", "ExpressionUUID" -> \
 "52baf881-b8ea-4272-8b3a-7d8cf27a2404"],
-Cell[1087917, 22280, 411103, 7903, 233, "Output", "ExpressionUUID" -> \
-"05ecb6fb-7901-42b7-98a6-6fff127ef598"]
+Cell[1088284, 22283, 411125, 7903, 233, "Output", "ExpressionUUID" -> \
+"e80ed8c8-cbd9-4eef-a581-ba89e9d26dfc"]
 }, Open  ]],
-Cell[1499035, 30186, 395, 8, 49, "Text", "ExpressionUUID" -> \
+Cell[1499424, 30189, 395, 8, 30, "Text", "ExpressionUUID" -> \
 "e3d7484b-01b7-48f9-997d-dd004f59379d"],
 Cell[CellGroupData[{
-Cell[1499455, 30198, 446, 9, 52, "Code", "ExpressionUUID" -> \
+Cell[1499844, 30201, 446, 9, 52, "Code", "ExpressionUUID" -> \
 "757d5442-6f13-4558-bde9-7e5052acffa8"],
-Cell[1499904, 30209, 33321, 545, 330, "Output", "ExpressionUUID" -> \
-"f6f4fef5-4ef2-429d-9e63-c87bfa3c8a6a"]
+Cell[1500293, 30212, 33343, 545, 330, "Output", "ExpressionUUID" -> \
+"f12ac1a6-bde4-49cc-ada4-dc4bb084720c"]
 }, Open  ]],
-Cell[1533240, 30757, 184, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[1533651, 30760, 184, 3, 30, "Text", "ExpressionUUID" -> \
 "de500b9b-803e-432d-8d15-996f4b485ddd"],
 Cell[CellGroupData[{
-Cell[1533449, 30764, 849, 22, 129, "Code", "ExpressionUUID" -> \
+Cell[1533860, 30767, 849, 22, 129, "Code", "ExpressionUUID" -> \
 "d3328314-1832-4963-9c5c-6deec9085cc8"],
-Cell[1534301, 30788, 68823, 1488, 390, "Output", "ExpressionUUID" -> \
-"54f18821-34c6-4034-ac84-2ae83aa07b65"]
+Cell[1534712, 30791, 68848, 1489, 390, "Output", "ExpressionUUID" -> \
+"16cd3f79-ad6b-48a0-8c59-432457df4d0d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1603161, 32281, 2618, 63, 300, "Code", "ExpressionUUID" -> \
+Cell[1603597, 32285, 2618, 63, 300, "Code", "ExpressionUUID" -> \
 "9d015736-b9b8-4cca-a316-130b423e4976"],
-Cell[1605782, 32346, 141874, 3505, 617, "Output", "ExpressionUUID" -> \
-"cb190c02-647a-4bcf-85d8-38617d5f2916"]
+Cell[1606218, 32350, 141914, 3505, 973, "Output", "ExpressionUUID" -> \
+"1b687acc-37b2-4300-b1b6-384a068711fe"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1747705, 35857, 361, 6, 64, "Section", "ExpressionUUID" -> \
+Cell[1748181, 35861, 361, 6, 64, "Section", "ExpressionUUID" -> \
 "5c63654b-b37e-48ad-acff-98bf6cc24817"],
-Cell[1748069, 35865, 343, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[1748545, 35869, 343, 7, 30, "Text", "ExpressionUUID" -> \
 "6dae1b7b-ea6e-4410-8aa8-b4ea9bb9db0d"],
-Cell[1748415, 35874, 475, 12, 110, "Code", "ExpressionUUID" -> \
+Cell[1748891, 35878, 475, 12, 110, "Code", "ExpressionUUID" -> \
 "8d54dcbe-1526-451c-9e08-32f2b5d9fe17"],
-Cell[1748893, 35888, 354, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[1749369, 35892, 354, 7, 30, "Text", "ExpressionUUID" -> \
 "90ca27dd-91f4-473c-9e16-3b8c8f4a3f2d"],
-Cell[1749250, 35897, 592, 16, 52, "Code", "ExpressionUUID" -> \
+Cell[1749726, 35901, 592, 16, 52, "Code", "ExpressionUUID" -> \
 "67f507e6-d027-41d3-9618-6f2023875c88"],
-Cell[1749845, 35915, 214, 5, 30, "Text", "ExpressionUUID" -> \
+Cell[1750321, 35919, 214, 5, 30, "Text", "ExpressionUUID" -> \
 "7209d140-152d-4a00-917b-fff29ab42983"],
-Cell[1750062, 35922, 952, 26, 110, "Code", "ExpressionUUID" -> \
+Cell[1750538, 35926, 952, 26, 110, "Code", "ExpressionUUID" -> \
 "38d7321e-6b07-487a-92cf-4db1b56cee14"],
-Cell[1751017, 35950, 253, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[1751493, 35954, 253, 6, 30, "Text", "ExpressionUUID" -> \
 "2a1e2fa0-d47f-443b-a3e6-3e84caad9558"],
-Cell[1751273, 35958, 229, 5, 32, "Input", "ExpressionUUID" -> \
+Cell[1751749, 35962, 229, 5, 32, "Input", "ExpressionUUID" -> \
 "3827de9a-b635-4012-b8ab-99ef7c61bb66"],
-Cell[1751505, 35965, 175, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[1751981, 35969, 175, 3, 30, "Text", "ExpressionUUID" -> \
 "241c48d6-68b9-4ee5-a33d-8acabcd311ce"],
-Cell[1751683, 35970, 1182, 32, 72, "Code", "ExpressionUUID" -> \
+Cell[1752159, 35974, 1182, 32, 72, "Code", "ExpressionUUID" -> \
 "51cc30e7-1b78-4669-9e0d-1f01feabe78c"],
-Cell[1752868, 36004, 302, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[1753344, 36008, 302, 7, 30, "Text", "ExpressionUUID" -> \
 "80962092-8cc2-4edf-9c11-70b1dcadf074"],
-Cell[1753173, 36013, 817, 19, 72, "Code", "ExpressionUUID" -> \
+Cell[1753649, 36017, 817, 19, 72, "Code", "ExpressionUUID" -> \
 "6aadc5eb-16c3-4d5c-8f58-a69397e8659b"],
-Cell[1753993, 36034, 410, 8, 49, "Text", "ExpressionUUID" -> \
+Cell[1754469, 36038, 410, 8, 49, "Text", "ExpressionUUID" -> \
 "a6f3a89e-097b-480a-ab73-2c09dc784d96"],
-Cell[1754406, 36044, 380, 10, 52, "Code", "ExpressionUUID" -> \
+Cell[1754882, 36048, 380, 10, 52, "Code", "ExpressionUUID" -> \
 "32dfa3ec-08e0-4557-9325-aad2673c8b26"],
-Cell[1754789, 36056, 225, 5, 30, "Text", "ExpressionUUID" -> \
+Cell[1755265, 36060, 225, 5, 30, "Text", "ExpressionUUID" -> \
 "30310bd4-02b2-4732-b6ac-63a5ff609b4a"],
 Cell[CellGroupData[{
-Cell[1755039, 36065, 499, 11, 52, "Code", "ExpressionUUID" -> \
+Cell[1755515, 36069, 499, 11, 52, "Code", "ExpressionUUID" -> \
 "dadb0e55-2a46-4857-ad46-8dc842b68df1"],
-Cell[1755541, 36078, 16362, 470, 372, "Output", "ExpressionUUID" -> \
-"716c3498-1ebc-49ac-ab9d-2aabe598e3b9"]
+Cell[1756017, 36082, 16390, 471, 372, "Output", "ExpressionUUID" -> \
+"89e67b0b-e1ad-4b7f-a464-abe4d66aae39"]
 }, Open  ]],
-Cell[1771918, 36551, 273, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[1772422, 36556, 273, 6, 30, "Text", "ExpressionUUID" -> \
 "e368916b-6fd2-45ec-a0ea-54e7533e7020"],
 Cell[CellGroupData[{
-Cell[1772216, 36561, 1576, 36, 110, "Code", "ExpressionUUID" -> \
+Cell[1772720, 36566, 1576, 36, 110, "Code", "ExpressionUUID" -> \
 "c491c103-36c3-4020-b081-6695bbc9663b"],
-Cell[1773795, 36599, 21875, 655, 321, "Output", "ExpressionUUID" -> \
-"cb4eeba3-7583-4162-840f-d0b8e2729abd"]
+Cell[1774299, 36604, 21901, 656, 321, "Output", "ExpressionUUID" -> \
+"2de3deb2-a094-4d7d-a18b-776e17142283"]
 }, Open  ]],
-Cell[1795685, 37257, 263, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[1796215, 37263, 263, 6, 30, "Text", "ExpressionUUID" -> \
 "69d625ac-6d5f-41c6-80ea-8043077be722"],
 Cell[CellGroupData[{
-Cell[1795973, 37267, 1694, 43, 129, "Code", "ExpressionUUID" -> \
+Cell[1796503, 37273, 1694, 43, 129, "Code", "ExpressionUUID" -> \
 "61b62a07-5316-49b5-974d-ba11a03c285c"],
-Cell[1797670, 37312, 382, 7, 32, "Output", "ExpressionUUID" -> \
-"164455e0-3892-4f4e-8b4a-4b30b4504e31"],
-Cell[1798055, 37321, 23546, 669, 321, "Output", "ExpressionUUID" -> \
-"41153aeb-dc8b-4ca6-9537-c4ee9b9eb97f"]
+Cell[1798200, 37318, 408, 8, 32, "Output", "ExpressionUUID" -> \
+"3d390a6a-6a24-4b3d-a18a-a6259049b958"],
+Cell[1798611, 37328, 23575, 670, 321, "Output", "ExpressionUUID" -> \
+"90e0e9cd-8fe4-41d8-ad79-13f58bc6a3da"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1821650, 37996, 160, 3, 64, "Section", "ExpressionUUID" -> \
+Cell[1822235, 38004, 160, 3, 64, "Section", "ExpressionUUID" -> \
 "ad4887c3-1fb7-4215-974c-321a5d0c1dc3"],
-Cell[1821813, 38001, 396, 8, 49, "Text", "ExpressionUUID" -> \
+Cell[1822398, 38009, 396, 8, 30, "Text", "ExpressionUUID" -> \
 "d42f5694-1932-47e2-9532-4b875eaa00b4"],
-Cell[1822212, 38011, 5338, 116, 509, "Code", "ExpressionUUID" -> \
+Cell[1822797, 38019, 5338, 116, 509, "Code", "ExpressionUUID" -> \
 "88c34935-358b-430b-bda3-d515449b815c"],
-Cell[1827553, 38129, 3123, 62, 262, "Code", "ExpressionUUID" -> \
+Cell[1828138, 38137, 3123, 62, 262, "Code", "ExpressionUUID" -> \
 "1fa85d5d-2eb6-4291-b31e-2f77bd4b8831"],
-Cell[1830679, 38193, 253, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[1831264, 38201, 253, 6, 30, "Text", "ExpressionUUID" -> \
 "220b2d19-8bd9-4a3d-8df3-f08ab5700278"],
-Cell[1830935, 38201, 283, 7, 32, "Input", "ExpressionUUID" -> \
+Cell[1831520, 38209, 283, 7, 32, "Input", "ExpressionUUID" -> \
 "3b0d77b5-75b1-4a06-8af2-8d54881edbd3"],
 Cell[CellGroupData[{
-Cell[1831243, 38212, 276, 6, 52, "Code", "ExpressionUUID" -> \
+Cell[1831828, 38220, 276, 6, 52, "Code", "ExpressionUUID" -> \
 "1b5ceec0-621c-4f7a-ac38-8ddfc4a1c7f3"],
-Cell[1831522, 38220, 232774, 5254, 424, "Output", "ExpressionUUID" -> \
-"bb16b8eb-5836-4eac-8ebb-fd6dcdb9264b"]
+Cell[1832107, 38228, 243367, 5427, 424, 232406, 5247, "CachedBoxData", \
+"BoxData", "Output", "ExpressionUUID" -> \
+"cb37cdad-4802-4b98-b188-a080141527c8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2064333, 43479, 462, 10, 52, "Code", "ExpressionUUID" -> \
+Cell[2075511, 43660, 462, 10, 52, "Code", "ExpressionUUID" -> \
 "d6905e4a-8a57-4eb4-8ffe-37dce4a79065"],
-Cell[2064798, 43491, 9626, 157, 517, "Output", "ExpressionUUID" -> \
-"fa57f5b4-efa9-4c41-8838-5d449ce2c77d"]
+Cell[2075976, 43672, 9646, 157, 519, "Output", "ExpressionUUID" -> \
+"f7e522d9-b293-4331-a1f2-adc5c1729e77"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2074473, 43654, 154, 3, 64, "Section", "ExpressionUUID" -> \
+Cell[2085671, 43835, 154, 3, 64, "Section", "ExpressionUUID" -> \
 "e322c6ec-e12f-46e3-aca2-28e637ac13ad"],
-Cell[2074630, 43659, 267, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[2085828, 43840, 267, 6, 30, "Text", "ExpressionUUID" -> \
 "8b756228-fca0-46df-988a-ff9e5b97b195"],
-Cell[2074900, 43667, 4205, 115, 414, "Code", "ExpressionUUID" -> \
+Cell[2086098, 43848, 4205, 115, 414, "Code", "ExpressionUUID" -> \
 "7ccf7bbe-5caa-4d02-ae9b-7c495c23e9f3"],
-Cell[2079108, 43784, 182, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[2090306, 43965, 182, 3, 30, "Text", "ExpressionUUID" -> \
 "d1fe8613-5c17-48c7-aa01-26a732b4eeea"],
-Cell[2079293, 43789, 320, 7, 52, "Code", "ExpressionUUID" -> \
+Cell[2090491, 43970, 320, 7, 52, "Code", "ExpressionUUID" -> \
 "4b0e26cf-9918-42cc-8a7c-19e79a9d021a"],
-Cell[2079616, 43798, 199, 3, 30, "Text", "ExpressionUUID" -> \
+Cell[2090814, 43979, 199, 3, 30, "Text", "ExpressionUUID" -> \
 "c5bba005-f434-4750-a082-1d9707b97db9"],
 Cell[CellGroupData[{
-Cell[2079840, 43805, 209, 4, 52, "Code", "ExpressionUUID" -> \
+Cell[2091038, 43986, 209, 4, 52, "Code", "ExpressionUUID" -> \
 "b9cc81d8-9fee-492b-944c-e4448c61db60"],
-Cell[2080052, 43811, 559, 12, 32, "Output", "ExpressionUUID" -> \
-"e1bd506f-ee8c-4bda-97c4-6ab4f33a7e97"]
+Cell[2091250, 43992, 586, 14, 32, "Output", "ExpressionUUID" -> \
+"b2aaf9d6-77f6-4f4a-8a97-48a6de3aa07c"]
 }, Open  ]],
-Cell[2080626, 43826, 595, 11, 68, "Text", "ExpressionUUID" -> \
+Cell[2091851, 44009, 595, 11, 49, "Text", "ExpressionUUID" -> \
 "e5be40bf-67d6-4720-ac9a-639288075657"],
 Cell[CellGroupData[{
-Cell[2081246, 43841, 215, 4, 52, "Code", "ExpressionUUID" -> \
+Cell[2092471, 44024, 264, 5, 52, "Code", "ExpressionUUID" -> \
 "b04d4780-5366-42e8-9653-3ca827c379eb"],
-Cell[2081464, 43847, 1804, 34, 117, "Output", "ExpressionUUID" -> \
-"5249bd12-770f-4a8f-ae7d-286d22c46540"]
+Cell[2092738, 44031, 1902, 36, 96, "Output", "ExpressionUUID" -> \
+"9a424282-49c8-424e-8c13-cbb5f29d2bb0"]
 }, Open  ]],
-Cell[2083283, 43884, 272, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[2094655, 44070, 272, 6, 30, "Text", "ExpressionUUID" -> \
 "451b90e5-65ab-495c-b2d3-e9e2f90845e8"],
-Cell[2083558, 43892, 365, 9, 52, "Code", "ExpressionUUID" -> \
+Cell[2094930, 44078, 365, 9, 52, "Code", "ExpressionUUID" -> \
 "d866eb42-ed7f-4808-9d27-4aeef4d25382"],
 Cell[CellGroupData[{
-Cell[2083948, 43905, 221, 5, 52, "Code", "ExpressionUUID" -> \
+Cell[2095320, 44091, 567, 10, 52, "Code", "ExpressionUUID" -> \
 "68616e7a-82ab-403f-84c5-125356d7883a"],
-Cell[2084172, 43912, 79599, 1828, 375, "Output", "ExpressionUUID" -> \
-"248da8b0-ce1d-450d-9647-3404dcd7d41f"]
+Cell[2095890, 44103, 80199, 1832, 375, "Output", "ExpressionUUID" -> \
+"8504c8ce-0a3b-4f45-9392-25b0028bb6ce"]
 }, Open  ]],
-Cell[2163786, 45743, 222, 5, 30, "Text", "ExpressionUUID" -> \
+Cell[2176104, 45938, 222, 5, 30, "Text", "ExpressionUUID" -> \
 "4ac58e4d-85c6-4485-a221-c05e0bd55d4f"],
-Cell[2164011, 45750, 10272, 209, 851, "Code", "ExpressionUUID" -> \
+Cell[2176329, 45945, 10272, 209, 851, "Code", "ExpressionUUID" -> \
 "c6bf237c-21b5-4e6d-b602-312499b32bcb"],
 Cell[CellGroupData[{
-Cell[2174308, 45963, 323, 6, 52, "Code", "ExpressionUUID" -> \
+Cell[2186626, 46158, 323, 6, 52, "Code", "ExpressionUUID" -> \
 "4e6dc85f-77ce-4350-b197-51a596ac7178"],
-Cell[2174634, 45971, 639, 10, 32, "Output", "ExpressionUUID" -> \
-"61914489-960a-4e58-83d3-087bf76e1f06"]
+Cell[2186952, 46166, 661, 10, 32, "Output", "ExpressionUUID" -> \
+"d731d4c5-e17c-4830-af02-9fd20f1e5d1f"]
 }, Open  ]],
-Cell[2175288, 45984, 267, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[2187628, 46179, 267, 6, 30, "Text", "ExpressionUUID" -> \
 "aae42c1d-3972-435a-9e1f-69fcda3367f0"],
-Cell[2175558, 45992, 5938, 122, 509, "Code", "ExpressionUUID" -> \
+Cell[2187898, 46187, 5938, 122, 509, "Code", "ExpressionUUID" -> \
 "60a7fd95-5ba0-4f2c-b161-7ffc7f81f144"],
 Cell[CellGroupData[{
-Cell[2181521, 46118, 986, 21, 72, "Code", "ExpressionUUID" -> \
+Cell[2193861, 46313, 986, 21, 72, "Code", "ExpressionUUID" -> \
 "ffd017cf-9c9f-4b39-845a-76e512128208"],
-Cell[2182510, 46141, 4305, 76, 365, "Output", "ExpressionUUID" -> \
-"3aee35ef-1e0e-4819-a628-40468a60f5cf"]
+Cell[2194850, 46336, 4329, 76, 365, "Output", "ExpressionUUID" -> \
+"ddd8d18a-4f0a-4d6c-b7e9-bfba146c45c7"]
 }, Open  ]],
-Cell[2186830, 46220, 439, 8, 49, "Text", "ExpressionUUID" -> \
+Cell[2199194, 46415, 439, 8, 49, "Text", "ExpressionUUID" -> \
 "29e626c9-3caf-40df-961e-baaa89540b65"],
-Cell[2187272, 46230, 1319, 33, 205, "Code", "ExpressionUUID" -> \
+Cell[2199636, 46425, 1319, 33, 205, "Code", "ExpressionUUID" -> \
 "39b871ca-24a4-468e-8f6d-f52b198806e2"],
-Cell[2188594, 46265, 478, 9, 49, "Text", "ExpressionUUID" -> \
+Cell[2200958, 46460, 478, 9, 49, "Text", "ExpressionUUID" -> \
 "68547665-1c0c-4329-b01b-9e27062564e2"],
-Cell[2189075, 46276, 972, 26, 72, "Code", "ExpressionUUID" -> \
+Cell[2201439, 46471, 972, 26, 72, "Code", "ExpressionUUID" -> \
 "22c1b239-be2e-46e3-8249-ea1a29e7f6b4"],
-Cell[2190050, 46304, 344, 7, 49, "Text", "ExpressionUUID" -> \
+Cell[2202414, 46499, 344, 7, 49, "Text", "ExpressionUUID" -> \
 "7353d519-545f-4e39-b4f2-f88d6e5b5252"],
 Cell[CellGroupData[{
-Cell[2190419, 46315, 834, 19, 72, "Code", "ExpressionUUID" -> \
+Cell[2202783, 46510, 834, 19, 72, "Code", "ExpressionUUID" -> \
 "e1671b40-1487-4689-9939-105050e28ea7"],
-Cell[2191256, 46336, 8302, 201, 268, "Output", "ExpressionUUID" -> \
-"6daf8ab0-c541-42b1-bcf0-dbaf8729159b"]
+Cell[2203620, 46531, 8324, 201, 268, "Output", "ExpressionUUID" -> \
+"b0337324-c6f8-4237-ac9e-4f3a62607e42"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
